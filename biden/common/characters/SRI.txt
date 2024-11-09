@@ -1,0 +1,163 @@
+characters={
+	SRI_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SRI_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ smooth_talking_charmer }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SRI_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SRI_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SRI_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ agricultural_expert }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SRI_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	SRI_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ captain_of_industry }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	SRI_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ compassionate_gentleman captain_of_industry }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SRI_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	SRI_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SRI_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	SRI_jonas_wilson={
+		name="Jonas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ enemy_of_india }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+}

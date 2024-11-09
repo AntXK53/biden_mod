@@ -1,0 +1,165 @@
+characters={
+	CAM_paul_biya={
+		name="Paul Biya"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Paul_Biya.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAM_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_china }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	CAM_john_smith={
+		name="John Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ compassionate_gentleman }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	CAM_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ smooth_talking_charmer road_builder }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CAM_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ enemy_of_germany }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAM_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_britain friend_of_france }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	CAM_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	CAM_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			traits={ armaments_organizer enemy_of_france }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAM_alex_williams={
+		name="Alex Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAM_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ enemy_of_russia }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CAM_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	CAM_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

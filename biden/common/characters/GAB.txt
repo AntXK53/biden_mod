@@ -1,0 +1,165 @@
+characters={
+	GAB_omar_bongo={
+		name="Omar Bongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Omar_Bongo.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2009.6.8.1"
+			id=-1
+		}
+	}
+	GAB_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_china enemy_of_russia }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	GAB_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GAB_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_britain enemy_of_america }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	GAB_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_america }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GAB_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_china friend_of_france }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	GAB_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	GAB_alex_wilson={
+		name="Alex Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	GAB_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_britain }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	GAB_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	GAB_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_china }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	GAB_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

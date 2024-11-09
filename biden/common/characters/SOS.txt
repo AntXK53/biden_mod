@@ -1,0 +1,166 @@
+characters={
+	SOS_ludwig_chibirov={
+		name="Ludwig Chibirov"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOS/Ludwig_Chibirov.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SOS_yevgeny_pavlov={
+		name="Yevgeny Pavlov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_india }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SOS_maxim_grishin={
+		name="Maxim Grishin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ experienced_attorney enemy_of_germany }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	SOS_andrei_yegorov={
+		name="Andrei Yegorov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ armaments_organizer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SOS_vladimir_grishin={
+		name="Vladimir Grishin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_france }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	SOS_lavr_ostrovsky={
+		name="Lavr Ostrovsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ enemy_of_japan }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	SOS_gennady_golivin={
+		name="Gennady Golivin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_germany enemy_of_britain }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	SOS_yuri_nikitin={
+		name="Yuri Nikitin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SOS_mikhail_antonov={
+		name="Mikhail Antonov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SOS_boris_nikolaevich={
+		name="Boris Nikolaevich"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_america captain_of_industry }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SOS_boris_frolov={
+		name="Boris Frolov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ armaments_organizer }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	SOS_leonid_nebogatov={
+		name="Leonid Nebogatov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,186 @@
+﻿capital = 546
+
+oob = "TNZ_2000"
+
+set_research_slots = 3
+set_convoys = 300
+set_stability = 0.25
+
+set_country_flag = country_language_swahili
+set_country_flag = country_language_english
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_rapid
+	african_union_member
+	commonwealth_of_nations_member
+}
+
+set_politics = {	
+	ruling_party = progressive
+	last_election = "1995.11.29"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 0
+    fascist = 0
+    nationalist = 0
+    reactionary = 0
+    conservative = 10
+    market_liberal = 0
+    social_liberal = 5
+    social_democrat = 25
+    progressive = 60
+    democratic_socialist = 0
+    communist = 0
+}
+
+recruit_character = TNZ_benjamin_mkapa
+recruit_character = TNZ_augustine_mrema
+recruit_character = TNZ_ibrahim_lipumba
+recruit_character = TNZ_freeman_mbowe
+recruit_character = TNZ_zitto_kabwe
+recruit_character = TNZ_christopher_mtikila
+recruit_character = TNZ_augusto_mrema
+recruit_character = TNZ_davis_mwamunyange
+recruit_character = TNZ_venance_mabeyo
+recruit_character = TNZ_james_mwakibolwa
+recruit_character = TNZ_shabani_laswai
+recruit_character = TNZ_venance_salvatory_mabeyo
+recruit_character = TNZ_ramadhan_abdul_kimweri
+recruit_character = TNZ_gaudence_milanzi
+recruit_character = TNZ_jairos_mwaseba
+recruit_character = TNZ_aaron_robert_lukyaa
+recruit_character = TNZ_samuel_albert_ndomba
+recruit_character = TNZ_charles_lawrence_mkakala
+recruit_character = TNZ_salum_mustafa_kijuu
+recruit_character = TNZ_raphael_mugoya_muhuga
+recruit_character = TNZ_jackson_king_mrema
+recruit_character = TNZ_sara_thomas_rwambali
+recruit_character = TNZ_clemence_quadrates_kahama
+recruit_character = TNZ_hamis_issa_majumba
+recruit_character = TNZ_saleh_omar_semtua
+recruit_character = TNZ_ezra_wilson_ndimgwango
+recruit_character = TNZ_joseph_cosmas_chengelela
+recruit_character = TNZ_joseph_furaha_kapwani
+recruit_character = TNZ_william_ingram
+recruit_character = TNZ_michael_isamuhyo
+recruit_character = TNZ_paul_ignace_mella
+recruit_character = TNZ_wynjones_kisamba
+recruit_character = TNZ_rogastian_shaaban_laswai
+recruit_character = TNZ_alex_jones
+recruit_character = TNZ_johannes_smith
+recruit_character = TNZ_jonas_brown
+recruit_character = TNZ_jim_evans
+recruit_character = TNZ_alexander_evans
+
+
+2015.10.25 = {
+	oob = "TNZ_2016"
+	set_politics = {
+		ruling_party = progressive
+		last_election = "2015.10.25"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        conservative = 30
+        social_liberal = 10
+        social_democrat = 5
+        progressive = 55
+    }
+	
+	create_country_leader = {
+		name = "John Magufuli"
+		picture = "John_Magufuli.dds"
+		ideology = progressive_ideology
+	}
+	
+	create_country_leader = {
+		name = "Edward Lowassa"
+		picture = "Edward_Lowassa.dds"
+		ideology = fiscal_conservative
+	}
+}

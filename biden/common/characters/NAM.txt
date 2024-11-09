@@ -1,0 +1,301 @@
+characters={
+	NAM_sam_nujoma={
+		name="Sam Nujoma"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAM/Sam_Nujoma.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NAM_ben_ulenga={
+		name="Ben Ulenga"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAM/Ben_Ulenga.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NAM_katuutire_kaura={
+		name="Katuutire Kaura"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAM/Katuutire_Kaura.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NAM_chief_justus_garoeb={
+		name="Chief Justus Garoeb"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAM/Justus_Garoeb.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NAM_attie_beukes={
+		name="Attie Beukes"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAM/Attie_Beukes.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NAM_epaphras_denga_ndaitwah={
+		name="Epaphras Denga Ndaitwah"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/NAM/generals/Epaphras_Ndaitwah.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_john_mutwa={
+		name="John Mutwa"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/NAM/generals/John_Mutwa.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_martin_shally={
+		name="Martin Shally"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/NAM/generals/Martin_Shally.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_nghilifavali_n._hamunyela={
+		name="Nghilifavali N. Hamunyela"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/NAM/generals/Nghilifavali_Hamunyela.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_martin_pinehas={
+		name="Martin Pinehas"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/Africa/general1.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_sabastian_ndeitunga={
+		name="Sabastian Ndeitunga"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/NAM/generals/Sabastian_Ndeitunga.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_peter_vilho={
+		name="Peter Vilho"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/NAM/admirals/Peter_Vilho.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NAM_piet_duquesne={
+		name="Piet Duquesne"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	NAM_paul_uys={
+		name="Paul Uys"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_russia }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	NAM_racheltjie_de_wet={
+		name="Racheltjie de Wet"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	NAM_paul_de_beer={
+		name="Paul de Beer"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ compassionate_gentleman friend_of_britain }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	NAM_racheltjie_theron={
+		name="Racheltjie Theron"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	NAM_paul_retief={
+		name="Paul Retief"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ agricultural_expert enemy_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	NAM_dirkie_cilliers={
+		name="Dirkie Cilliers"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_china }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

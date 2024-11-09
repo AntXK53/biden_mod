@@ -1,0 +1,164 @@
+characters={
+	BLZ_said_musa={
+		name="Said Musa"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLZ/Said_Musa.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLZ_alexander_roberts={
+		name="Alexander Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ quartermaster_general armaments_organizer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_alex_white={
+		name="Alex White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_johannes_white={
+		name="Johannes White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ fortification_engineer captain_of_industry }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_johannes_roberts={
+		name="Johannes Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ captain_of_industry }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_alexander_williams={
+		name="Alexander Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ road_builder friend_of_india }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_russia }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_russia road_builder }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	BLZ_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,186 @@
+characters={
+	LAO_khamtay_siphandone={
+		name="Khamtay Siphandone"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Khamtay_Siphandone.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_douangchay_phichit={
+		name="Douangchay Phichit"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/LAO/generals/Douangchay_Phichit.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LAO_alex_white={
+		name="Alex White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_japan road_builder }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LAO_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_germany }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	LAO_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_britain }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	LAO_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ fortification_engineer enemy_of_russia }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	LAO_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_britain }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LAO_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ enemy_of_america }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	LAO_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	LAO_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ compassionate_gentleman friend_of_america }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	LAO_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_america }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LAO_alexander_roberts={
+		name="Alexander Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_china war_industrialist }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	LAO_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

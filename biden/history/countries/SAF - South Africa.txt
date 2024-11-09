@@ -1,0 +1,209 @@
+﻿capital = 275
+
+oob = "SAF_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SAF_2000_naval_mtg"
+	else = {
+		set_naval_oob = "SAF_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+set_convoys = 535
+set_stability = 0.4
+
+set_country_flag = country_language_afrikaans
+set_country_flag = country_language_english
+set_country_flag = country_language_southern_ndebele
+set_country_flag = country_language_northern_sotho
+set_country_flag = country_language_sotho
+set_country_flag = country_language_swazi
+set_country_flag = country_language_tsonga
+set_country_flag = country_language_tswana
+set_country_flag = country_language_venda
+set_country_flag = country_language_xhosa
+set_country_flag = country_language_zulu
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+
+
+	submarine1 = 1
+	submarine2 = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+	african_union_member
+	commonwealth_of_nations_member
+}
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1999.6.2"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 0
+    nationalist = 0
+    reactionary = 5
+    conservative = 5
+    market_liberal = 9
+    social_liberal = 15
+    social_democrat = 65
+    progressive = 0
+    democratic_socialist = 1
+    communist = 0
+}
+
+recruit_character = SAF_thabo_mbeki
+recruit_character = SAF_tony_leon
+recruit_character = SAF_mangosuthu_buthelezi
+recruit_character = SAF_kenneth_meshoe
+recruit_character = SAF_pieter_mulder
+recruit_character = SAF_luthando_mbinda
+recruit_character = SAF_judy_sole
+recruit_character = SAF_lybon_masapa
+recruit_character = SAF_wasfie_hassiem
+recruit_character = SAF_lindile_yam
+recruit_character = SAF_gerhard_kamffer
+recruit_character = SAF_godfrey_ngwenya
+recruit_character = SAF_solly_shoke
+recruit_character = SAF_lawrence_smith
+recruit_character = SAF_andre_retief
+recruit_character = SAF_willis_nkosi
+recruit_character = SAF_rudzani_maphwanya
+recruit_character = SAF_samuel_hlongwane
+recruit_character = SAF_bubele_mhlana
+recruit_character = SAF_hanno_teuteberg
+recruit_character = SAF_siener_de_la_rey
+recruit_character = SAF_joubert_duquesne
+recruit_character = SAF_siener_van_rensburg
+
+2008.1.1 = {
+	set_party_name = {
+		ideology = progressive
+		long_name = SAF_progressive_party_COPE_long
+		name = SAF_progressive_party_COPE
+	}
+}
+
+2013.1.1 = {
+	set_party_name = {
+		ideology = communist
+		long_name = SAF_communist_party_EFF_long
+		name = SAF_communist_party_EFF
+	}
+}
+
+2014.5.7 = {
+	oob = "SAF_2016"
+	set_politics = {
+		ruling_party = social_democrat
+		last_election = "2014.5.7"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        islamist = 0
+        nationalist = 0
+        reactionary = 2
+        conservative = 1
+        market_liberal = 3
+        social_liberal = 25
+        social_democrat = 60
+        progressive = 1
+        democratic_socialist = 1
+        communist = 7
+    }
+	create_country_leader = {
+		name = "Jacob Zuma"
+		picture = "Jacob_Zuma.dds"
+		ideology = social_democrat_ideology
+	}
+	create_country_leader = {
+		name = "Helen Zille"
+		picture = "Helen_Zille.dds"
+		ideology = liberalist
+	}
+	create_country_leader = {
+		name = "Julius Malema"
+		picture = "Julius_Malema.dds"
+		ideology = marxist
+	}
+	create_country_leader = {
+		name = "Mosiuoa_Lekota"
+		picture = "Mosiuoa_Lekota.dds"
+		ideology = progressive_ideology
+	}
+}

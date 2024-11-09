@@ -1,0 +1,643 @@
+characters={
+	ARM_robert_kocharyan={
+		name="Robert Kocharyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/Robert_Kocharyan.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ARM_movses_hakobyan={
+		name="Movses Hakobyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Movses_Hakobyan.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_haykaz_papik_baghmanyan={
+		name="Haykaz Papik Baghmanyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Haykaz_Baghmanyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_stepan_robert_galstyan={
+		name="Stepan Robert Galstyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Stepan_Galstyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_onik_viktor_gasparyan={
+		name="Onik viktor Gasparyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Onik_Gasparyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_aris_brutyan={
+		name="Aris Brutyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Aris_Brutyan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_artak_davtyan={
+		name="Artak Davtyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Artak_Davtyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_albert_mardoyan={
+		name="Albert Mardoyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Albert_Mardoyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_avetik_muradyan={
+		name="Avetik Muradyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Avetik_Muradyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_armen_vardanyan={
+		name="Armen Vardanyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Armen_Vardanyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_temur_shahnazaryan={
+		name="Temur Shahnazaryan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Temur_Shahnazaryan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_ishkan_matevosyan={
+		name="Ishkan Matevosyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Ishkan_Matevosyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_vardan_nshanyan={
+		name="Vardan Nshanyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Vardan_Nshanyan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_poghos_poghosyan={
+		name="Poghos Poghosyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Poghos_Poghosyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_norayr_yolchyan={
+		name="Norayr Yolchyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Norayr_Yolchyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_tiran_khacatryan={
+		name="Tiran Khacatryan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Tiran_Khacatryan.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_kamo_qochunts={
+		name="Kamo Qochunts"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Kamo_Qochunts.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_hayk_karapetyan={
+		name="Hayk Karapetyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Hayk_Karapetyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_aleksan_aleksanyan={
+		name="Aleksan Aleksanyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Aleksan_Aleksanyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_genadi_tavaratsyan={
+		name="Genadi Tavaratsyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Genadi_Tavaratsyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_henrik_muradyan={
+		name="Henrik Muradyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Henrik_Muradyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_kamavor_khachatryan={
+		name="Kamavor Khachatryan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Kamavor_Khachatryan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_vahan_avetisyan={
+		name="Vahan Avetisyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Vahan_Avetisyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_artur_chatyan={
+		name="Artur Chatyan"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Artur_Chatyan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_yuri_khachaturov={
+		name="Yuri Khachaturov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ARM/Portrait_Yuri_Khachaturov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARM_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ fortification_engineer }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	ARM_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_russia }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ARM_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ enemy_of_russia friend_of_america }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	ARM_johannes_taylor={
+		name="Johannes Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ enemy_of_india friend_of_america }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	ARM_peter_brown={
+		name="Peter Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	ARM_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	ARM_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ compassionate_gentleman }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	ARM_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ war_industrialist }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ARM_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ war_industrialist }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ARM_alexander_smith={
+		name="Alexander Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ war_industrialist friend_of_france }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	ARM_jonas_smith={
+		name="Jonas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ war_industrialist enemy_of_france }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

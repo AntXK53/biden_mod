@@ -1,0 +1,166 @@
+characters={
+	KYR_askar_akayev={
+		name="Askar Akayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Askar_Akayev.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_almazbek_atambaev={
+		name="Almazbek Atambaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KYR/Almazbek_Atambaev.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KYR_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_germany enemy_of_britain }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	KYR_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ ideological_crusader smooth_talking_charmer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	KYR_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	KYR_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ fortification_engineer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	KYR_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ famous_businessman }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	KYR_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_russia quartermaster_general }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	KYR_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	KYR_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ experienced_attorney }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	KYR_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_russia experienced_attorney }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	KYR_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ enemy_of_america friend_of_russia }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+}

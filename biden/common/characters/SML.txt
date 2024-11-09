@@ -1,0 +1,165 @@
+characters={
+	SML_mohammed_h._i._egal={
+		name="Mohammed H. I. Egal"
+		portraits={
+			civilian={
+				large="gfx/leaders/SML/Mohammed_HI_Egal.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SML_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SML_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_france }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SML_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_india friend_of_britain }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SML_johannes_taylor={
+		name="Johannes Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ road_builder friend_of_france }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	SML_alex_williams={
+		name="Alex Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	SML_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ agricultural_expert }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	SML_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_russia }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	SML_bob_white={
+		name="Bob White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	SML_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_america armaments_organizer }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SML_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ experienced_attorney }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SML_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

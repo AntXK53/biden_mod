@@ -1,0 +1,181 @@
+characters={
+	CAF_angefélix_patassé={
+		name="Ange-Félix Patassé"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Ange_Patasse.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_andre_kolingba={
+		name="Andre Kolingba"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Andre_Kolingba.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_david_dacko={
+		name="David Dacko"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/David_Dacko.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_jeanpaul_ngoupandé={
+		name="Jean-Paul Ngoupandé"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Jean_Ngoupande.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_enoch_derant_lakoue={
+		name="Enoch Derant Lakoue"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Enoch_Lakoue.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_charles_massi={
+		name="Charles Massi"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Charles_Massi.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_michel_djotodia={
+		name="Michel Djotodia"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Michel_Djotodia.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_anicetgeorges_dologuélé={
+		name="Anicet-Georges Dologuélé"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAF/Anicet_Dologuele.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CAF_marcel_mombeka={
+		name="Marcel Mombeka"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CAF/generals/Marcel_Mombeka.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAF_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ famous_businessman }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	CAF_jonas_taylor={
+		name="Jonas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_britain }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	CAF_bob_wilson={
+		name="Bob Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ fortification_engineer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CAF_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ road_builder armaments_organizer }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

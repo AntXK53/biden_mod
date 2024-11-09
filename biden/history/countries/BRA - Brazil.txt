@@ -1,0 +1,283 @@
+﻿capital = 505
+
+oob = "BRA_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "BRA_2000_naval_mtg"
+	else = {
+		set_naval_oob = "BRA_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+set_convoys = 150
+set_stability = 0.6
+
+set_country_flag = country_language_portuguese
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen2_ifv = 1
+	gen1_apc = 1
+	gen2_apc = 1
+
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+
+
+	carrier1 = 1
+	carrier2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	carrier_nuclear_reactor = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+}
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1998.10.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 0
+    fascist = 1
+    nationalist = 0
+    reactionary = 1
+    conservative = 20
+    market_liberal = 11
+    social_liberal = 16
+    social_democrat = 30
+    progressive = 1
+    democratic_socialist = 18
+    communist = 2
+}
+
+recruit_character = BRA_fernando_h._cardoso
+recruit_character = BRA_luiz_inacio_lula_da_silva
+recruit_character = BRA_eneas_carneiro
+recruit_character = BRA_alfredo_syrkis
+recruit_character = BRA_marco_maciel
+recruit_character = BRA_jader_barbalho
+recruit_character = BRA_luiz_of_orleansbraganza
+recruit_character = BRA_levy_fidelix
+recruit_character = BRA_renato_rabelo
+recruit_character = BRA_valdemar_costa_neto
+recruit_character = BRA_ciro_nogueira
+recruit_character = BRA_fernando_azevedo_e_silva
+recruit_character = BRA_araken_de_albuquerque
+recruit_character = BRA_manoel_luiz_narvaz_pafiadache
+recruit_character = BRA_joão_camilo_pires_de_campos
+recruit_character = BRA_juarez_aparecido_de_paula_cunha
+recruit_character = BRA_marco_antônio_de_farias
+recruit_character = BRA_nivaldo_luís_rossato
+recruit_character = BRA_joaquim_maia_brandão_júnior
+recruit_character = BRA_antonio_miotto
+recruit_character = BRA_artur_costa_moura
+recruit_character = BRA_gerson_menandro_garcia_de_freitas
+recruit_character = BRA_luiz_carlos_pereira_gomes
+recruit_character = BRA_mauro_cesar_lourena_cid
+recruit_character = BRA_cláudio_coscia_moura
+recruit_character = BRA_valerio_stumpf_trindade
+recruit_character = BRA_walmir_almada_schneider_filho
+recruit_character = BRA_carlos_alberto_mansur
+recruit_character = BRA_joarez_alves_pereira_junior
+recruit_character = BRA_márcio_roland_heise
+recruit_character = BRA_luciano_josé_penna
+recruit_character = BRA_marco_antônio_freire_gomes
+recruit_character = BRA_antônio_carlos_machado_faillace
+recruit_character = BRA_antônio_maxwell_de_oliveira_eufrásio
+recruit_character = BRA_kleber_nunes_de_vasconcellos
+recruit_character = BRA_sérgio_schwingel
+recruit_character = BRA_achilles_furlan_neto
+recruit_character = BRA_adilson_carlos_katibe
+recruit_character = BRA_aléssio_oliveira_da_silva
+recruit_character = BRA_wilson_mendes_lauria
+recruit_character = BRA_hertz_pires_do_nascimento
+recruit_character = BRA_lourenço_willian_da_silva_ribeiro_pinho
+recruit_character = BRA_jorge_roberto_lopes_fossi
+recruit_character = BRA_gustavo_henrique_dutra_de_menezes
+recruit_character = BRA_fernando_telles_ferreira_bandeira
+recruit_character = BRA_heber_garcia_portella
+recruit_character = BRA_carlos_andré_alcântara_leite
+recruit_character = BRA_jayme_octávio_de_alexandre_queiroz
+recruit_character = BRA_carlos_alberto_dahmer
+recruit_character = BRA_francisco_humberto_montenegro_junior
+recruit_character = BRA_ricardo_rodrigues_canhaci
+recruit_character = BRA_sérgio_luiz_tratz
+recruit_character = BRA_josé_eduardo_leal_de_oliveira
+recruit_character = BRA_joão_denison_maia_correia
+recruit_character = BRA_daniel_de_almeida_dantas
+recruit_character = BRA_marcelo_arantes_guedon
+recruit_character = BRA_fernando_antonio_de_siqueira_ribeiro
+recruit_character = BRA_jose_carlos_de_nardi
+recruit_character = BRA_eduardo_villas_boas
+recruit_character = BRA_francisco_carlos_modesto
+recruit_character = BRA_mauro_sinott_lopes
+recruit_character = BRA_carlos_alberto_dos_santos_cruz
+recruit_character = BRA_floriano_peixoto_vieira_neto
+recruit_character = BRA_enzo_martins_peri
+recruit_character = BRA_edison_leal_pujol
+recruit_character = BRA_eduardo_bacellar_leal_ferreira
+recruit_character = BRA_julio_soares_de_moura_neto
+recruit_character = BRA_victor_cardoso_gomes
+recruit_character = BRA_glauco_castilho_dall’antonia
+recruit_character = BRA_liseo_zampronio
+recruit_character = BRA_eduardo_leal_ferreira
+recruit_character = BRA_ademir_sobrinho
+recruit_character = BRA_epitácio_de_beaurepairerohan
+
+2007.1.1 = {
+	set_party_name = {
+		ideology = conservative
+		long_name = BRA_conservative_party_DEM_long
+		name = BRA_conservative_party_DEM
+	}
+}
+
+2014.10.26 = {
+	oob = "BRA_2016"
+	set_politics = {
+	ruling_party = democratic_socialist
+	last_election = "2014.10.26"
+	election_frequency = 48
+	elections_allowed = yes
+	}
+
+    set_popularities = {
+        islamist = 0
+        fascist = 0
+        nationalist = 6
+        reactionary = 1
+        conservative = 10
+        market_liberal = 6
+        social_liberal = 16
+        social_democrat = 28
+        progressive = 3
+        democratic_socialist = 25
+        communist = 5
+    }
+
+	create_country_leader = {
+	name = "Dilma Rousseff"
+	desc = "POLITICIAN_BRA_DILMA_ROUSSEFF_DESC"
+	picture = "Dilma_Rousseff.dds"
+	ideology = democratic_socialist_ideology
+	}
+
+	create_country_leader = {
+	name = "Aecio Neves"
+	desc = "POLITICIAN_BRA_AECIO_NEVES_DESC"
+	picture = "Aecio_Neves.dds"
+	ideology = social_democrat_ideology
+	}
+
+	create_country_leader = {
+	name = "Eduardo Jorge"
+	desc = "POLITICIAN_BRA_EDUARDO_JORGE_DESC"
+	picture = "Eduardo_Jorge.dds"
+	ideology = green
+	}
+
+	create_country_leader = {
+	name = "Mauro Lasi"
+	desc = "POLITICIAN_BRA_MAURO_LASI_DESC"
+	picture = "Mauro_Lasi.dds"
+	ideology = leninist
+	}
+	
+	create_country_leader = {
+	name = "Jair Bolsonaro"
+	picture = "Jair_Bolsonaro.dds"
+	ideology = counter_progressive_democrat
+	}
+
+	create_country_leader = {
+	name = "Romero Juca"
+	desc = "POLITICIAN_BRA_ROMERO_JUCA_DESC"
+	picture = "Romero_Juca.dds"
+	ideology = moderate
+	}
+
+
+
+}

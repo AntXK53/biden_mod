@@ -1,0 +1,174 @@
+characters={
+	NOV_aleksandar_zakharchenko={
+		name="Aleksandar Zakharchenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOV/Aleksandar_Zakharchenko.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ defensive_strategist }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NOV_sergei_zavoyko={
+		name="Sergei Zavoyko"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2023.6.1.12"
+			id=-1
+		}
+	}
+	NOV_ilya_konev={
+		name="Ilya Konev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ road_builder enemy_of_france }
+			expire="2036.6.1.12"
+			id=-1
+		}
+	}
+	NOV_boris_romanov={
+		name="Boris Romanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2032.6.1.12"
+			id=-1
+		}
+	}
+	NOV_leonid_ivannikov={
+		name="Leonid Ivannikov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ agricultural_expert enemy_of_japan }
+			expire="2028.6.1.12"
+			id=-1
+		}
+	}
+	NOV_leonid_romanov={
+		name="Leonid Romanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ enemy_of_japan }
+			expire="2025.6.1.12"
+			id=-1
+		}
+	}
+	NOV_aleksander_ivanov={
+		name="Aleksander Ivanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ war_industrialist agricultural_expert }
+			expire="2021.6.1.12"
+			id=-1
+		}
+	}
+	NOV_vladimir_kolchak={
+		name="Vladimir Kolchak"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_france }
+			expire="2034.6.1.12"
+			id=-1
+		}
+	}
+	NOV_ivan_brusilov={
+		name="Ivan Brusilov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2030.6.1.12"
+			id=-1
+		}
+	}
+	NOV_dmitry_putyatin={
+		name="Dmitry Putyatin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2027.6.1.12"
+			id=-1
+		}
+	}
+	NOV_roman_gurko={
+		name="Roman Gurko"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ armaments_organizer quartermaster_general }
+			expire="2023.6.1.12"
+			id=-1
+		}
+	}
+	NOV_roman_kuropatkin={
+		name="Roman Kuropatkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ enemy_of_china ideological_crusader }
+			expire="2036.6.1.12"
+			id=-1
+		}
+	}
+}

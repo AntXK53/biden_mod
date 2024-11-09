@@ -1,0 +1,165 @@
+characters={
+	HON_carlos_flores_facussé={
+		name="Carlos Flores Facussé"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Carlos_Flores.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_manuel_zelaya={
+		name="Manuel Zelaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Manuel_Zelaya.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_ceaser_ham={
+		name="Ceaser Ham"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Ceaser_Ham.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_guillermo_enrique_valle={
+		name="Guillermo Enrique Valle"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Guillermo_Enrique_Valle.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_felicito_avila={
+		name="Felicito Avila"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/Guillermo_Enrique_Valle.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HON_andrés_castellanos={
+		name="Andrés Castellanos"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ quartermaster_general }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	HON_victoriano_castellanos={
+		name="Victoriano Castellanos"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ enemy_of_america }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	HON_benito_ferrera={
+		name="Benito Ferrera"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ famous_businessman agricultural_expert }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	HON_toribio_andino={
+		name="Toribio Andino"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ captain_of_industry }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	HON_bartolomé_araujo={
+		name="Bartolomé Araujo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ ideological_crusader smooth_talking_charmer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	HON_aniceto_morazán={
+		name="Aniceto Morazán"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_france friend_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HON_josé_maría_ezeta={
+		name="José María Ezeta"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ experienced_attorney compassionate_gentleman }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

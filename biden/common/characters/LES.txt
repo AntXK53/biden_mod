@@ -1,0 +1,163 @@
+characters={
+	LES_mothetjoa_metsing={
+		name="Mothetjoa Metsing"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Mothetjoa_Metsing.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_tom_thabane={
+		name="Tom Thabane"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Tom_Thabane.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_pakalitha_mosisili={
+		name="Pakalitha Mosisili"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Pakalitha_Mosisili.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_letsie_iii_of_lesotho={
+		name="Letsie III of Lesotho"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Letsie_III.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_thesele_maseribane={
+		name="Thesele Maseribane"
+		portraits={
+			civilian={
+				large="gfx/leaders/LES/Thesele_Maseribane.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LES_hendrik_duquesne={
+		name="Hendrik Duquesne"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	LES_louis_cilliers={
+		name="Louis Cilliers"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	LES_hendrik_kruger={
+		name="Hendrik Kruger"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ road_builder war_industrialist }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	LES_louis_uys={
+		name="Louis Uys"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ war_industrialist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	LES_hendrik_joubert={
+		name="Hendrik Joubert"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_america friend_of_germany }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	LES_petrus_de_beer={
+		name="Petrus de Beer"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ ideological_crusader enemy_of_india }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	LES_piet_botha={
+		name="Piet Botha"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ enemy_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

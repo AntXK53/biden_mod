@@ -1,0 +1,167 @@
+characters={
+	AND_marc_forné_i_moln={
+		name="Marc Forné i Moln"
+		portraits={
+			civilian={
+				large="gfx/leaders/AND/Marc_Forne.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AND_dionisio_narváez={
+		name="Dionisio Narváez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_india friend_of_america }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	AND_francisco_bugallal={
+		name="Francisco Bugallal"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	AND_jacobo_miaja={
+		name="Jacobo Miaja"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_china }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	AND_luis_acuña={
+		name="Luis Acuña"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_india friend_of_france }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	AND_pascual_linares={
+		name="Pascual Linares"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	AND_segismundo_villar={
+		name="Segismundo Villar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_japan }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	AND_antonio_franco={
+		name="Antonio Franco"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	AND_calixto_pérez={
+		name="Calixto Pérez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_india }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	AND_eduardo_cano={
+		name="Eduardo Cano"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	AND_gabriel_mina={
+		name="Gabriel Mina"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_china captain_of_industry }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	AND_joaquín_Álvarez={
+		name="Joaquín Álvarez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ friend_of_russia friend_of_america }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

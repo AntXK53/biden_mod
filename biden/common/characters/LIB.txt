@@ -1,0 +1,168 @@
+characters={
+	LIB_charles_taylor={
+		name="Charles Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_george_anderson={
+		name="George Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ agricultural_expert }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LIB_edgar_tubman={
+		name="Edgar Tubman"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_britain enemy_of_america }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	LIB_henry_jackson={
+		name="Henry Jackson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_china enemy_of_america }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	LIB_alexander_gardner={
+		name="Alexander Gardner"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_germany }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	LIB_thomas_gardner={
+		name="Thomas Gardner"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	LIB_henry_carney={
+		name="Henry Carney"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ road_builder }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	LIB_thomas_blake={
+		name="Thomas Blake"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ famous_businessman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LIB_james_anderson={
+		name="James Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ captain_of_industry }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	LIB_edward_anderson={
+		name="Edward Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_japan friend_of_india }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	LIB_charles_remond={
+		name="Charles Remond"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_india friend_of_russia }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	LIB_edward_mink={
+		name="Edward Mink"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ friend_of_france }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

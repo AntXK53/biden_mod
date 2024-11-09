@@ -1,0 +1,23 @@
+diplomatic_decisions = {
+	icon = generic_political_actions
+}
+
+economic_policy = {
+	icon = generic_economy
+}
+
+education_policy = {
+	icon = generic_political_actions
+}
+
+executive_policy = {
+	icon = generic_political_actions
+}
+
+judiciary_policy = {
+	icon = generic_political_actions
+}
+
+legislative_policy = {
+	icon = generic_political_actions
+}

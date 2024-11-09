@@ -1,0 +1,63 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_cold_war_transport_ships_medium"
+		texturefile = "gfx/interface/technologies/transport.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_transport_ships_medium"
+		texturefile = "gfx/interface/technologies/landing_craft.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_transport_ships_medium"
+		texturefile = "gfx/interface/technologies/tank_landing_craft.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_future_transport_ships_medium"
+		texturefile = "gfx/interface/technologies/tank_landing_craft.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_destroyer_improved_engines_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_destroyer_advanced_engines_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_destroyer_armament_medium"
+		texturefile = "gfx/interface/technologies/improved_light_battery.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_future_destroyer_armament_medium"
+		texturefile = "gfx/interface/technologies/secondary_battery.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_nuclear_reactor_medium"
+		texturefile = "gfx/interface/technologies/submarine_tech/submarine_nuclear_reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_cold_war_torpedo_medium"
+		texturefile = "gfx/interface/technologies/submarine_tech/submarine_cold_war_torpedo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_modern_torpedo_medium"
+		texturefile = "gfx/interface/technologies/submarine_tech/submarine_modern_torpedo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_future_torpedo_medium"
+		texturefile = "gfx/interface/technologies/submarine_tech/submarine_future_torpedo.dds"
+	}
+
+}

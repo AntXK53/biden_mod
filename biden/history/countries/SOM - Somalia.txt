@@ -1,0 +1,148 @@
+﻿capital = 559
+
+oob = "SOM_2000"
+
+set_research_slots = 2
+set_convoys = 30
+set_stability = 0.1
+
+set_country_flag = country_language_arabic
+set_country_flag = country_language_somali
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+set_country_flag = dominant_religion_islam
+set_country_flag = sunni_islam
+
+add_ideas = {
+	population_growth_rapid
+	african_union_member
+	arab_league_member
+}
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "2000.8.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 28
+    nationalist = 18
+    reactionary = 46
+    conservative = 8
+}
+
+recruit_character = SOM_abdiqasim_salad_hassan
+recruit_character = SOM_ahmed_omar
+recruit_character = SOM_mohamed_abdullahi_mohamed
+recruit_character = SOM_hassan_moalim
+recruit_character = SOM_akhalfo_muhammad_bebeoukmole
+recruit_character = SOM_maslah_mohamed_siad
+recruit_character = SOM_abdirahman_ibrahim_bile
+recruit_character = SOM_ali_mohammed_ghedi
+recruit_character = SOM_mohamed_abdi_hassan
+recruit_character = SOM_saiid_isse_mohamud
+recruit_character = SOM_mohamed_adam_ahmed
+recruit_character = SOM_ahmed_hashi_tajir
+recruit_character = SOM_mahamed_nur_galaal
+recruit_character = SOM_abdulkadir_sheikh_dini
+recruit_character = SOM_mohamed_abukar_hassan
+recruit_character = SOM_farah_ahmed_omar
+recruit_character = SOM_mohamed_isse_ali
+recruit_character = SOM_john_taylor
+recruit_character = SOM_alexander_taylor
+
+
+2016.1.1 = {
+	create_country_leader = {
+		name = "Hassan Sheikh Mohamud"
+		picture = "Hassan_S_Mohamud.dds"
+		ideology = counter_progressive_democrat
+	}
+	
+	create_country_leader = {   
+	name = "Maryam Qaasim"
+	picture = "Portrait_SOM_Maryam_Qaasim.dds"
+	ideology = liberalist
+	}
+}

@@ -1,0 +1,189 @@
+characters={
+	QAT_hamad_bin_khalifa={
+		name="Hamad bin Khalifa"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Hamad.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_hamad_bin_jassim={
+		name="Hamad bin Jassim"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Hamad_bin_Jassim.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_yusuf_alqaradawi={
+		name="Yusuf al-Qaradawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Yusuf_Qaradawi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_hamad_bin_ali_alattiyah={
+		name="Hamad bin Ali Al-Attiyah"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Hamad_bin_Ali_Attiyah.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_wadah_khanfar={
+		name="Wadah Khanfar"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Wadah_Khanfar.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	QAT_ghanem_bin_shaheen_alghanem={
+		name="Ghanem bin Shaheen Al-Ghanem"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/QAT/Ghanem_bin_Shaheen.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	QAT_shukri_ibn_yusuf={
+		name="Shukri ibn Yusuf"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	QAT_yahya_ibn_muhammad={
+		name="Yahya ibn Muhammad"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_britain enemy_of_india }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	QAT_abd_almalik_ibn_ishaq={
+		name="Abd al-Malik ibn Ishaq"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_china }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	QAT_ali_ibn_khalid={
+		name="Ali ibn Khalid"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ quartermaster_general agricultural_expert }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	QAT_hasan_ibn_hisham={
+		name="Hasan ibn Hisham"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	QAT_iskandar_ibn_ahmad={
+		name="Iskandar ibn Ahmad"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ road_builder }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	QAT_mustafa_ibn_hasan={
+		name="Mustafa ibn Hasan"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+}

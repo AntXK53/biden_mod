@@ -1,0 +1,164 @@
+characters={
+	VAN_barak_sopé={
+		name="Barak Sopé"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAN/Barak_Sope.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VAN_charlot_salwai={
+		name="Charlot Salwai"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAN/Charlot_Salwai.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VAN_lucas_evans={
+		name="Lucas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_france }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	VAN_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ friend_of_america }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	VAN_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ armaments_organizer friend_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	VAN_lucas_walker={
+		name="Lucas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	VAN_peter_jones={
+		name="Peter Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	VAN_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ famous_businessman quartermaster_general }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	VAN_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_russia }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	VAN_alexander_wilson={
+		name="Alexander Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ compassionate_gentleman quartermaster_general }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	VAN_johannes_white={
+		name="Johannes White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	VAN_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

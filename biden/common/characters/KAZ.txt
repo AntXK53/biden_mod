@@ -1,0 +1,382 @@
+characters={
+	KAZ_kassymjomart_tokayev={
+		name="Kassym-Jomart Tokayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Kassym_Tokayev.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAZ_saken_zhasuzakov={
+		name="Saken Zhasuzakov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Saken_Zhasuzakov.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_murat_maykeev={
+		name="Murat Maykeev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Murat_Maykeev.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_okas_saparov={
+		name="Okas Saparov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Okas_Saparov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_talgat_zhanzhumenov={
+		name="Talgat Zhanzhumenov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Talgat_Zhanszhumenov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_talgat_muhtarov={
+		name="Talgat Muhtarov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Talgat_Muhtarov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_murat_bektanov={
+		name="Murat Bektanov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Murat_Bektanov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_nurlan_ormanbetov={
+		name="Nurlan Ormanbetov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Nurlan_Ormanbetov.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_nurlan_kashaganov={
+		name="Nurlan Kashaganov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Nurlan_Kashaganov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_daulet_ospanov={
+		name="Daulet Ospanov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Daulet_Ospanov.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_marat_husainov={
+		name="Marat Husainov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Marat_Husainov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_zhandarbek_zhanzakov={
+		name="Zhandarbek Zhanzakov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/KAZ/Portrait_Zhandarbek_Zhanzakov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KAZ_bob_white={
+		name="Bob White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ agricultural_expert road_builder }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/general2.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ captain_of_industry }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_peter_taylor={
+		name="Peter Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ experienced_attorney famous_businessman }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_japan friend_of_britain }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			traits={ agricultural_expert friend_of_india }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_india friend_of_china }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ friend_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_bob_williams={
+		name="Bob Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_america ideological_crusader }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	KAZ_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ quartermaster_general }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

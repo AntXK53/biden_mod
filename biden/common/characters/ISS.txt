@@ -1,0 +1,214 @@
+characters={
+	ISS_abu_bakr_albaghdadi={
+		name="Abu Bakr al-Baghdadi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ISS/Abu_Bakr.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ISS_abu_nabil_alanbari_of_salahuddin={
+		name="Abu Nabil al-Anbari of Salahuddin"
+		portraits={
+			army={
+				large="gfx/leaders/ISS/generals/Abu_Nabil.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ISS_omar_alshishani={
+		name="Omar al-Shishani"
+		portraits={
+			army={
+				large="gfx/leaders/ISS/generals/Omar_al_Shishani.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ISS_rustam_aselderov={
+		name="Rustam Aselderov"
+		portraits={
+			army={
+				large="gfx/leaders/ISS/generals/Rustam_Aselderov.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ISS_uthman_ibn_ali={
+		name="Uthman ibn Ali"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_france fortification_engineer }
+			expire="2022.6.1.12"
+			id=-1
+		}
+	}
+	ISS_hasan_alhalabi={
+		name="Hasan al-Halabi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ enemy_of_japan }
+			expire="2031.6.1.12"
+			id=-1
+		}
+	}
+	ISS_tawfiq_ibn_salim={
+		name="Tawfiq ibn Salim"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2024.6.1.12"
+			id=-1
+		}
+	}
+	ISS_fawzi_ibn_umar={
+		name="Fawzi ibn Umar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ captain_of_industry }
+			expire="2034.6.1.12"
+			id=-1
+		}
+	}
+	ISS_salim_ibn_ishaq={
+		name="Salim ibn Ishaq"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2027.6.1.12"
+			id=-1
+		}
+	}
+	ISS_ahmad_ibn_abd_alqadir={
+		name="Ahmad ibn Abd al-Qadir"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_america }
+			expire="2036.6.1.12"
+			id=-1
+		}
+	}
+	ISS_muhammad_ibn_abu_bakr={
+		name="Muhammad ibn Abu Bakr"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2029.6.1.12"
+			id=-1
+		}
+	}
+	ISS_abd_alkarim_ibn_abu_bakr={
+		name="Abd al-Karim ibn Abu Bakr"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2022.6.1.12"
+			id=-1
+		}
+	}
+	ISS_khalid_ibn_uthman={
+		name="Khalid ibn Uthman"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2031.6.1.12"
+			id=-1
+		}
+	}
+	ISS_abd_allah_ibn_uthman={
+		name="Abd Allah ibn Uthman"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2025.6.1.12"
+			id=-1
+		}
+	}
+	ISS_hisham_muammar={
+		name="Hisham Muammar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ enemy_of_america }
+			expire="2034.6.1.12"
+			id=-1
+		}
+	}
+}

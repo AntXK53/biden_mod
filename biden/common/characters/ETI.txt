@@ -1,0 +1,165 @@
+characters={
+	ETI_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	ETI_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ friend_of_britain }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	ETI_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ enemy_of_russia famous_businessman }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ETI_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ETI_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_america enemy_of_america }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	ETI_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ enemy_of_india }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ETI_johannes_roberts={
+		name="Johannes Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_china friend_of_america }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ETI_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	ETI_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ETI_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ road_builder agricultural_expert }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ETI_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	ETI_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ enemy_of_japan agricultural_expert }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

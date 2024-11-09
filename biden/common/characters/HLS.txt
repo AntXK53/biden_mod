@@ -1,0 +1,164 @@
+characters={
+	HLS_john_paul_ii={
+		name="John Paul II"
+		portraits={
+			civilian={
+				large="gfx/leaders/HLS/John_Paul_2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HLS_benito_pianelli={
+		name="Benito Pianelli"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ friend_of_america captain_of_industry }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	HLS_enrico_canevaro={
+		name="Enrico Canevaro"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ captain_of_industry }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	HLS_pasquale_pelloux={
+		name="Pasquale Pelloux"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ ideological_crusader }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	HLS_oreste_caviglia={
+		name="Oreste Caviglia"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	HLS_roberto_pelloux={
+		name="Roberto Pelloux"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	HLS_matteo_canevaro={
+		name="Matteo Canevaro"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_france friend_of_britain }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	HLS_raffaele_perruchetti={
+		name="Raffaele Perruchetti"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	HLS_pietro_cadorna={
+		name="Pietro Cadorna"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ fortification_engineer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	HLS_davide_orengo={
+		name="Davide Orengo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	HLS_paolo_baratieri={
+		name="Paolo Baratieri"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	HLS_ruggiero_orengo={
+		name="Ruggiero Orengo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ war_industrialist }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

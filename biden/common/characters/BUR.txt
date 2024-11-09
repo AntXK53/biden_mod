@@ -1,0 +1,165 @@
+characters={
+	BUR_pierre_buyoya={
+		name="Pierre Buyoya"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Pierre_Buyoya.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_pierre_nkurunziza={
+		name="Pierre Nkurunziza"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUR/Pierre_Nkurunziza.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BUR_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BUR_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ smooth_talking_charmer friend_of_japan }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BUR_lucas_walker={
+		name="Lucas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BUR_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BUR_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ friend_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BUR_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_india }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BUR_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			traits={ captain_of_industry armaments_organizer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BUR_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_japan }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BUR_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ ideological_crusader enemy_of_russia }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BUR_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ compassionate_gentleman }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

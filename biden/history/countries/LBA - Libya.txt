@@ -1,0 +1,186 @@
+﻿capital = 448
+
+oob = "LBA_2000"
+
+set_research_slots = 2
+set_convoys = 300
+set_stability = 0.2
+
+set_country_flag = country_language_arabic
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_opinion_modifier = {
+	target = ISR
+	modifier = death_to_israel
+}
+
+set_country_flag = dominant_religion_islam
+set_country_flag = sunni_islam
+
+add_ideas = {
+	population_growth_rapid
+	african_union_member
+	arab_league_member
+	extensive_conscription
+}
+
+set_politics = {	
+	ruling_party = nationalist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    islamist = 15
+    nationalist = 40
+    reactionary = 2
+    conservative = 5
+    social_liberal = 2
+    communist = 20
+    market_liberal = 2
+    progressive = 4
+    social_democrat = 5
+    democratic_socialist = 5
+}
+
+recruit_character = LBA_muammar_algaddafi
+recruit_character = LBA_abubakr_mustafa_buera
+recruit_character = LBA_mohammed_sawan
+recruit_character = LBA_mustafa_abdul_jalil
+recruit_character = LBA_mohammed_elsenussi
+recruit_character = LBA_ali_tarhouni
+recruit_character = LBA_mahmoud_jibril
+recruit_character = LBA_mohammed_kilani
+recruit_character = LBA_uthman_ali
+recruit_character = LBA_mohamed_ali_abdallah
+recruit_character = LBA_mousa_kussa
+recruit_character = LBA_khalifa_haftar
+recruit_character = LBA_yousef_mangoush
+recruit_character = LBA_khamis_gaddafi
+recruit_character = LBA_suleiman_mahmoud
+recruit_character = LBA_abubakr_younis_jaber
+recruit_character = LBA_mohamed_elmismari
+recruit_character = LBA_fatah_younis_alobeidi
+recruit_character = LBA_ahmed_oun
+recruit_character = LBA_mohammed_bougfir
+recruit_character = LBA_alsaadi_gaddafi
+recruit_character = LBA_massoud_abdelhafid
+recruit_character = LBA_almahdi_albarghathi
+recruit_character = LBA_abdolazim_ahmad
+recruit_character = LBA_ishaq_ibn_hisham
+
+2012.1.1 = {
+	set_politics = {
+		ruling_party = social_democrat
+		elections_allowed = yes
+		last_election = "2011.12.1"
+}
+
+    set_popularities = {
+        communist = 6
+        social_democrat = 30
+        islamist = 23
+        conservative = 28
+        market_liberal = 10
+        reactionary = 14
+        nationalist = 11
+    }
+	create_country_leader = {
+	name = "Fayez al-Sarraj"
+	picture = "Fayez_al_Sarraj.dds"
+	ideology = social_democrat_ideology
+    }
+	create_country_leader = {
+	name = "Saif al-Islam Gaddafi"
+	picture = "Saif_Islam_Gaddafi.dds"
+	ideology = national_democrat
+    }
+}
+2014.8.5 = {
+	oob = "LBA_2016"
+    create_country_leader = {
+        name = "Aguila Saleh Issa"
+	    picture = "Aguila_Saleh_Issa.dds"
+	    ideology = fiscal_conservative
+    }
+}

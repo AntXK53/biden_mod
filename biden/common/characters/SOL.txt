@@ -1,0 +1,166 @@
+characters={
+	SOL_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SOL_alexander_roberts={
+		name="Alexander Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_china famous_businessman }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SOL_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_britain enemy_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SOL_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	SOL_lucas_evans={
+		name="Lucas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist2.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ agricultural_expert }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SOL_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ ideological_crusader fortification_engineer }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SOL_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	SOL_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ friend_of_france smooth_talking_charmer }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SOL_jonas_white={
+		name="Jonas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ compassionate_gentleman quartermaster_general }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	SOL_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ smooth_talking_charmer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	SOL_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SOL_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ friend_of_india friend_of_britain }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

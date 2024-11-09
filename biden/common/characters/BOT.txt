@@ -1,0 +1,202 @@
+characters={
+	BOT_festus_mogae={
+		name="Festus Mogae"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Festus_Mogae.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_otsweletse_moupo={
+		name="Otsweletse Moupo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Otsweletse_Moupo.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_michael_dingake={
+		name="Michael Dingake"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Michael_Dingake.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_ephraim_setshwaelo={
+		name="Ephraim Setshwaelo"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Ephraim_Setshwaelo.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_themba_joina={
+		name="Themba Joina"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Themba_Joina.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_mostlatsi_molapisi={
+		name="Mostlatsi Molapisi"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/Motlatsi_Molapisi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BOT_placid_segokgo={
+		name="Placid Segokgo"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BOT/generals/Placid_Segokgo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BOT_tebogo_masire={
+		name="Tebogo Masire"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BOT/generals/Tebogo_Masire.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BOT_bob_williams={
+		name="Bob Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ quartermaster_general friend_of_russia }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	BOT_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ friend_of_china ideological_crusader }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BOT_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_china enemy_of_china }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BOT_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ compassionate_gentleman }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	BOT_marcus_roberts={
+		name="Marcus Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_india war_industrialist }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BOT_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ ideological_crusader enemy_of_britain }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

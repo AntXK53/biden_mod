@@ -1,0 +1,159 @@
+characters={
+	KOS_atifete_jahjaga={
+		name="Atifete Jahjaga"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOS/Atifete_Jahjaga.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	KOS_rrahman_rama = {
+		name = "Rrahman Rama"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Rrahman_Rama.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_sylejman_selimi = {
+		name = "Sylejman Selimi"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Sylejman_Selimi.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_kadri_kastrati = {
+		name = "Kadri Kastrati"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Kadri_Kastrati.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_bashkim_jashari = {
+		name = "Bashkim Jashari"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Bashkim_Jashari.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_nazmi_brahimaj = {
+		name = "Nazmi Brahimaj"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Nazmi_Brahimaj.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_zymer_halimi = {
+		name = "Zymer Halimi"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Zymer_Halimi.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_imri_ilazi = {
+		name = "Imri Ilazi"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Imri_Ilazi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	KOS_enver_cikaqi = {
+		name = "Enver Cikaqi"
+		portraits={
+			army={
+				large="gfx/leaders/KOS/Portrait_Enver_Cikaqi.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

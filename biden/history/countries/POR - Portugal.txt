@@ -1,0 +1,168 @@
+﻿capital = 112
+
+oob = "POR_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "POR_2000_naval_mtg"
+	else = {
+		set_naval_oob = "POR_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_convoys = 240
+set_stability = 0.45
+
+set_country_flag = country_language_portuguese
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+
+
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+	idea_eu_member
+}
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1999.10.10"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    social_democrat = 47.23
+    market_liberal = 32.32
+    communist = 8.99
+    conservative = 8.34
+    democratic_socialist = 2.44
+    progressive = 0.37
+    monarchist = 0.31
+}
+
+recruit_character = POR_antónio_guterres
+recruit_character = POR_duarte_iii_pio_de_bragança
+recruit_character = POR_mario_machado
+recruit_character = POR_jose_pinto_coelho
+recruit_character = POR_jeronimo_de_sousa
+recruit_character = POR_catarina_martins
+recruit_character = POR_andre_silva
+recruit_character = POR_antonio_marinho_e_pinto
+recruit_character = POR_jose_manuel_barroso
+recruit_character = POR_pablo_portas
+recruit_character = POR_joana_camara_pereira
+recruit_character = POR_artur_neves_pina_monteiro
+recruit_character = POR_raul_luís_de_morais_lima_ferreira_da_cunha
+recruit_character = POR_amandio_miranda
+recruit_character = POR_luís_evangelista_esteves_de_araujo
+recruit_character = POR_manuel_texeira_rolo
+recruit_character = POR_carlos_antonio_corbal_hernandez_jeronimo
+recruit_character = POR_carlos_perestrelo
+recruit_character = POR_dina_joana_azevedo
+recruit_character = POR_fernando_celso_vicente_de_campos_serafino
+recruit_character = POR_josé_manuel_lopes_dos_santos_correia
+recruit_character = POR_luis_fonseca
+recruit_character = POR_manuel_mateus_costa_da_silva_couto
+recruit_character = POR_mario_joao_parente_monteiro
+recruit_character = POR_vasco_pereira
+recruit_character = POR_vitor_fernandes
+recruit_character = POR_cortes_picciochi
+recruit_character = POR_luís_m._f._macieira_fragoso
+recruit_character = POR_antónio_manuel_fernandes_da_silva_ribeiro
+recruit_character = POR_josé_saldanha_lopes
+recruit_character = POR_damião_de_carvalho
+
+2014.9.1 = {
+	oob = "POR_2016"
+	create_country_leader = {
+		name = "António Costa"
+		picture = "Antonio_Costa.dds"
+		ideology = social_democrat_ideology
+	}
+	create_country_leader = {
+		name = "Pedro Passos Coelho"
+		picture = "Pedro_Passos_Coelho.dds"
+		ideology = libertarian 
+	}
+}

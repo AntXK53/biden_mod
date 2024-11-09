@@ -1,0 +1,276 @@
+﻿capital = 6
+
+oob = "BEL_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "BEL_2000_naval_mtg"
+	else = {
+		set_naval_oob = "BEL_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_convoys = 450
+set_stability = 0.7
+
+set_country_flag = country_language_dutch
+set_country_flag = country_language_french
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+
+
+	frigate1 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_stagnation
+	free_trade
+	idea_eu_member
+	belgian_political_system
+}
+
+set_politics = {	
+	ruling_party = market_liberal
+	last_election = "1999.6.13"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    nationalist = 16
+    reactionary = 2
+    conservative = 21
+    market_liberal = 25
+    social_liberal = 2
+    social_democrat = 20
+    progressive = 14
+}
+
+recruit_character = BEL_abdelhay_bakkali_tahiri
+recruit_character = BEL_herve_van_laethem
+recruit_character = BEL_bart_de_wever
+recruit_character = BEL_albert_ii_of_belgium
+recruit_character = BEL_yves_leterme
+recruit_character = BEL_guy_verhofstadt
+recruit_character = BEL_elio_di_rupo
+recruit_character = BEL_peter_mertens
+recruit_character = BEL_hubert_de_vos
+recruit_character = BEL_eddy_testelmans
+recruit_character = BEL_jeanmarie_jockin
+recruit_character = BEL_pierre_neirinckx
+recruit_character = BEL_frederick_vansina
+recruit_character = BEL_marc_thys
+recruit_character = BEL_bart_moerman
+recruit_character = BEL_bruno_denis
+recruit_character = BEL_bruno_van_loo
+recruit_character = BEL_michel_pihard
+recruit_character = BEL_wim_denolf
+recruit_character = BEL_georges_heerlen
+recruit_character = BEL_alexander_evans
+recruit_character = BEL_john_smith
+recruit_character = BEL_lucas_jones
+recruit_character = BEL_jim_white
+
+2008.3.20 = {
+	set_politics = {
+		ruling_party = conservative
+		elections_allowed = yes
+	}
+}
+
+2008.12.30 = {
+	create_country_leader = {
+		name = "Herman van Rompuy"
+		picture = "Herman_Van_Rompuy.dds"
+		ideology = christian_democrat
+	}
+}
+
+2011.12.6 = {
+	set_politics = { ruling_party = social_democrat elections_allowed = yes }
+	create_navy_leader = {
+		name = "Georges Heeren"
+		picture = "admirals/Georges_Heeren.dds"
+		skill = 2
+	}
+}
+
+2013.1.1 = {
+	create_country_leader = {
+		name = "Philippe I of Belgium"
+		picture = "Philippe.dds"
+		ideology = absolute_monarchist
+	}
+	
+	create_corps_commander = {
+		name = "Philippe I of Belgium"
+		picture = "generals/Philippe.dds"
+		skill = 1
+	}
+	
+	create_navy_leader = {
+		name = "M. Hoffmans"
+		picture = "M_Hoffmans.dds"
+		skill = 1
+	}
+}
+
+2014.1.1 = {
+	create_country_leader = {
+		name = "Charles Michel"
+		picture = "Charles_Michel.dds"
+		ideology = libertarian
+	}
+	
+	set_politics = {
+		ruling_party = market_liberal
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Tom Van Grieken"
+		picture = "Tom_van_Grieken.dds"
+		ideology = national_democrat
+	}
+
+	create_country_leader = {
+		name = "Paul Magnette"
+		picture = "Paul_Magnette.dds"
+		ideology = social_democrat_ideology
+	}
+}
+
+2015.1.1 = {
+	create_country_leader = {
+		name = "Patrick Dupriez"
+		picture = "Patrick_Dupriez.dds"
+		ideology = green
+	}
+	
+	create_country_leader = {
+		name = "John Crombez"
+		picture = "John_Crombez.dds"
+		ideology = democratic_socialist_ideology
+	}
+}
+
+2016.1.1 = {
+	oob = "BEL_2016"
+	
+	set_politics = {		
+		ruling_party = market_liberal
+		last_election = "2014.5.25"
+		election_frequency = 48
+		elections_allowed = yes
+	
+}
+
+    set_popularities = {
+        nationalist = 21
+        reactionary = 3
+        conservative = 17
+        market_liberal = 21
+        social_liberal = 1
+        social_democrat = 20
+        progressive = 15
+        democratic_socialist = 1
+        communist = 1
+    }
+	
+	create_corps_commander = {
+		name = "Jean-Paul Deconick"
+		picture = "generals/Jean_Paul_Deconick.dds"
+		skill = 2
+		traits = { ranger }
+	}
+	create_corps_commander = {
+		name = "Marc Compernol"
+		picture = "generals/Marc_Compernol.dds"
+		skill = 1
+		traits = { commando }
+	}
+	create_navy_leader = {
+		name = "Wim Robberecht"
+		picture = "admirals/Wim_Robberecht.dds"
+		skill = 1
+	}
+}

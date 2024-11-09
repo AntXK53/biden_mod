@@ -1,0 +1,188 @@
+﻿capital = 303
+
+oob = "PRU_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "PRU_2000_naval_mtg"
+	else = {
+		set_naval_oob = "PRU_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+set_convoys = 110
+set_stability = 0.3
+
+set_country_flag = country_language_spanish
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 2
+	destroyer1 = 1
+	destroyer2 = 1
+	missile_cruiser1 = 1
+
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+	limited_conscription
+}
+
+set_politics = {	
+	ruling_party = reactionary
+	last_election = "1995.7.28"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    nationalist = 9
+    reactionary = 66
+    conservative = 15
+    market_liberal = 5
+    social_liberal = 5
+}
+
+recruit_character = PRU_alberto_fujimori
+recruit_character = PRU_valentín_paniagua
+recruit_character = PRU_alejandro_toledo
+recruit_character = PRU_alan_garcia
+recruit_character = PRU_ollanta_humala
+recruit_character = PRU_martín_mayta
+recruit_character = PRU_abimael_guzman
+recruit_character = PRU_victor_carrera
+recruit_character = PRU_cesar_salcedo
+recruit_character = PRU_leonel_cabrera_pino
+recruit_character = PRU_cesar_augusto_astudillo_salcedo
+recruit_character = PRU_dante_antonio_arevalo_abate
+recruit_character = PRU_javier_ramirez_guillen
+recruit_character = PRU_julio_valdez_pomareda
+recruit_character = PRU_augusto_javier_villarroel_rossi
+recruit_character = PRU_luis_ramos_hume
+recruit_character = PRU_victor_abraham_najar_carrera
+recruit_character = PRU_carlos_tijeda
+recruit_character = PRU_luis_paredes_lora
+recruit_character = PRU_victor_emanuel_pomar_calderon
+recruit_character = PRU_bernardo_belzú
+recruit_character = PRU_justo_pezet
+recruit_character = PRU_emiliano_pezet
+recruit_character = PRU_aníbal_fernández
+recruit_character = PRU_domingo_fernández
+
+2011.7.28 = {
+	create_country_leader = {
+		name = "Keiko Fujimori"
+		picture = "Keiko_Fujimori.dds"
+		ideology = counter_progressive_democrat
+	}
+}
+
+2016.1.1 = {
+	oob = "PRU_2016"
+	set_politics = {		
+		ruling_party = democratic_socialist
+		last_election = 2011.7.28
+		elections_allowed = yes
+}
+
+    set_popularities = {
+        nationalist = 7
+        reactionary = 40
+        conservative = 6
+        market_liberal = 28
+        social_liberal = 19
+    }
+	create_country_leader = {
+		name = "Pedro Kuczynski"
+		picture = "Pedro_Kuczynski.dds"
+		ideology = libertarian
+	}
+	create_country_leader = {
+		name = "Alfredo Barnechea"
+		picture = "Alfredo_Barnechea.dds"
+		ideology = national_democrat
+	}
+	create_country_leader = {
+		name = "Veronika Mendoza"
+		picture = "Veronika_Mendoza.dds"
+		ideology = liberalist
+	}
+}
+

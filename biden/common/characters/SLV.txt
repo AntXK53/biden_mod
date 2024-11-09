@@ -1,0 +1,360 @@
+characters={
+	SLV_janez_drnovšek={
+		name="Janez Drnovšek"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Janez_Drnovsek.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_janez_janša={
+		name="Janez Janša"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Janez_Jansa.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_miro_cerar={
+		name="Miro Cerar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Miro_Cerar.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_borut_pahor={
+		name="Borut Pahor"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Borut_Pahor.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_zmago_jelinčič_plemeniti={
+		name="Zmago Jelinčič Plemeniti"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLV/Zmago_Jelincic_Plemeniti.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SLV_andrej_osterman={
+		name="Andrej Osterman"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Andrej_Osterman.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_alan_geder={
+		name="Alan Geder"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Alan_Geder.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_bojan_pograjc={
+		name="Bojan Pograjc"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Bojan_Pograjc.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_igor_tomašič={
+		name="Igor Tomašič"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Igor_Tomasic.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_igor_strojin={
+		name="Igor Strojin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Igor_Strojin.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_roman_urbanč={
+		name="Roman Urbanč"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Roman_Urbanc.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_matej_jakopič={
+		name="Matej Jakopič"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Matej_Jakopic.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_ernest_anželj={
+		name="Ernest Anželj"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Ernest_Anzelj.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_renato_petrič={
+		name="Renato Petrič"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Renato_Petric.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_boris_gersak={
+		name="Boris Gersak"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/SLV/Portrait_Boris_Gersak.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SLV_matko_nazor={
+		name="Matko Nazor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SLV_vicko_gundulic={
+		name="Vicko Gundulic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ enemy_of_china enemy_of_russia }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SLV_dzivo_natali={
+		name="Dzivo Natali"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SLV_mihajlo_tomasic={
+		name="Mihajlo Tomasic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_india friend_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SLV_zlatan_natali={
+		name="Zlatan Natali"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SLV_luka_gregoric={
+		name="Luka Gregoric"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_india friend_of_japan }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SLV_miroslav_gregoric={
+		name="Miroslav Gregoric"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ ideological_crusader }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

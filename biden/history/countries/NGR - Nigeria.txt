@@ -1,0 +1,182 @@
+﻿capital = 767
+
+oob = "NGR_2000"
+
+set_research_slots = 2
+set_convoys = 260
+set_stability = 0.15
+
+set_country_flag = country_language_english
+set_country_flag = country_language_hausa
+set_country_flag = country_language_yoruba
+set_country_flag = country_language_igbo
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_explosion
+	african_union_member
+	commonwealth_of_nations_member
+}
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1999.2.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 2
+    fascist = 0
+    nationalist = 2
+    reactionary = 20
+    conservative = 49
+    market_liberal = 0
+    social_liberal = 3
+    social_democrat = 3
+    progressive = 15
+    democratic_socialist = 0
+    communist = 6
+}
+
+recruit_character = NGR_goodluck_jonathan
+recruit_character = NGR_muhammadu_buhari
+recruit_character = NGR_okey_nwosu
+recruit_character = NGR_adebisi_akande
+recruit_character = NGR_joseph_avazi
+recruit_character = NGR_segun_sango
+recruit_character = NGR_alhaji_abdulkadir_abdulsalam
+recruit_character = NGR_tanko_yinusa
+recruit_character = NGR_abubakar_shekau
+recruit_character = NGR_t.y._buratai
+recruit_character = NGR_k.t.j._minimah
+recruit_character = NGR_a._oyebade
+recruit_character = NGR_c.m._abraham
+recruit_character = NGR_p.j._dauke
+recruit_character = NGR_e.o._udoh
+recruit_character = NGR_v.o._ezugwu
+recruit_character = NGR_e.b._oyefolu
+recruit_character = NGR_a.b._abubakar
+recruit_character = NGR_m.a._koleoso
+recruit_character = NGR_s._abubakar
+recruit_character = NGR_kenneth_minimah
+recruit_character = NGR_martin_luther_agwai
+recruit_character = NGR_abayomi_olonisakin
+recruit_character = NGR_abdulrahman_bello_dambazau
+recruit_character = NGR_alexander_ogomudia
+recruit_character = NGR_andrew_azazi
+recruit_character = NGR_turker_yusuf_buratai
+recruit_character = NGR_d._j._ezeoba
+recruit_character = NGR_ishaya_ibrahim
+recruit_character = NGR_u._o._jibrin
+recruit_character = NGR_i.e._ibas
+recruit_character = NGR_u.o._jibrin
+recruit_character = NGR_lucas_roberts
+recruit_character = NGR_alexander_taylor
+recruit_character = NGR_alexander_williams
+
+
+2014.1.1 = { add_stability = 0.05 }
+
+2015.3.28 = {
+	oob = "NGR_2016"
+	set_politics = {
+		ruling_party = social_liberal
+		last_election = "2015.3.28"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        islamist = 18
+        fascist = 4
+        nationalist = 0
+        reactionary = 2
+        conservative = 30
+        market_liberal = 2
+        social_liberal = 40
+        social_democrat = 4
+        progressive = 0
+        democratic_socialist = 0
+        communist = 0
+    }
+}

@@ -1,0 +1,165 @@
+characters={
+	WSH_brahim_ghali={
+		name="Brahim Ghali"
+		portraits={
+			civilian={
+				large="gfx/leaders/WSH/Brahim_Ghali.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WSH_abd_alqadir_ibn_abd_allah={
+		name="Abd al-Qadir ibn Abd Allah"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	WSH_ali_ibm_kamil={
+		name="Ali ibm Kamil"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ friend_of_britain friend_of_america }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	WSH_hisham_ibn_salim={
+		name="Hisham ibn Salim"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ war_industrialist fortification_engineer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	WSH_jamal_ibm_kamil={
+		name="Jamal ibm Kamil"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ fortification_engineer }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	WSH_mustafa_ibn_fuad={
+		name="Mustafa ibn Fuad"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	WSH_shukri_ibn_ishaq={
+		name="Shukri ibn Ishaq"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	WSH_yusuf_ibn_khalid={
+		name="Yusuf ibn Khalid"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	WSH_ahmad_ibn_ahmad={
+		name="Ahmad ibn Ahmad"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ friend_of_china war_industrialist }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	WSH_hasan_ibn_hasan={
+		name="Hasan ibn Hasan"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_japan friend_of_russia }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	WSH_jafar_ibn_ahmad={
+		name="Ja'far ibn Ahmad"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_china quartermaster_general }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	WSH_mustafa_alnajdi={
+		name="Mustafa al-Najdi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ friend_of_britain smooth_talking_charmer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

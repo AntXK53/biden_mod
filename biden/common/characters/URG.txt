@@ -1,0 +1,424 @@
+characters={
+	URG_julio_maría_sanguinetti={
+		name="Julio María Sanguinetti"
+		portraits={
+			civilian={
+				large="gfx/leaders/URG/Julio_M_Sanguinetti.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	URG_guido_manini_ríos={
+		name="Guido Manini Ríos"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/South America/general1.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_washington_roberto_martínez_angelucci={
+		name="Washington Roberto Martínez Angelucci"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/South America/general1.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_carlos_humberto_loitey={
+		name="Carlos Humberto Loitey"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/South America/general1.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_marcos_gallardo={
+		name="Marcos Gallardo"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Marcos_Gallardo.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_alejandro_córdoba={
+		name="Alejandro Córdoba"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Alejandro_Cordoba.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_helio_alfonso_bonilla={
+		name="Helio Alfonso Bonilla"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Helio_Alfonso_Bonilla.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_luis_abilleira={
+		name="Luis Abilleira"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Luis_Abilleira.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_hugo_josé_iglesias={
+		name="Hugo José Iglesias"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Hugo_Iglesias.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_fernando_suárez={
+		name="Fernando Suárez"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Fernando_Suarez.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_jorge_haboosh={
+		name="Jorge Haboosh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Jorge_Haboosh.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_josé_luis_oliveira={
+		name="José Luis Oliveira"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/generals/Jose_Luis_Oliveira.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_leonardo_gustavo_alfonso_chiappara={
+		name="Leonardo Gustavo Alfonso Chiappara"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/admirals/Leonardo_Chiappara.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_ricardo_giambruno={
+		name="Ricardo Giambruno"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/URG/admirals/Ricardo_Giambruno.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_patricio_gonzález={
+		name="Patricio González"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	URG_santiago_aguirre={
+		name="Santiago Aguirre"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_india }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	URG_roque_rivarola={
+		name="Roque Rivarola"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ famous_businessman }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	URG_feliciano_rivarola={
+		name="Feliciano Rivarola"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	URG_roberto_solano={
+		name="Roberto Solano"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	URG_agustín_tajes={
+		name="Agustín Tajes"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ war_industrialist friend_of_britain }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	URG_torcuato_maza={
+		name="Torcuato Maza"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	URG_fructuoso_meza={
+		name="Fructuoso Meza"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ quartermaster_general enemy_of_china }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	URG_salvador_cruz={
+		name="Salvador Cruz"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	URG_hipólito_sarmineto={
+		name="Hipólito Sarmineto"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_germany }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	URG_feliciano_solano={
+		name="Feliciano Solano"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ enemy_of_russia friend_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+}

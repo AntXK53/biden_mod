@@ -1,0 +1,227 @@
+﻿capital = 41
+
+oob = "SPR_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SPR_2000_naval_mtg"
+	else = {
+		set_naval_oob = "SPR_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_convoys = 700
+set_stability = 0.5
+
+set_country_flag = country_language_spanish
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	carrier1 = 1
+	carrier2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+
+
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	
+	
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+give_guarantee = AND
+
+add_ideas = {
+	population_growth_stagnation
+	idea_eu_member
+	catalonia_separatism
+}
+
+set_politics = {	
+	ruling_party = conservative
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 1
+    nationalist = 1
+    reactionary = 2
+    conservative = 30
+    market_liberal = 6
+    social_liberal = 25
+    social_democrat = 5
+    progressive = 10
+    democratic_socialist = 10
+    communist = 10
+}
+
+recruit_character = SPR_juan_carlos_i
+recruit_character = SPR_josé_maría_aznar
+recruit_character = SPR_josé_luís_rodríguez_zapatero
+recruit_character = SPR_gaspar_llamazares
+recruit_character = SPR_rosa_díez
+recruit_character = SPR_carmelo_suárez
+recruit_character = SPR_javier_garisoain
+recruit_character = SPR_jaime_domínguez_buj
+recruit_character = SPR_josé_julio_rodríguez_fernández
+recruit_character = SPR_alfredo_ramirez
+recruit_character = SPR_bernardo_alvarez
+recruit_character = SPR_fernando_gutierrez
+recruit_character = SPR_miguel_alcañiz
+recruit_character = SPR_pedro_pitarch
+recruit_character = SPR_santiago_camarero
+recruit_character = SPR_jaime_muñoz
+recruit_character = SPR_jose_antonio_ruesta
+recruit_character = SPR_fernando_espartero
+recruit_character = SPR_jacobo_narváez
+recruit_character = SPR_luis_aznar
+recruit_character = SPR_pablo_miaja
+recruit_character = SPR_sebastián_acuña
+
+2014.7.1 = {
+	create_country_leader = {
+		name = "Felipe VI"
+		picture = "Felipe_VI.dds"
+		ideology = absolute_monarchist
+	}
+}
+
+2015.12.1 = {
+	oob = "SPR_2016"
+	set_politics = {		
+		ruling_party = conservative
+		last_election = "2015.11.20"
+		election_frequency = 48
+		elections_allowed = yes
+}
+
+    set_popularities = {
+        fascist = 1
+        nationalist = 1
+        conservative = 38
+        market_liberal = 14
+        social_liberal = 1
+        social_democrat = 28
+        progressive = 15
+        democratic_socialist = 2
+    }
+
+	create_country_leader = {
+		name = "Mariano Rajoy"
+		picture = "Mariano_Rajoy.dds"
+		ideology = fiscal_conservative
+	}
+
+	create_country_leader = {
+		name = "Pablo Iglesias"
+		picture = "Pablo_Iglesias.dds"
+		ideology = progressive_ideology
+	}
+
+	create_country_leader = {
+		name = "Pedro Sánchez"
+		picture = "Pedro_Sanchez.dds"
+		ideology = social_democrat_ideology
+	}
+
+	create_country_leader = {
+		name = "Alberto Garzón"
+		picture = "Alberto_Garzon.dds"
+		ideology = democratic_socialist_ideology
+	}
+
+	create_country_leader = {
+		name = "Albert Rivera"
+		picture = "Albert_Rivera.dds"
+		ideology = libertarian
+	}
+
+	create_country_leader = {
+		name = "Santiago Abascal"
+		picture = "Santiago_Abascal.dds"
+		ideology = proto_fascist
+	}
+
+	create_country_leader = {
+		name = "Andrés Herzog"
+		picture = "Andres_Herzog.dds"
+		ideology = liberalist
+	}
+}

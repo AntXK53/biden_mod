@@ -1,0 +1,165 @@
+characters={
+	SMO_tuilaepa_aiono_sailele_malielegaoi={
+		name="Tuilaepa Aiono Sailele Malielegaoi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMO/Tuilaepa_AS_Malielegaoi.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SMO_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ experienced_attorney friend_of_britain }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SMO_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ compassionate_gentleman captain_of_industry }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SMO_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SMO_jonas_white={
+		name="Jonas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	SMO_john_brown={
+		name="John Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_russia }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SMO_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_china friend_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SMO_alex_white={
+		name="Alex White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SMO_lucas_walker={
+		name="Lucas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	SMO_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_india friend_of_india }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SMO_marcus_white={
+		name="Marcus White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_india friend_of_russia }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SMO_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ friend_of_india enemy_of_japan }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+}

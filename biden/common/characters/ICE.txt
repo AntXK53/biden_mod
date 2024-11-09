@@ -1,0 +1,286 @@
+characters={
+	ICE_Ólafur_ragnar_grímsson={
+		name="Ólafur Ragnar Grímsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/Olafur_Ragnar.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ICE_arnor_sigurjonsson={
+		name="Arnor Sigurjonsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ICE/generals/Arnor_Sigurjonsson.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_sindri_steingrimsson={
+		name="Sindri Steingrimsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ICE/generals/Sindri_Steingrimsson.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_halli_sigurdsson={
+		name="Halli Sigurdsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ICE/generals/Halli_Sigurdsson.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_haraldur_johannessen={
+		name="Haraldur Johannessen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ICE/generals/Haraldur_Johannessen.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_georg_kristinn_larusson={
+		name="Georg Kristinn Larusson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ICE/admirals/Georg_Kristinn_Larusson.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_asgrimur_asgrimsson={
+		name="Asgrimur Asgrimsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ICE/admirals/Asgrimur_Asgrimsson.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_aage_björnsson={
+		name="Aage Björnsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ friend_of_india }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ICE_oddleifur_oddleifsson={
+		name="Oddleifur Oddleifsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ friend_of_china }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	ICE_freyr_baldursson={
+		name="Freyr Baldursson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	ICE_astrathur_hjörtursson={
+		name="Astrathur Hjörtursson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_india famous_businessman }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	ICE_dagbjartur_vagnsson={
+		name="Dagbjartur Vagnsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_china }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ICE_hjörtur_thorarensen={
+		name="Hjörtur Thorarensen"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ friend_of_france }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	ICE_oddleifur_astrathursson={
+		name="Oddleifur Astrathursson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ ideological_crusader }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	ICE_eggthor_björnsson={
+		name="Eggthor Björnsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_china }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	ICE_björn_eggthorsson={
+		name="Björn Eggthorsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	ICE_vagn_eggthorsson={
+		name="Vagn Eggthorsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ICE_eggthor_blöndal={
+		name="Eggthor Blöndal"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ famous_businessman friend_of_india }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,130 @@
+﻿capital = 836
+
+oob = "NCY_2000"
+
+set_research_slots = 2
+set_convoys = 15
+set_stability = 0.4
+
+set_country_flag = country_language_turkish
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	submarine1 = 1
+	submarine2 = 1
+	cold_war_ship_design = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+	partially_recognized_state
+	limited_conscription
+	closed_economy
+}
+add_opinion_modifier = { target = TUR modifier = rival }
+set_politics = {	
+	ruling_party = reactionary
+	last_election = "1995.04.22"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 40
+    conservative = 30
+    social_liberal = 10
+    social_democrat = 12
+    nationalist = 0
+    islamist = 0
+    market_liberal = 0
+    progressive = 0
+    democratic_socialist = 8
+    communist = 0
+}
+
+recruit_character = NCY_rauf_denktaş
+recruit_character = NCY_mustafa_akıncı
+recruit_character = NCY_bob_evans
+recruit_character = NCY_alex_walker
+recruit_character = NCY_alexander_taylor
+recruit_character = NCY_johannes_williams
+recruit_character = NCY_alex_williams
+recruit_character = NCY_bob_wilson
+recruit_character = NCY_jonas_evans
+recruit_character = NCY_alexander_jones
+recruit_character = NCY_john_taylor
+recruit_character = NCY_jim_wilson
+
+2016.1.1 = {
+	oob = "NCY_2016"
+	set_politics = {
+		ruling_party = social_democrat
+		last_election = "2015.4.30"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        islamist = 0
+        nationalist = 0
+        reactionary = 0
+        conservative = 27
+        market_liberal = 23
+        social_liberal = 38
+        social_democrat = 7
+        progressive = 3
+        democratic_socialist = 0
+        communist = 0
+    }
+}

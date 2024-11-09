@@ -1,0 +1,202 @@
+characters={
+	ABK_vladislav_ardzinba={
+		name="Vladislav Ardzinba"
+		portraits={
+			civilian={
+				large="gfx/leaders/ABK/Vladislav_Ardzinba.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ABK_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ABK/generals/Vladimir_Arshba.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ABK_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ABK/generals/Sultan_Sosnaliyev.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ABK_oleg_abyzov={
+		name="Oleg Abyzov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	ABK_alexander_zhukov={
+		name="Alexander Zhukov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ enemy_of_britain road_builder }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	ABK_sasha_dvorkovich={
+		name="Sasha Dvorkovich"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	ABK_alexej_siluanov={
+		name="Alexej Siluanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_france quartermaster_general }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ABK_domislav_men={
+		name="Domislav Men"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	ABK_maxim_medinsky={
+		name="Maxim Medinsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	ABK_domislav_tkachyov={
+		name="Domislav Tkachyov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_japan war_industrialist }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	ABK_misha_rogozin={
+		name="Misha Rogozin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ enemy_of_india }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	ABK_vassily_puchkov={
+		name="Vassily Puchkov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ experienced_attorney }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ABK_misha_puchkov={
+		name="Misha Puchkov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ quartermaster_general friend_of_russia }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ABK_sergei_medinsky={
+		name="Sergei Medinsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

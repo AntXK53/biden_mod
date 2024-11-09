@@ -1,0 +1,256 @@
+characters={
+	KUR_masoud_barzani={
+		name="Masoud Barzani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Masoud_Barzani.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_salaheddine_bahaaeddin={
+		name="Salaheddine Bahaaeddin"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Salaheddine_Bahaaeddin.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_nusherwan_mustafa={
+		name="Nusherwan Mustafa"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Nusherwan_Mustafa.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_arif_bawecani={
+		name="Arif Bawecani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Arif_Bawecani.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_hussein_mansor={
+		name="Hussein Mansor"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Hussein_Mansor.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_jalal_talabani={
+		name="Jalal Talabani"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Jalal_Talabani.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_raouf_karimi={
+		name="Raouf Karimi"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Raouf_Karimi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_abdullah_ocalan={
+		name="Abdullah Ocalan"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/Abdullah_Ocalan.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUR_abdula_musla={
+		name="Abdula Musla"
+		portraits={
+			army={
+				large="gfx/leaders/KUR/generals/Abdula_Musla.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KUR_hossein_yazdan_bna={
+		name="Hossein Yazdan Bna"
+		portraits={
+			army={
+				large="gfx/leaders/KUR/generals/Hossein_Yazdan_Bna.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KUR_sirwan_barzani={
+		name="Sirwan Barzani"
+		portraits={
+			army={
+				large="gfx/leaders/KUR/generals/Sirwan_Barzani.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KUR_karzan_mahmoud_ahmed={
+		name="Karzan Mahmoud Ahmed"
+		portraits={
+			army={
+				large="gfx/leaders/KUR/generals/Karzan.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KUR_sherko_shwani={
+		name="Sherko Shwani"
+		portraits={
+			army={
+				large="gfx/leaders/KUR/generals/Sherko.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KUR_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/general1.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ captain_of_industry }
+			expire="2028.6.1.12"
+			id=-1
+		}
+	}
+	KUR_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ compassionate_gentleman }
+			expire="2035.6.1.12"
+			id=-1
+		}
+	}
+	KUR_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ friend_of_china war_industrialist }
+			expire="2025.6.1.12"
+			id=-1
+		}
+	}
+	KUR_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_america }
+			expire="2032.6.1.12"
+			id=-1
+		}
+	}
+}

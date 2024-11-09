@@ -1,0 +1,165 @@
+characters={
+	BRU_sultan_hassanal_bolkiah={
+		name="Sultan Hassanal Bolkiah"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRU/Hassanal_Bolkiah.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BRU_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BRU_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_france friend_of_india }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	BRU_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ agricultural_expert experienced_attorney }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	BRU_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	BRU_alex_white={
+		name="Alex White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	BRU_lucas_roberts={
+		name="Lucas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_india friend_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BRU_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ famous_businessman friend_of_france }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	BRU_john_smith={
+		name="John Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ quartermaster_general }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BRU_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BRU_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_china captain_of_industry }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	BRU_peter_taylor={
+		name="Peter Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ enemy_of_india enemy_of_china }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

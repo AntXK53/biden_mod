@@ -1,0 +1,234 @@
+﻿capital = 816
+
+oob = "MAY_2000"
+
+set_research_slots = 3
+set_convoys = 350
+set_stability = 0.4
+
+set_country_flag = country_language_malay
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank = 1 
+ 	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_rapid
+	limited_conscription
+	commonwealth_of_nations_member
+}
+
+set_country_flag = dominant_religion_islam
+set_country_flag = sunni_islam
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1999.11.29"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 5
+    nationalist = 0
+    reactionary = 5
+    conservative = 45
+    market_liberal = 10
+    social_liberal = 30
+    social_democrat = 5
+    progressive = 0
+    democratic_socialist = 0
+    communist = 0
+}
+
+recruit_character = MAY_mohd_nasir_hashim
+recruit_character = MAY_syed_husin_ketuai
+recruit_character = MAY_mahathir_mohamad
+recruit_character = MAY_abdul_taib_mahmud
+recruit_character = MAY_fadzil_noor
+recruit_character = MAY_lim_kit_siang
+recruit_character = MAY_wan_azizah_wan_ismail
+recruit_character = MAY_lim_keng_yaik
+recruit_character = MAY_joseph_kurup
+recruit_character = MAY_zulkifeli_mohd_zin
+recruit_character = MAY_raja_mohamed_affandi_raja_mohamed_noor
+recruit_character = MAY_zulkifi_zainal_abidin
+recruit_character = MAY_dato_anuwi
+recruit_character = MAY_raja_mohamed_bin_raja_mohamed_noor
+recruit_character = MAY_abdul_halim_bin_jalal
+recruit_character = MAY_affendi_bin_buang
+recruit_character = MAY_zulkiple_bin_kassim
+recruit_character = MAY_panglima_ahmad_hasbullah_bin_mohd_nawawi
+recruit_character = MAY_ackbal_bin_abdul_samad
+recruit_character = MAY_datuk_wira_zamrose_bin_mohd_zain
+recruit_character = MAY_sheikh_mokhsin_bin_sheikh_hassan
+recruit_character = MAY_pahlawan_mohd_razif_bin_idris
+recruit_character = MAY_pahlawan_haji_abu_sufian_bin_haji_ahmad
+recruit_character = MAY_hayazi_bin_abdul_aziz
+recruit_character = MAY_sultan_ibrahim
+recruit_character = MAY_ahmad_kamarulzaman_bin_haji_ahmad_badaruddin
+recruit_character = MAY_anuwi_bin_hassan
+recruit_character = MAY_aris_adi_tan_bin_abdullah
+recruit_character = MAY_mohamad_roslan_bin_mohamad_ramli
+recruit_character = MAY_zahiruddin_putra_bin_syed_osman
+recruit_character = MAY_abdul_rahman_bin_ayob
+recruit_character = MAY_jamalludin_bin_mohd_saman
+recruit_character = MAY_saifudin_bin_kamarudin
+recruit_character = MAY_mohammed_ariff_bin_mahru
+recruit_character = MAY_rusli_bin_ramli
+recruit_character = MAY_mohd_reza_bin_mohd_sany
+recruit_character = MAY_peter_roberts
+recruit_character = MAY_lucas_jones
+recruit_character = MAY_jim_taylor
+
+2013.5.5 = {
+
+	add_ideas = {
+		volunteer_only
+	}
+
+	set_politics = {
+	ruling_party = conservative
+	last_election = "2013.5.5"
+	election_frequency = 48
+	elections_allowed = yes
+	}
+
+    set_popularities = {
+        islamist = 15
+        nationalist = 5
+        reactionary = 5
+        conservative = 30
+        market_liberal = 10
+        social_liberal = 15
+        social_democrat = 20
+        progressive = 0
+        democratic_socialist = 0
+        communist = 0
+    }
+
+	create_country_leader = {
+		name = "Najib Razak"
+		desc = "POLITICIAN_MAY_NAJIB_RAZAK_DESC"
+		picture = "Najib_Razak.dds"
+		expire = "2020.1.1"
+		ideology = fiscal_conservative
+		
+		traits = {
+		
+		}
+	}
+
+	create_country_leader = {
+		name = "Adenan Satem"
+		desc = "POLITICIAN_MAY_ADENAN_SATEM_DESC"
+		picture = "Adenan_Saten.dds"
+		expire = "2020.1.1"
+		ideology = counter_progressive_democrat
+		
+		traits = {
+		
+		}
+	}
+
+	create_country_leader = {
+		name = "Abdul Hadi Awang"
+		desc = "POLITICIAN_MAY_ABDUL_HADI_AWANG_DESC"
+		picture = "Abdul_Hadi_Awang.dds"
+		expire = "2020.1.1"
+		ideology = islamic_republican
+		
+		traits = {
+		
+		}
+	}
+
+	create_country_leader = {
+		name = "Mah Siew Keong"
+		desc = "POLITICIAN_MAY_MAH_SIEW_KEONG_DESC"
+		picture = "Mah_Siew_Keong.dds"
+		expire = "2020.1.1"
+		ideology = libertarian
+		
+		traits = {
+		
+		}
+	}
+}

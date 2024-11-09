@@ -1,0 +1,166 @@
+characters={
+	HKN_tung_cheehwa={
+		name="Tung Chee-hwa"
+		portraits={
+			civilian={
+				large="gfx/leaders/HKN/Tung_Chee_Hwa.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HKN_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ enemy_of_india friend_of_america }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	HKN_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ friend_of_america }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HKN_bob_jones={
+		name="Bob Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/general2.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_japan }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	HKN_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_china }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	HKN_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_russia enemy_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	HKN_jonas_taylor={
+		name="Jonas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ quartermaster_general }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	HKN_alexander_wilson={
+		name="Alexander Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	HKN_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	HKN_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ armaments_organizer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	HKN_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	HKN_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ armaments_organizer }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

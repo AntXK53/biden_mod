@@ -1,0 +1,345 @@
+characters={
+	AZR_heydar_aliyev={
+		name="Heydar Aliyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/Heydar_Aliyev.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AZR_zakir_hasanov={
+		name="Zakir Hasanov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Zakir_Hasanov.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_najmeddin_sadikov={
+		name="Najmeddin Sadikov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Najmeddin_Sadikov.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_kerim_veliyev={
+		name="Kerim Veliyev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Kerim_Veliyev.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_fuad_mammadov={
+		name="Fuad Mammadov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Fuad_Mammadov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_ramiz_tairov={
+		name="Ramiz Tairov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Ramiz_Tairov.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_shahin_mammadov={
+		name="Shahin Mammadov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Shahin_Mammedov.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_elchin_guliyev={
+		name="Elchin Guliyev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Elchin_Gulyev.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_vagif_akhundov={
+		name="Vagif Akhundov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/generals/Vagif_Akhundov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_shahin_sultanov={
+		name="Shahin Sultanov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/AZR/admirals/Shahin_Sultanov.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	AZR_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist2.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	AZR_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_france }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	AZR_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	AZR_john_walker={
+		name="John Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ ideological_crusader }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	AZR_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	AZR_alex_white={
+		name="Alex White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_japan armaments_organizer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	AZR_johannes_taylor={
+		name="Johannes Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_india }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	AZR_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_america enemy_of_russia }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	AZR_jonas_smith={
+		name="Jonas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_india friend_of_france }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	AZR_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	AZR_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ armaments_organizer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+}

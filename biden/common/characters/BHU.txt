@@ -1,0 +1,165 @@
+characters={
+	BHU_sangay_ngedup={
+		name="Sangay Ngedup"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Sangay_Ngedup.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHU_norbhu_wangyal={
+		name="Norbhu Wangyal"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BHU_tsarong_lungshar={
+		name="Tsarong Lungshar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/general1.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ captain_of_industry }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BHU_gendün_shakabpa={
+		name="Gendün Shakabpa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_britain }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	BHU_andruk_dzasa={
+		name="Andruk Dzasa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	BHU_penor_lungshar={
+		name="Penor Lungshar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ quartermaster_general }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BHU_tsepon_chöphel={
+		name="Tsepon Chöphel"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	BHU_chamba_dzasa={
+		name="Chamba Dzasa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ smooth_talking_charmer }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	BHU_norbhu_lungshar={
+		name="Norbhu Lungshar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_america friend_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	BHU_namgang_chöphel={
+		name="Namgang Chöphel"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_china enemy_of_india }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	BHU_gendün_dzasa={
+		name="Gendün Dzasa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BHU_namgang_shatra={
+		name="Namgang Shatra"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ compassionate_gentleman }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,165 @@
+characters={
+	SAO_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_america }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SAO_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_america friend_of_america }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SAO_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ enemy_of_britain friend_of_britain }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SAO_johannes_evans={
+		name="Johannes Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_britain quartermaster_general }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	SAO_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	SAO_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	SAO_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SAO_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SAO_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	SAO_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	SAO_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ agricultural_expert }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SAO_bob_white={
+		name="Bob White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ war_industrialist }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

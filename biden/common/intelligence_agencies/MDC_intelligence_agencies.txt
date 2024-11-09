@@ -1,0 +1,30 @@
+# List of names and logos for intelligence agencies
+# available trigger will determine if the logo is in the list of available logos or not
+# names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_usa2
+	names = { "Office of Strategic Services" }
+	
+	default = { tag = USA }
+	available = { original_tag = USA }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_prc2
+	names = { "Ministry of State Security" }
+	
+	default = { tag = PRC }
+	available = { original_tag = PRC }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_sov2
+	names = { "Foreign Intelligence Service" }
+	
+	default = { tag = SOV }
+	available = { original_tag = SOV }
+}

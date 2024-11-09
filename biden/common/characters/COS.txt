@@ -1,0 +1,164 @@
+characters={
+	COS_miguel_Ángel_rodríguez_echeverría={
+		name="Miguel Ángel Rodríguez Echeverría"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/Miguel_Echevarria.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COS_máximo_quiros={
+		name="Máximo Quiros"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	COS_juan_pablo_araujo={
+		name="Juan Pablo Araujo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ enemy_of_america }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	COS_carlos_martínez={
+		name="Carlos Martínez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	COS_lorenzo_martínez={
+		name="Lorenzo Martínez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ compassionate_gentleman }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	COS_bernardo_medina={
+		name="Bernardo Medina"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	COS_benito_terán={
+		name="Benito Terán"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_germany }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	COS_doroteo_ubico={
+		name="Doroteo Ubico"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_china }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	COS_maximiliano_vasconcelos={
+		name="Maximiliano Vasconcelos"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_russia }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	COS_daniel_machado={
+		name="Daniel Machado"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	COS_ponciano_chamorro={
+		name="Ponciano Chamorro"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ compassionate_gentleman }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	COS_felipe_chamorro={
+		name="Felipe Chamorro"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

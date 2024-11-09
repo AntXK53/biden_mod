@@ -1,0 +1,165 @@
+characters={
+	STV_ralph_gonsalves={
+		name="Ralph Gonsalves"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/Ralph_Gonsalves.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_james_fitzallen_mitchell={
+		name="James Fitz-Allen Mitchell"
+		portraits={
+			civilian={
+				large="gfx/leaders/STV/James_FA_Mitchell.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STV_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ agricultural_expert friend_of_america }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	STV_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_britain fortification_engineer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	STV_lucas_smith={
+		name="Lucas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ agricultural_expert }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	STV_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ enemy_of_russia compassionate_gentleman }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	STV_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ smooth_talking_charmer }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	STV_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	STV_lucas_walker={
+		name="Lucas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	STV_jonas_white={
+		name="Jonas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	STV_marcus_white={
+		name="Marcus White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ famous_businessman friend_of_germany }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	STV_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ ideological_crusader }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

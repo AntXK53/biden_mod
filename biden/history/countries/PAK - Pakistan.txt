@@ -1,0 +1,206 @@
+﻿capital = 440
+
+oob = "PKS_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "PKS_2000_naval_mtg"
+	else = {
+		set_naval_oob = "PKS_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 2
+set_convoys = 320
+set_stability = 0.15
+
+set_country_flag = country_language_urdu
+set_country_flag = country_language_dari
+set_country_flag = country_language_pashto
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank = 1 
+ 	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 2
+	frigate1 = 1
+	frigate2 = 2
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	nukes = 1
+}
+
+give_military_access = USA
+
+set_country_flag = dominant_religion_islam
+set_country_flag = sunni_islam
+
+add_ideas = {
+	population_growth_rapid
+	commonwealth_of_nations_member
+}
+
+set_politics = {	
+	ruling_party = islamist
+	last_election = "1998.2.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    nationalist = 5
+    reactionary = 20
+    islamist = 45
+    social_liberal = 10
+    social_democrat = 6
+    communist = 14
+}
+
+recruit_character = PAK_muhammad_rafiq_tarar
+recruit_character = PAK_yakub_habeebuddin_tucy
+recruit_character = PAK_fazlurrehman
+recruit_character = PAK_pervez_musharraf
+recruit_character = PAK_mir_hasil_khan_bizenjo
+recruit_character = PAK_bilawal_bhutto_zardari
+recruit_character = PAK_altaf_hussain
+recruit_character = PAK_jameel_ahmad_malik
+recruit_character = PAK_afrasiab_khattak
+recruit_character = PAK_nawaz_sharif
+recruit_character = PAK_imran_khan
+recruit_character = PAK_ashfaq_parvez_kayani
+recruit_character = PAK_zubair_mahmood_hayat
+recruit_character = PAK_qamar_javed_bajwa
+recruit_character = PAK_azhar_saleh_abbasi
+recruit_character = PAK_raheel_sharif
+recruit_character = PAK_muhammad_aziz_khan
+recruit_character = PAK_muhammad_zafar_iqbal
+recruit_character = PAK_ishfaq_nadeem_ahmad
+recruit_character = PAK_sadiq_ali
+recruit_character = PAK_ikram_ul_haq
+recruit_character = PAK_zaheerulislam
+recruit_character = PAK_shahid_baig_mirza
+recruit_character = PAK_naveed_mukhtar
+recruit_character = PAK_sher_afgun
+recruit_character = PAK_athar_abbas
+recruit_character = PAK_nazir_ahmed_butt
+recruit_character = PAK_hidayat_ur_rehman
+recruit_character = PAK_nauman_mahmood
+recruit_character = PAK_aamer_riaz
+recruit_character = PAK_muhammad_zahid_latif_mirza
+recruit_character = PAK_khalid_rabbani
+recruit_character = PAK_mian_muhammad_hilal_hussein
+recruit_character = PAK_sohail_aman
+recruit_character = PAK_umar_farooq_burki
+recruit_character = PAK_muhammad_zakaullah
+recruit_character = PAK_hasham_siddique
+recruit_character = PAK_zafar_mahmood_abbasi
+recruit_character = PAK_shah_sohail_masood
+recruit_character = PAK_khaleem_shaukat
+recruit_character = PAK_sajid_wazir_khan
+recruit_character = PAK_mukhtar_khan
+recruit_character = PAK_moazzam_ilyas
+recruit_character = PAK_muhammad_amjad_khan_niazi
+
+
+2013.1.1 = {
+	set_politics = {		
+		ruling_party = islamist
+		last_election = "2013.5.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		nationalist = 13
+		reactionary = 20
+		islamist = 39
+		social_liberal = 10
+		progressive = 18
+	}
+	create_country_leader = {
+		name = "Mamnoon Hussain"
+		picture = "Mamnoon_Hussain.dds"
+		ideology = islamic_republican
+	}
+}
+
+2015.1.1 = {
+	set_politics = {
+		last_election = "2013.5.11"
+		elections_allowed = yes
+	}	
+}

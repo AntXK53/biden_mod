@@ -1,0 +1,165 @@
+characters={
+	BNG_sheikh_hasina={
+		name="Sheikh Hasina"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNG/Sheikh_Hasina.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BNG_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BNG_bob_williams={
+		name="Bob Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BNG_johannes_roberts={
+		name="Johannes Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_india armaments_organizer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BNG_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	BNG_jonas_smith={
+		name="Jonas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_germany enemy_of_germany }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	BNG_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ road_builder famous_businessman }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	BNG_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ smooth_talking_charmer enemy_of_america }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	BNG_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_india agricultural_expert }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BNG_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ experienced_attorney }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BNG_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BNG_alexander_walker={
+		name="Alexander Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ friend_of_japan }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+}

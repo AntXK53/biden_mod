@@ -1,0 +1,161 @@
+characters={
+	GUA_alonso_portillo={
+		name="Alonso Portillo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Alonso_Portillo.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_effrain_rios_montt={
+		name="Effrain Rios Montt"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Effrain_Rios_Montt.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_oscar_berger={
+		name="Oscar Berger"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Oscar_Berger.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_alvaro_colom={
+		name="Alvaro Colom"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Alvaro_Colom.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_otto_perez_molina={
+		name="Otto Perez Molina"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Otto_Perez_Molina.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_anibal_garcia={
+		name="Anibal Garcia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Anibal_Garcia.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_rigoberta_menchu={
+		name="Rigoberta Menchu"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/Rigoberta_Menchu.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GUA_felipe_figueroa={
+		name="Felipe Figueroa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ armaments_organizer friend_of_germany }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GUA_eduardo_arbenz={
+		name="Eduardo Arbenz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	GUA_máximo_chávez={
+		name="Máximo Chávez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_america }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	GUA_doroteo_chávez={
+		name="Doroteo Chávez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ friend_of_britain smooth_talking_charmer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	GUA_fernando_corral={
+		name="Fernando Corral"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

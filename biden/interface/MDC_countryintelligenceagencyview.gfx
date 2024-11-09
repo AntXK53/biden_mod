@@ -1,0 +1,21 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_usa2"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_usa2.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_prc2"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_prc2.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_sov2"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_sov2.dds"
+		noOfFrames = 2
+	}
+
+}

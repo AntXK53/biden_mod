@@ -1,0 +1,164 @@
+characters={
+	CHD_idriss_déby={
+		name="Idriss Déby"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHD/Idriss_Deby.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHD_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ experienced_attorney }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	CHD_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ enemy_of_germany }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	CHD_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	CHD_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CHD_marcus_roberts={
+		name="Marcus Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			traits={ enemy_of_france enemy_of_japan }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CHD_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ compassionate_gentleman experienced_attorney }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	CHD_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ agricultural_expert experienced_attorney }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	CHD_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	CHD_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	CHD_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CHD_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ enemy_of_india friend_of_britain }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,165 @@
+characters={
+	MCU_edmund_ho={
+		name="Edmund Ho"
+		portraits={
+			civilian={
+				large="gfx/leaders/MCU/Edmund_Ho.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MCU_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ friend_of_india enemy_of_russia }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MCU_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/general1.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	MCU_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	MCU_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MCU_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_india }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MCU_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_america }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	MCU_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	MCU_johannes_evans={
+		name="Johannes Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_japan }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	MCU_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_germany }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	MCU_bob_brown={
+		name="Bob Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ famous_businessman }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MCU_jim_evans={
+		name="Jim Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ compassionate_gentleman }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

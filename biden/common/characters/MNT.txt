@@ -1,0 +1,665 @@
+characters={
+	MNT_filip_vujanović={
+		name="Filip Vujanović"
+		portraits={
+			civilian={
+				large="gfx/leaders/MNT/Filip_Vujanovic.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MNT_ljubiša_jokić={
+		name="Ljubiša Jokić"
+		portraits={
+			army={
+				large="gfx/leaders/MNT/generals/Ljubisa_Jokic.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MNT_jovan_lakčević={
+		name="Jovan Lakčević"
+		portraits={
+			army={
+				large="gfx/leaders/MNT/generals/Jovan_Lakcevic.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MNT_ilija_daković={
+		name="Ilija Daković"
+		portraits={
+			army={
+				large="gfx/leaders/MNT/generals/Ilija_Dakovic.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MNT_Živko_pejović={
+		name="Živko Pejović"
+		portraits={
+			army={
+				large="gfx/leaders/MNT/generals/Zivko_Pejovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MNT_darko_vuković={
+		name="Darko Vuković"
+		portraits={
+			army={
+				large="gfx/leaders/MNT/admirals/Darko_Vukovic.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	MNT_dragan_samardžić={
+		name="Dragan Samardžić"
+		portraits={
+			army={
+				large="gfx/leaders/MNT/admirals/Dragan_Samardzic.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	MNT_jovan_maric={
+		name="Jovan Maric"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2036.6.1.12"
+			id=-1
+		}
+	}
+	MNT_goran_obrenovic={
+		name="Goran Obrenovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ friend_of_britain }
+			expire="2035.6.1.12"
+			id=-1
+		}
+	}
+	MNT_sava_ojdanic={
+		name="Sava Ojdanic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_germany friend_of_russia }
+			expire="2034.6.1.12"
+			id=-1
+		}
+	}
+	MNT_vladimir_ojdanic={
+		name="Vladimir Ojdanic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_japan friend_of_britain }
+			expire="2033.6.1.12"
+			id=-1
+		}
+	}
+	MNT_radomir_isakovic={
+		name="Radomir Isakovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_france }
+			expire="2032.6.1.12"
+			id=-1
+		}
+	}
+	MNT_koca_vojvodic={
+		name="Koca Vojvodic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			traits={ friend_of_france friend_of_britain }
+			expire="2031.6.1.12"
+			id=-1
+		}
+	}
+	MNT_stojan_vojvodic={
+		name="Stojan Vojvodic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ smooth_talking_charmer fortification_engineer }
+			expire="2030.6.1.12"
+			id=-1
+		}
+	}
+	MNT_zivota_vukotic={
+		name="Zivota Vukotic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ armaments_organizer friend_of_germany }
+			expire="2030.6.1.12"
+			id=-1
+		}
+	}
+	MNT_gavrilo_hadzilic={
+		name="Gavrilo Hadzilic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2029.6.1.12"
+			id=-1
+		}
+	}
+	MNT_krsto_radulovic={
+		name="Krsto Radulovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2028.6.1.12"
+			id=-1
+		}
+	}
+	MNT_milojko_radulovic={
+		name="Milojko Radulovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ friend_of_britain friend_of_japan }
+			expire="2027.6.1.12"
+			id=-1
+		}
+	}
+	MNT_pot={
+		advisor={
+			slot = political_advisor
+			idea_token = MNT_pot
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					prince_of_terror 
+				}
+		}
+		name="MNT_pot"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	MNT_aco2={
+		advisor={
+			slot = army_chief
+			idea_token = MNT_aco2
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					army_chief_organizational_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_aco2"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_4"
+			}
+		}
+	}
+	MNT_mt={
+		advisor={
+			slot = theorist
+			idea_token = MNT_mt
+			ledger  = army 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					military_theorist 
+				}
+		}
+		name="MNT_mt"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_6"
+			}
+		}
+	}
+	MNT_ar={
+		advisor={
+			slot = high_command
+			idea_token = MNT_ar
+			ledger  = army 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					army_regrouping_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_ar"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+	}
+	MNT_fascist_guy={
+		advisor={
+			slot = political_advisor
+			idea_token = MNT_fascist_guy
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					fascist_demagogue
+				}
+				do_effect  = {
+					not  = {
+						has_government  = fascist
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="MNT_fascist_guy"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	MNT_acd2={
+		advisor={
+			slot = army_chief
+			idea_token = MNT_acd2
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					army_chief_defensive_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_acd2"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	MNT_ncm={
+		advisor={
+			slot = navy_chief
+			idea_token = MNT_ncm
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					navy_chief_maneuver_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_ncm"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	MNT_ai2={
+		advisor={
+			slot = high_command
+			idea_token = MNT_ai2
+			ledger  = army 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					army_infantry_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_ai2"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_3"
+			}
+		}
+	}
+	MNT_acas={
+		advisor={
+			slot = high_command
+			idea_token = MNT_acas
+			ledger  = air 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					air_close_air_support_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_acas"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+	MNT_aa2={
+		advisor={
+			slot = high_command
+			idea_token = MNT_aa2
+			ledger  = army 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					army_armored_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_aa2"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	MNT_awt={
+		advisor={
+			slot = theorist
+			idea_token = MNT_awt
+			ledger  = air 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					air_warfare_theorist 
+				}
+		}
+		name="MNT_awt"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+	MNT_coi={
+		advisor={
+			slot = political_advisor
+			idea_token = MNT_coi
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+		name="MNT_coi"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
+	MNT_stc={
+		advisor={
+			slot = political_advisor
+			idea_token = MNT_stc
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+		name="MNT_stc"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+	}
+	MNT_acgs={
+		advisor={
+			slot = air_chief
+			idea_token = MNT_acgs
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					air_chief_ground_support_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_acgs"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	MNT_nccr={
+		advisor={
+			slot = navy_chief
+			idea_token = MNT_nccr
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					navy_chief_commerce_raiding_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_nccr"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	MNT_ncs={
+		advisor={
+			slot = high_command
+			idea_token = MNT_ncs
+			ledger  = navy 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					navy_capital_ship_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_ncs"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	MNT_nt={
+		advisor={
+			slot = theorist
+			idea_token = MNT_nt
+			ledger  = navy 
+				allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					naval_theorist 
+				}
+		}
+		name="MNT_nt"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	MNT_communist_guy={
+		advisor={
+			slot = political_advisor
+			idea_token = MNT_communist_guy
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					communist_revolutionary
+				}
+				do_effect  = {
+					not  = {
+						has_government  = communist
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="MNT_communist_guy"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+	}
+	MNT_acr={
+		advisor={
+			slot = air_chief
+			idea_token = MNT_acr
+			allowed  = {
+					original_tag  = MNT
+				}
+				traits  = {
+					air_chief_reform_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="MNT_acr"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+}

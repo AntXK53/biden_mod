@@ -1,0 +1,167 @@
+characters={
+	PAN_mireya_moscoso={
+		name="Mireya Moscoso"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/Mireya_Moscoso.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PAN_juan_antonio_palacios={
+		name="Juan Antonio Palacios"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_aniceto_ferrera={
+		name="Aniceto Ferrera"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ enemy_of_russia compassionate_gentleman }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_alejandro_andino={
+		name="Alejandro Andino"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ famous_businessman enemy_of_japan }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_benito_machado={
+		name="Benito Machado"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_britain enemy_of_russia }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_julio_machado={
+		name="Julio Machado"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ fortification_engineer smooth_talking_charmer }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_juan_pablo_soto={
+		name="Juan Pablo Soto"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			traits={ friend_of_britain fortification_engineer }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_arturo_soto={
+		name="Arturo Soto"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_russia friend_of_india }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_carlos_terán={
+		name="Carlos Terán"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_andrés_ubico={
+		name="Andrés Ubico"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_india famous_businessman }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_justo_carrera={
+		name="Justo Carrera"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_america }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	PAN_benito_castellanos={
+		name="Benito Castellanos"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ experienced_attorney }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+}

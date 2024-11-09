@@ -1,0 +1,165 @@
+characters={
+	KIR_teburoro_tito={
+		name="Teburoro Tito"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIR/Teburoro_Tito.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KIR_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	KIR_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	KIR_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ armaments_organizer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	KIR_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ fortification_engineer }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	KIR_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	KIR_lucas_smith={
+		name="Lucas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_russia }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	KIR_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ friend_of_america }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	KIR_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_japan }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	KIR_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_india }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	KIR_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ armaments_organizer }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	KIR_bob_brown={
+		name="Bob Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

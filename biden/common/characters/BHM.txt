@@ -1,0 +1,165 @@
+characters={
+	BHM_orville_turnquest={
+		name="Orville Turnquest"
+		portraits={
+			civilian={
+				large="gfx/leaders/BHM/Orville_Turnquest.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BHM_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	BHM_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ famous_businessman }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BHM_marcus_jones={
+		name="Marcus Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ experienced_attorney compassionate_gentleman }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BHM_jonas_jones={
+		name="Jonas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ compassionate_gentleman enemy_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BHM_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	BHM_peter_brown={
+		name="Peter Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	BHM_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_japan }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	BHM_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_france friend_of_america }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BHM_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_britain friend_of_japan }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	BHM_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BHM_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ fortification_engineer smooth_talking_charmer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

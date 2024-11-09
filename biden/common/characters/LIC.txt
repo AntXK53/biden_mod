@@ -1,0 +1,165 @@
+characters={
+	LIC_mario_frick={
+		name="Mario Frick"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIC/Mario_Frick.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIC_peter_schulz={
+		name="Peter Schulz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_japan }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	LIC_hermann_meyer={
+		name="Hermann Meyer"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_britain enemy_of_britain }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	LIC_peter_becker={
+		name="Peter Becker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	LIC_hermann_behrmann={
+		name="Hermann Behrmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	LIC_peter_hafner={
+		name="Peter Hafner"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	LIC_heinrich_wilbs={
+		name="Heinrich Wilbs"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ ideological_crusader armaments_organizer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	LIC_erich_hoffmann={
+		name="Erich Hoffmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ friend_of_america }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	LIC_heinrich_schmidt={
+		name="Heinrich Schmidt"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_france }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	LIC_fritz_behrmann={
+		name="Fritz Behrmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_britain armaments_organizer }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	LIC_fritz_berglen={
+		name="Fritz Berglen"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	LIC_erich_graf={
+		name="Erich Graf"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

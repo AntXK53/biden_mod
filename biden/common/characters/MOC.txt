@@ -1,0 +1,166 @@
+characters={
+	MOC_patrick_leclercq={
+		name="Patrick Leclercq"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOC/Patrick_Leclercq.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MOC_joseph_joffre={
+		name="Joseph Joffre"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ armaments_organizer ideological_crusader }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	MOC_alphonse_billot={
+		name="Alphonse Billot"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ enemy_of_india }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	MOC_charles_davout={
+		name="Charles Davout"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ armaments_organizer friend_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MOC_hubert_hoche={
+		name="Hubert Hoche"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	MOC_lazare_vaillant={
+		name="Lazare Vaillant"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ agricultural_expert }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	MOC_armand_de_saint_arnaud={
+		name="Armand de Saint Arnaud"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			traits={ friend_of_russia enemy_of_china }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MOC_jules_petain={
+		name="Jules Petain"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	MOC_jean_bugeaud={
+		name="Jean Bugeaud"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_america }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	MOC_leroy_gallieni={
+		name="Leroy Gallieni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ ideological_crusader enemy_of_japan }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	MOC_augustin_billot={
+		name="Augustin Billot"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	MOC_léopold_bouëtwillaumez={
+		name="Léopold Bouët-Willaumez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ fortification_engineer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+}

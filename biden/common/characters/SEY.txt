@@ -1,0 +1,165 @@
+characters={
+	SEY_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	SEY_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	SEY_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_china }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SEY_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_america }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SEY_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SEY_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	SEY_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ famous_businessman enemy_of_russia }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	SEY_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ armaments_organizer ideological_crusader }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	SEY_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_india friend_of_france }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	SEY_marcus_wilson={
+		name="Marcus Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SEY_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ smooth_talking_charmer enemy_of_china }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SEY_jonas_smith={
+		name="Jonas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ enemy_of_russia friend_of_britain }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

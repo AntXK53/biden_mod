@@ -1,0 +1,161 @@
+characters={
+	COM_ahmed_abdallah_sambi={
+		name="Ahmed Abdallah Sambi"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Ahmed_Sambi.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_azali_assoumani={
+		name="Azali Assoumani"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Azali_Assoumani.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_ikililou_dhoinine={
+		name="Ikililou Dhoinine"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Ikililou_Dhoinine.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_abbas_djoussouf={
+		name="Abbas Djoussouf"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Abbas_Djoussouf.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COM_jim_smith={
+		name="Jim Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	COM_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ war_industrialist }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	COM_jonas_jones={
+		name="Jonas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	COM_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ captain_of_industry }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	COM_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	COM_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ captain_of_industry compassionate_gentleman }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	COM_johannes_roberts={
+		name="Johannes Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	COM_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

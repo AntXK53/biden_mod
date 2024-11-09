@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_abk_sultan_sosnaliyev_large"
+		texturefile = "gfx/leaders/ABK/generals/sultan_sosnaliyev.dds.dds"
+	}
+}

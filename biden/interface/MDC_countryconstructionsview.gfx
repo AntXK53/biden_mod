@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_constructions_bg5"
+		textureFile = "gfx//interface//constructions_bg5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_industry_trade_icon"
+		textureFile = "gfx//interface//trade_button.dds"
+	}
+}

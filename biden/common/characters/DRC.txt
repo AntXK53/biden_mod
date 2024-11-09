@@ -1,0 +1,163 @@
+characters={
+	DRC_laurentdésiré_kabila={
+		name="Laurent-Désiré Kabila"
+		portraits={
+			civilian={
+				large="gfx/leaders/DRC/Laurent_Desire_Kabila.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DRC_gustave_blanc={
+		name="Gustave Blanc"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	DRC_theo_durand={
+		name="Theo Durand"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ smooth_talking_charmer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	DRC_frédéric_dupont={
+		name="Frédéric Dupont"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	DRC_mathieu_guerin={
+		name="Mathieu Guerin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	DRC_benjamin_garcia={
+		name="Benjamin Garcia"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	DRC_hugo_lefebvre={
+		name="Hugo Lefebvre"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	DRC_benoit_laurent={
+		name="Benoit Laurent"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	DRC_dylan_martinez={
+		name="Dylan Martinez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	DRC_vincent_leroy={
+		name="Vincent Leroy"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	DRC_dylan_legrand={
+		name="Dylan Legrand"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_russia }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	DRC_vincent_bernard={
+		name="Vincent Bernard"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ road_builder }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

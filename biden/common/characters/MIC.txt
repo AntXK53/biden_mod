@@ -1,0 +1,168 @@
+characters={
+	MIC_alexander_roberts={
+		name="Alexander Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ famous_businessman }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	MIC_marcus_evans={
+		name="Marcus Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	MIC_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ smooth_talking_charmer armaments_organizer }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	MIC_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ agricultural_expert }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	MIC_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ compassionate_gentleman }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	MIC_marcus_jones={
+		name="Marcus Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_japan }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MIC_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ enemy_of_china road_builder }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MIC_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_france }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	MIC_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_russia }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	MIC_lucas_smith={
+		name="Lucas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ road_builder }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MIC_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_america quartermaster_general }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	MIC_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

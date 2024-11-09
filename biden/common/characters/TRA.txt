@@ -1,0 +1,164 @@
+characters={
+	TRA_Ígor_smirnov={
+		name="Ígor Smirnov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRA/Igor_Smirnov.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRA_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	TRA_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_india enemy_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	TRA_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_japan }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	TRA_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	TRA_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ enemy_of_france enemy_of_japan }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	TRA_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ ideological_crusader }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	TRA_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ compassionate_gentleman }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	TRA_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	TRA_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	TRA_peter_smith={
+		name="Peter Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_india }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	TRA_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

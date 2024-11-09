@@ -1,0 +1,164 @@
+characters={
+	TAT_basdeo_panday={
+		name="Basdeo Panday"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Bandeo_Panday.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_keith_rowley={
+		name="Keith Rowley"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAT/Keith_Rowley.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAT_benjamin_caldwell={
+		name="Benjamin Caldwell"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ smooth_talking_charmer enemy_of_china }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	TAT_matthew_doubleday={
+		name="Matthew Doubleday"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	TAT_ambrose_potter={
+		name="Ambrose Potter"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	TAT_william_stevenson={
+		name="William Stevenson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	TAT_charles_johnson={
+		name="Charles Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ armaments_organizer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	TAT_carnot_anderson={
+		name="Carnot Anderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ smooth_talking_charmer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	TAT_louis_benning={
+		name="Louis Benning"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_france enemy_of_britain }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	TAT_joseph_bee={
+		name="Joseph Bee"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	TAT_norton_smith={
+		name="Norton Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ armaments_organizer }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TAT_leonida_custer={
+		name="Leonida Custer"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ enemy_of_germany enemy_of_india }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

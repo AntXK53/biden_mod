@@ -1,0 +1,184 @@
+characters={
+	ZAM_frederick_chiluba={
+		name="Frederick Chiluba"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Frederick_Chiluba.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_hakainde_hichilema={
+		name="Hakainde Hichilema"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Hakainde_Hichilema.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_michael_sata={
+		name="Michael Sata"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Michael_Sata.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_elias_chipimo_jr.={
+		name="Elias Chipimo Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Elias_Chipimo.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_godfrey_miyanda={
+		name="Godfrey Miyanda"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAM/Godfrey_Miyanda.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAM_nathan_mulenga={
+		name="Nathan Mulenga"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ZAM/generals/Nathan_Mulenga.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ZAM_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ enemy_of_america }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	ZAM_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ road_builder friend_of_america }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ZAM_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_germany }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	ZAM_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ enemy_of_china }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	ZAM_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_britain }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	ZAM_jonas_roberts={
+		name="Jonas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_india }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	ZAM_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ friend_of_france }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+}

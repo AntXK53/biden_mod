@@ -1,0 +1,163 @@
+characters={
+	CHE_aslan_mashadov={
+		name="Aslan Mashadov"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHE/Aslan_Mashadov.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CHE_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	CHE_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_india }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	CHE_alex_wilson={
+		name="Alex Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	CHE_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_britain }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	CHE_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	CHE_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_america }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	CHE_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	CHE_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_germany }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CHE_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CHE_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ compassionate_gentleman enemy_of_france }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CHE_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

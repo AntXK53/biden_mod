@@ -1,0 +1,165 @@
+characters={
+	MLD_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MLD_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MLD_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ ideological_crusader }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MLD_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ enemy_of_britain }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MLD_johannes_white={
+		name="Johannes White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MLD_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ road_builder enemy_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MLD_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	MLD_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ captain_of_industry enemy_of_russia }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MLD_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_britain friend_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MLD_jonas_roberts={
+		name="Jonas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	MLD_jonas_smith={
+		name="Jonas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_britain }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	MLD_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+}

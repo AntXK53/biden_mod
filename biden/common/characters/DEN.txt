@@ -1,0 +1,1558 @@
+characters={
+	DEN_poul_nyrup_rasmussen={
+		name="Poul Nyrup Rasmussen"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Poul_Nyrup_Rasmussen.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_holger_k._nielsen={
+		name="Holger K. Nielsen"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Holger_K_Nielsen.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_henrik_stamer_hedin={
+		name="Henrik Stamer Hedin"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Henrik_Stamer_Hedin.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_collective_leadership={
+		name="Collective Leadership"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/enhedslisten.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_anders_fogh_rasmussen={
+		name="Anders Fogh Rasmussen"
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_anders_fogh_rasmussen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					warmonger 
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_anders_fogh_rasmussen"
+			}
+			civilian={
+				large="gfx/leaders/DEN/Anders_Fogh_Rasmussen.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_bendt_bendtsen={
+		name="Bendt Bendtsen"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Bendt_Bendtsen.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_pia_kjaersgaard={
+		name="Pia Kjaersgaard"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Pia_Kjaersgaard.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_marianne_jelved={
+		name="Marianne Jelved"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Marianne_Jelved.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_jonni_hansen={
+		name="Jonni Hansen"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Jonni_Hansen.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_fadi_abdullatif={
+		name="Fadi Abdullatif"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Fadi_Abdullatif.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_adam_wagner={
+		name="Adam Wagner"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Adam_Wagner.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_margrethe_ii={
+		name="Margrethe II"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Margrethe.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_bjørn_ingemann_bisserup={
+		name="Bjørn Ingemann Bisserup"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Bjoern_Bisserup.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_peter_bartram={
+		name="Peter Bartram"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Peter_Bartram.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inspirational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_per_ludvigsen={
+		name="Per Ludvigsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Per_Ludvigsen.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_hanschristian_mathiesen={
+		name="Hans-Christian Mathiesen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Hans-Christian_Mathiesen.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_flemming_lentfer={
+		name="Flemming Lentfer"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Fleming_Lentfer.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_flemming_mathiasen={
+		name="Flemming Mathiasen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Fleming_Mathiasen.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_henning_bæk={
+		name="Henning Bæk"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Henning_Baek.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jørgen_høll={
+		name="Jørgen Høll"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Joergen_Hoell.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_kim_jesper_jørgensen={
+		name="Kim Jesper Jørgensen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Kim_Joergensen.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando winter_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_finn_winkler={
+		name="Finn Winkler"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Finn_Winkler.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_max_alt_nielsen={
+		name="Max ALT Nielsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Max_Nielsen.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_christian_lippert={
+		name="Christian Lippert"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Christian_Lippert.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_lennie_fredskov_hansen={
+		name="Lennie Fredskov Hansen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Lennie_Fredskov.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jørn_e._rasmussen={
+		name="Jørn E. Rasmussen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Joern_Rasmussen.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_per_orluff_knudsen={
+		name="Per Orluff Knudsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Per_Knudsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jens_ole_rossenjørgensen={
+		name="Jens Ole Rossen-Jørgensen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Jens_Joergensen.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_lasse_harkjær={
+		name="Lasse Harkjær"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Lasse_Harkjaer.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_søren_andersen={
+		name="Søren Andersen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Soeren_Andersen.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_bjarne_højgaard_jensen={
+		name="Bjarne Højgaard Jensen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Bjarne_Jensen.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_annecathrine_ribnietzky={
+		name="Anne-Cathrine Ribnietzky"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Anne-Cathrine_Ribnietzky.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_lars_r._møller={
+		name="Lars R. Møller"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Lars_Moeller.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_per_hinrichsen={
+		name="Per Hinrichsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Per_Hinrichsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jess_møller_nielsen={
+		name="Jess Møller Nielsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Jess_Nielsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_henrik_holm={
+		name="Henrik Holm"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Henrik_Holm.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_birger_mejlholm={
+		name="Birger Mejlholm"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Birger_Mejlholm.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_christian_arildsen={
+		name="Christian Arildsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Christian_Arildsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_kåre_jakobsen={
+		name="Kåre Jakobsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Kare_Jakobsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_stig_Østergaard_nielsen={
+		name="Stig Østergaard Nielsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Stig_Nielsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando winter_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jens_bach={
+		name="Jens Bach"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Jens_Bach.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_steen_kobberøhansen={
+		name="Steen Kobberø-Hansen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Steen_Hansen.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_frank_trojahn={
+		name="Frank Trojahn"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Frank_Trojahn.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_aage_buur_jensen={
+		name="Aage Buur Jensen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Aage_Jensen.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_finn_hansen={
+		name="Finn Hansen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Finn_Hansen.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_peter_stamp={
+		name="Peter Stamp"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Peter_Stamp.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_carsten_fjordlarsen={
+		name="Carsten Fjord-Larsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Carsten_Fjord-Larsen.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_anders_friis={
+		name="Anders Friis"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Anders_Friis.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_torben_mikkelsen={
+		name="Torben Mikkelsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Torben_Mikkelsen.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_henrik_ryberg={
+		name="Henrik Ryberg"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Henrik_Ryberg.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_advisor_DEN_ralf_pittelkow={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_ralf_pittelkow
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					backroom_backstabber 
+				}
+		}
+		name="advisor_DEN_ralf_pittelkow"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_ralf_pittelkow"
+			}
+		}
+	}
+	DEN_advisor_DEN_ellen_margrethe_loej={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_ellen_margrethe_loej
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+		name="advisor_DEN_ellen_margrethe_loej"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_ellen_margrethe_loej"
+			}
+		}
+	}
+	DEN_advisor_DEN_kim_larsen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_kim_larsen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					popular_figurehead 
+				}
+		}
+		name="advisor_DEN_kim_larsen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_kim_larsen"
+			}
+		}
+	}
+	DEN_advisor_DEN_martin_krasnik={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_martin_krasnik
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					public_moderator 
+				}
+		}
+		name="advisor_DEN_martin_krasnik"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_martin_krasnik"
+			}
+		}
+	}
+	DEN_advisor_DEN_jan_falck-schmidt={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_jan_falck-schmidt
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					war_industrialist 
+				}
+		}
+		name="advisor_DEN_jan_falck-schmidt"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_jan_falck-schmidt"
+			}
+		}
+	}
+	DEN_advisor_DEN_hans_skov_christensen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_hans_skov_christensen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+		name="advisor_DEN_hans_skov_christensen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_hans_skov_christensen"
+			}
+		}
+	}
+	DEN_advisor_DEN_christopher_arzrouni={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_christopher_arzrouni
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					ideological_crusader market_liberal_party_membership 
+				}
+		}
+		name="advisor_DEN_christopher_arzrouni"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_christopher_arzrouni"
+			}
+		}
+	}
+	DEN_advisor_DEN_kjeld_kirk_kristiansen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_kjeld_kirk_kristiansen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					famous_businessman 
+				}
+		}
+		name="advisor_DEN_kjeld_kirk_kristiansen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_kjeld_kirk_kristiansen"
+			}
+		}
+	}
+	DEN_advisor_DEN_lars_seier_christensen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_lars_seier_christensen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					international_banker market_liberal_party_membership 
+				}
+		}
+		name="advisor_DEN_lars_seier_christensen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_lars_seier_christensen"
+			}
+		}
+	}
+	DEN_advisor_DEN_daniel_carlsen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_daniel_carlsen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					fascist_politician 
+				}
+		}
+		name="advisor_DEN_daniel_carlsen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_daniel_carlsen"
+			}
+		}
+	}
+	DEN_advisor_DEN_zenia_stampe={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_zenia_stampe
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					social_liberal_politician 
+				}
+		}
+		name="advisor_DEN_zenia_stampe"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_zenia_stampe"
+			}
+		}
+	}
+	DEN_advisor_DEN_jens_bigum={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_jens_bigum
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					agricultural_expert 
+				}
+		}
+		name="advisor_DEN_jens_bigum"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_jens_bigum"
+			}
+		}
+	}
+	DEN_advisor_DEN_prince_joachim={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_prince_joachim
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					monarchist_politician 
+				}
+		}
+		name="advisor_DEN_prince_joachim"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_prince_joachim"
+			}
+		}
+	}
+	DEN_advisor_DEN_poul_kiaerskou={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_poul_kiaerskou
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					quartermaster_general 
+				}
+		}
+		name="advisor_DEN_poul_kiaerskou"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_poul_kiaerskou"
+			}
+		}
+	}
+	DEN_advisor_DEN_ena_bjerregaard={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_ena_bjerregaard
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					armaments_organizer 
+				}
+		}
+		name="advisor_DEN_ena_bjerregaard"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_ena_bjerregaard"
+			}
+		}
+	}
+	DEN_advisor_DEN_kaj_ikast={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_kaj_ikast
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					road_builder conservative_party_membership 
+				}
+		}
+		name="advisor_DEN_kaj_ikast"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_kaj_ikast"
+			}
+		}
+	}
+	DEN_advisor_DEN_bodil_nyboe_andersen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_bodil_nyboe_andersen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					financial_veteran 
+				}
+		}
+		name="advisor_DEN_bodil_nyboe_andersen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_bodil_nyboe_andersen"
+			}
+		}
+	}
+	DEN_advisor_DEN_uffe_elbaek={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_uffe_elbaek
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					compassionate_gentleman progressive_party_membership 
+				}
+		}
+		name="advisor_DEN_uffe_elbaek"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_uffe_elbaek"
+			}
+		}
+	}
+	DEN_advisor_DEN_soeren_soendergaard={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_soeren_soendergaard
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					democratic_socialist_politician 
+				}
+		}
+		name="advisor_DEN_soeren_soendergaard"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_soeren_soendergaard"
+			}
+		}
+	}
+	DEN_advisor_DEN_jorgen_o_hjorth={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_jorgen_o_hjorth
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					external_intelligence_officer 
+				}
+		}
+		name="advisor_DEN_jorgen_o_hjorth"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_jorgen_o_hjorth"
+			}
+		}
+	}
+	DEN_advisor_DEN_erik_ostergaard={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_erik_ostergaard
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					fortification_engineer 
+				}
+		}
+		name="advisor_DEN_erik_ostergaard"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_erik_ostergaard"
+			}
+		}
+	}
+	DEN_advisor_DEN_bjorn_elmquist={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_bjorn_elmquist
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					experienced_attorney 
+				}
+		}
+		name="advisor_DEN_bjorn_elmquist"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_bjorn_elmquist"
+			}
+		}
+	}
+	DEN_advisor_DEN_betty_frydensbjerg_carlsson={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_betty_frydensbjerg_carlsson
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					communist_politician 
+				}
+		}
+		name="advisor_DEN_betty_frydensbjerg_carlsson"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_betty_frydensbjerg_carlsson"
+			}
+		}
+	}
+	DEN_advisor_DEN_hans_jensen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_hans_jensen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					social_democrat_politician 
+				}
+		}
+		name="advisor_DEN_hans_jensen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_hans_jensen"
+			}
+		}
+	}
+	DEN_advisor_DEN_anders_samuelsen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_anders_samuelsen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					market_liberal_politician 
+				}
+		}
+		name="advisor_DEN_anders_samuelsen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_anders_samuelsen"
+			}
+		}
+	}
+	DEN_advisor_DEN_karsten_dybvad={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_karsten_dybvad
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					silent_workhorse social_democrat_party_membership 
+				}
+		}
+		name="advisor_DEN_karsten_dybvad"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_karsten_dybvad"
+			}
+		}
+	}
+	DEN_advisor_DEN_eva_smith={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_eva_smith
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					staunch_constitutionalist 
+				}
+		}
+		name="advisor_DEN_eva_smith"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_eva_smith"
+			}
+		}
+	}
+	DEN_advisor_DEN_mads_holger={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_mads_holger
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					conservative_politician 
+				}
+		}
+		name="advisor_DEN_mads_holger"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_mads_holger"
+			}
+		}
+	}
+	DEN_advisor_DEN_abu_laban={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_abu_laban
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					islamist_politician 
+				}
+		}
+		name="advisor_DEN_abu_laban"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_abu_laban"
+			}
+		}
+	}
+	DEN_advisor_DEN_soeren_krarup={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_soeren_krarup
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					reactionary_politician 
+				}
+		}
+		name="advisor_DEN_soeren_krarup"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_soeren_krarup"
+			}
+		}
+	}
+	DEN_advisor_DEN_birgitte_stampe={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_birgitte_stampe
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					internal_intelligence_officer 
+				}
+		}
+		name="advisor_DEN_birgitte_stampe"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_birgitte_stampe"
+			}
+		}
+	}
+	DEN_advisor_DEN_poul_henrik_harritz={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_poul_henrik_harritz
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					environmentalist 
+				}
+		}
+		name="advisor_DEN_poul_henrik_harritz"
+		portraits={
+			army={
+				small="GFX_idea_poul_henrik_harritz"
+			}
+		}
+	}
+	DEN_advisor_DEN_maersk_mc-kinney_moeller={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_maersk_mc-kinney_moeller
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					naval_industrialist 
+				}
+		}
+		name="advisor_DEN_maersk_mc-kinney_moeller"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_maersk_mc-kinney_moeller"
+			}
+		}
+	}
+	DEN_advisor_DEN_elisabeth_moeller_jensen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_elisabeth_moeller_jensen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					progressive_politician 
+				}
+		}
+		name="advisor_DEN_elisabeth_moeller_jensen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_elisabeth_moeller_jensen"
+			}
+		}
+	}
+	DEN_advisor_DEN_soeren_hviid_pedersen={
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_DEN_soeren_hviid_pedersen
+			allowed  = {
+					original_tag  = DEN
+				}
+				traits  = {
+					nationalist_politician 
+				}
+		}
+		name="advisor_DEN_soeren_hviid_pedersen"
+		portraits={
+			army={
+				small="GFX_idea_advisor_DEN_soeren_hviid_pedersen"
+			}
+		}
+	}
+}

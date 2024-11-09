@@ -1,0 +1,164 @@
+characters={
+	SAM_gianfranco_terenzi={
+		name="Gianfranco Terenzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAM/Gianfranco_Terenzi.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAM_oreste_pecorigiraldi={
+		name="Oreste Pecori-Giraldi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_germany }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SAM_carlo_cagni={
+		name="Carlo Cagni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_china }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SAM_matteo_pecorigiraldi={
+		name="Matteo Pecori-Giraldi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	SAM_enrico_cagni={
+		name="Enrico Cagni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SAM_antonio_orengo={
+		name="Antonio Orengo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SAM_davide_cagni={
+		name="Davide Cagni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SAM_paolo_pelloux={
+		name="Paolo Pelloux"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SAM_nicola_cagni={
+		name="Nicola Cagni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ captain_of_industry }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	SAM_camillo_pallavicino={
+		name="Camillo Pallavicino"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_russia }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	SAM_ettore_baldissera={
+		name="Ettore Baldissera"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ road_builder }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SAM_prospero_la_màrmora={
+		name="Prospero La Màrmora"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,164 @@
+characters={
+	MAU_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ smooth_talking_charmer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MAU_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MAU_bob_taylor={
+		name="Bob Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_russia }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	MAU_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MAU_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	MAU_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MAU_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	MAU_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_america }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MAU_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	MAU_johannes_taylor={
+		name="Johannes Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_france enemy_of_france }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MAU_johannes_roberts={
+		name="Johannes Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ agricultural_expert friend_of_france }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	MAU_bob_brown={
+		name="Bob Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=juche
+			traits={ smooth_talking_charmer friend_of_britain }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+}

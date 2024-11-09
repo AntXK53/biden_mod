@@ -1,0 +1,463 @@
+characters={
+	HUN_viktor_orbán={
+		name="Viktor Orbán"
+		portraits={
+			civilian={
+				large="gfx/leaders/HUN/Viktor_Orban.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HUN_tibor_benkő={
+		name="Tibor Benkő"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Tibor_Benko.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_albert_sáfár={
+		name="Albert Sáfár"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Albert_Safar.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_attila_takács={
+		name="Attila Takács"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Attila_Takacs.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_gabor_horvath={
+		name="Gabor Horvath"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Gabor_Horvath.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_tamás_fekete={
+		name="Tamás Fekete"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Tamas_Fekete.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_józsef_szpisják={
+		name="József Szpisják"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Jozsef_Szpisjak.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_romulusz_ruszin={
+		name="Romulusz Ruszin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Ruszin_Romulusz.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_lászló_drót={
+		name="László Drót"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Laszlo_Drot.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_józsef_kovács={
+		name="József Kovács"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Josef_Kovacs.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_jószef_horvath={
+		name="Jószef Horvath"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Joszef_Horvath.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_sandor_fucsku={
+		name="Sandor Fucsku"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Sandor_Fucsku.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_lászló_domján={
+		name="László Domján"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Laszlo_Domjan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_jános_huszár={
+		name="János Huszár"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Janos_Huszar.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_zoltan_mihocza={
+		name="Zoltan Mihocza"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Zoltan_Mihocza.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_lászló_gangler={
+		name="László Gangler"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Laszlo_Gangler.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_izidor_poeltenberg={
+		name="Izidor Poeltenberg"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ fortification_engineer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	HUN_kálmán_tersztyansky={
+		name="Kálmán Tersztyansky"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	HUN_gábor_apponyi={
+		name="Gábor Apponyi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	HUN_béla_kiss={
+		name="Béla Kiss"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ road_builder }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HUN_imre_mikszáth={
+		name="Imre Mikszáth"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	HUN_józsef_reményi={
+		name="József Reményi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ smooth_talking_charmer enemy_of_india }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	HUN_ferencz_lahner={
+		name="Ferencz Lahner"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	HUN_aurél_horthy={
+		name="Aurél Horthy"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ captain_of_industry }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	HUN_ignác_varga={
+		name="Ignác Varga"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	HUN_virág_perczel={
+		name="Virág Perczel"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	HUN_albert_kogutowicz={
+		name="Albert Kogutowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ enemy_of_america friend_of_china }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,164 @@
+characters={
+	NCY_rauf_denktaş={
+		name="Rauf Denktaş"
+		portraits={
+			civilian={
+				large="gfx/leaders/NCY/Rauf_Denktas.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NCY_mustafa_akıncı={
+		name="Mustafa Akıncı"
+		portraits={
+			civilian={
+				large="gfx/leaders/NCY/Mustafa_Akinci.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NCY_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=gaullist
+			traits={ friend_of_britain }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	NCY_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_china enemy_of_america }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	NCY_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_america fortification_engineer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	NCY_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ quartermaster_general compassionate_gentleman }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	NCY_alex_williams={
+		name="Alex Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	NCY_bob_wilson={
+		name="Bob Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	NCY_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ quartermaster_general }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	NCY_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	NCY_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	NCY_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ armaments_organizer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

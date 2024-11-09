@@ -1,0 +1,163 @@
+characters={
+	JAM_p._j._patterson={
+		name="P. J. Patterson"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAM/PJ_Patterson.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JAM_john_bates={
+		name="John Bates"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ ideological_crusader }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	JAM_raphael_lyon={
+		name="Raphael Lyon"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ enemy_of_japan smooth_talking_charmer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	JAM_cadmus_rosencrans={
+		name="Cadmus Rosencrans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	JAM_felix_tyler={
+		name="Felix Tyler"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	JAM_luke_floyd={
+		name="Luke Floyd"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	JAM_eugene_pillow={
+		name="Eugene Pillow"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	JAM_albert_johnston={
+		name="Albert Johnston"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	JAM_leslie_waterhouse={
+		name="Leslie Waterhouse"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ road_builder }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	JAM_richard_powell={
+		name="Richard Powell"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	JAM_lawrence_farnsworth={
+		name="Lawrence Farnsworth"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	JAM_jeffrey_heintzelman={
+		name="Jeffrey Heintzelman"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ quartermaster_general }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+}

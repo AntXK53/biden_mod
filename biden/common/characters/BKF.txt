@@ -1,0 +1,163 @@
+characters={
+	BKF_blaise_compaore={
+		name="Blaise Compaore"
+		portraits={
+			civilian={
+				large="gfx/leaders/BKF/Blaise_Compaore.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BKF_koch_marc_christian_kabore={
+		name="Koch Marc Christian Kabore"
+		portraits={
+			civilian={
+				large="gfx/leaders/BKF/Koch_Marc_Christian_Kabore.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BKF_alex_wilson={
+		name="Alex Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ road_builder captain_of_industry }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	BKF_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	BKF_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ famous_businessman }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	BKF_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ enemy_of_germany }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BKF_alexander_smith={
+		name="Alexander Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ enemy_of_germany }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	BKF_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BKF_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	BKF_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_china }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	BKF_bob_brown={
+		name="Bob Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BKF_john_evans={
+		name="John Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

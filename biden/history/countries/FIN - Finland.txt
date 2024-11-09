@@ -1,0 +1,240 @@
+﻿capital = 111
+
+oob = "FIN_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "FIN_2000_naval_mtg"
+	else = {
+		set_naval_oob = "FIN_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.55
+
+set_country_flag = country_language_finnish
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank = 1 
+ 	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+
+
+
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_stagnation
+	free_trade
+	idea_eu_member
+	limited_conscription
+	finnish_neutrality
+}
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1999.3.21"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    nationalist = 1
+    reactionary = 1
+    conservative = 4
+    market_liberal = 21
+    social_liberal = 27
+    social_democrat = 27
+    progressive = 7
+    democratic_socialist = 11
+    communist = 1
+}
+
+recruit_character = FIN_paavo_lipponen
+recruit_character = FIN_juha_sipilä
+recruit_character = FIN_esa_henrik_holappa
+recruit_character = FIN_olavi_maenpaa
+recruit_character = FIN_timo_soini
+recruit_character = FIN_bjarne_kallis
+recruit_character = FIN_sauli_niinisto
+recruit_character = FIN_anneli_jaatteenmaki
+recruit_character = FIN_satu_hassi
+recruit_character = FIN_suvianne_siimesn
+recruit_character = FIN_hannu_harju
+recruit_character = FIN_seppo_toivonen
+recruit_character = FIN_jarmo_lindberg
+recruit_character = FIN_petri_hulkko
+recruit_character = FIN_pekka_järvi
+recruit_character = FIN_ahti_kurvinen
+recruit_character = FIN_antti_lehtisalo
+recruit_character = FIN_vesa_virtanen
+recruit_character = FIN_jari_kallio
+recruit_character = FIN_artopekka_nurminen
+recruit_character = FIN_ali_mättölä
+recruit_character = FIN_ilkka_laitinen
+recruit_character = FIN_kim_jäämeri
+recruit_character = FIN_kyösti_halonen
+recruit_character = FIN_eero_pyötsiä
+recruit_character = FIN_timo_kivinen
+recruit_character = FIN_markku_myllykangas
+recruit_character = FIN_pasi_velimäki
+recruit_character = FIN_timo_kakkola
+recruit_character = FIN_sampo_eskelinen
+recruit_character = FIN_harri_ohraaho
+recruit_character = FIN_kjell_törner
+recruit_character = FIN_esa_pulkkinen
+recruit_character = FIN_juha_rannikko
+recruit_character = FIN_kari_takanen
+recruit_character = FIN_veijo_teipalus
+recruit_character = FIN_erkki_mikkola
+recruit_character = FIN_juha_vauhkonen
+recruit_character = FIN_timo_hirvonen
+recruit_character = FIN_mikko_törni
+recruit_character = FIN_erikki_marttinen
+
+2002.1.1 = {
+	add_ideas = the_euro
+}
+
+2015.1.1 = {
+	
+	create_country_leader = {
+		name = "Sari Essayah"
+		picture = "Sari_Essayah.dds"
+		ideology = christian_democrat
+	}
+		
+	create_country_leader = {
+		name = "Alexander Stubb"
+		picture = "Alexander_Stubb.dds"
+		ideology = libertarian
+	}
+		
+	create_country_leader = {
+		name = "Juha Sipila"
+		picture = "Juha_Sipila.dds"
+		ideology = moderate
+	}
+		
+	create_country_leader = {
+		name = "Antti Rinne"
+		picture = "Antti_Rinne.dds"
+		ideology = social_democrat_ideology
+	}
+		
+	create_country_leader = {
+		name = "Ville Niinisto"
+		picture = "Ville_Niinisto.dds"
+		ideology = progressive_ideology
+	}
+		
+	create_country_leader = {
+		name = "Li Andersson"
+		picture = "Li_Andersson.dds"
+		ideology = democratic_socialist_ideology
+	}
+}
+
+2016.1.1 = {
+
+	oob = "FIN_2016"
+	
+	set_politics = {
+		ruling_party = social_liberal
+		last_election = "2015.4.19"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	set_popularities = {
+		reactionary = 16.9
+		conservative = 4
+		market_liberal = 18.5
+		social_liberal = 27.3
+		social_democrat = 16.1
+		progressive = 9.6
+		democratic_socialist = 7.4
+		communist = 0.2
+	}
+}

@@ -1,0 +1,165 @@
+characters={
+	UZB_islam_karimov={
+		name="Islam Karimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Islam_Karimov.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ smooth_talking_charmer enemy_of_russia }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	UZB_peter_brown={
+		name="Peter Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_britain }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	UZB_jonas_smith={
+		name="Jonas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_france enemy_of_america }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	UZB_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ experienced_attorney }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	UZB_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_britain fortification_engineer }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	UZB_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	UZB_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	UZB_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	UZB_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	UZB_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ agricultural_expert }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	UZB_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ friend_of_china }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

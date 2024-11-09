@@ -1,0 +1,166 @@
+characters={
+	IVO_laurent_gbagbo={
+		name="Laurent Gbagbo"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Laurent_Gbagbo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2011.4.11.1"
+			id=-1
+		}
+	}
+	IVO_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	IVO_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ ideological_crusader smooth_talking_charmer }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	IVO_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_china famous_businessman }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	IVO_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ experienced_attorney enemy_of_china }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	IVO_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	IVO_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	IVO_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ fortification_engineer }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	IVO_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ war_industrialist }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	IVO_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_india friend_of_germany }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	IVO_lucas_evans={
+		name="Lucas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ agricultural_expert enemy_of_india }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	IVO_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ enemy_of_britain fortification_engineer }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

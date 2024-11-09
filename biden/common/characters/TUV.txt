@@ -1,0 +1,168 @@
+characters={
+	TUV_sir_tomasi_puapua={
+		name="Sir Tomasi Puapua"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUV/Sir_Tomasi_Puapua.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TUV_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_america war_industrialist }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	TUV_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	TUV_marcus_jones={
+		name="Marcus Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_india road_builder }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	TUV_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ friend_of_germany }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	TUV_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_china }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	TUV_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_india }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TUV_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ quartermaster_general }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	TUV_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	TUV_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_france friend_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	TUV_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_russia fortification_engineer }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	TUV_marcus_wilson={
+		name="Marcus Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ enemy_of_germany armaments_organizer }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+}

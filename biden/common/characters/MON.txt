@@ -1,0 +1,285 @@
+characters={
+	MON_natsagiin_bagabandi={
+		name="Natsagiin Bagabandi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Natsagiin_Bagabandi.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MON_tserendejidiin_byambajav={
+		name="Tserendejidiin Byambajav"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MON/generals/Tserendejidiin_Byambajav.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MON_dulamsürengiin_davaa={
+		name="Dulamsürengiin Davaa"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MON/generals/Dulamsurengiin_Davaa.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MON_radnaabazaryn_sükhbat={
+		name="Radnaabazaryn Sükhbat"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MON/generals/Radnaabazaryn_Sukhbat.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MON_daribishiin_oyuunbold={
+		name="Daribishiin Oyuunbold"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MON/generals/Daribishiin_Oyuunbold.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MON_b._amgalanbaatar={
+		name="B. Amgalanbaatar"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MON/generals/B_Amgalanbaatar.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MON_b._ganbaatar={
+		name="B. Ganbaatar"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MON/generals/B_Ganbaatar.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MON_oboi_zhanshan={
+		name="Oboi Zhanshan"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_india famous_businessman }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	MON_hesehn_kangan={
+		name="Hesehn Kang'an"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ friend_of_japan }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	MON_guan_xingde={
+		name="Guan Xingde"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_india enemy_of_india }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	MON_nalan_linge={
+		name="Nalan Linge"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ friend_of_france friend_of_india }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MON_songgotu_linge={
+		name="Songgotu Linge"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	MON_fu_kangan={
+		name="Fu Kang'an"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	MON_changlin_tiemei={
+		name="Changlin Tiemei"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_france }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	MON_mingzhu_linge={
+		name="Mingzhu Linge"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	MON_ma_xingde={
+		name="Ma Xingde"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ captain_of_industry }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	MON_suksaha_shangzhi={
+		name="Suksaha Shangzhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ fortification_engineer smooth_talking_charmer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	MON_suksaha_tiemei={
+		name="Suksaha Tiemei"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ captain_of_industry road_builder }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

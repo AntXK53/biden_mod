@@ -1,0 +1,344 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip_MDC"
+		texturefile = "gfx/interface/ideas/idea_traits_strip_MDC.dds"
+		noOfFrames = 30
+	}
+
+	spriteType = {
+		name = "GFX_idea_national_unity"
+		texturefile = "gfx/interface/ideas/diplomacy/national_unity.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nuclear_power"
+		texturefile = "gfx/interface/ideas/diplomacy/nuclear_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_propaganda"
+		texturefile = "gfx/interface/ideas/diplomacy/propaganda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_oil_profits"
+		texturefile = "gfx/interface/ideas/economy/oil_profits.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_british_exceptionalism"
+		texturefile = "gfx/interface/ideas/ENG/british_exceptionalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_king_charles_3"
+		texturefile = "gfx/interface/ideas/ENG/king_charles_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_king_william5"
+		texturefile = "gfx/interface/ideas/ENG/king_william5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NHS"
+		texturefile = "gfx/interface/ideas/ENG/NHS.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_queen_elizabeth_2"
+		texturefile = "gfx/interface/ideas/ENG/queen_elizabeth_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_communism9"
+		texturefile = "gfx/interface/ideas/ideology/communism9.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_conservatism"
+		texturefile = "gfx/interface/ideas/ideology/conservatism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_democratic_socialism"
+		texturefile = "gfx/interface/ideas/ideology/democratic_socialism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_fascism7"
+		texturefile = "gfx/interface/ideas/ideology/fascism7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_market_liberalism"
+		texturefile = "gfx/interface/ideas/ideology/market_liberalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_monarchy2"
+		texturefile = "gfx/interface/ideas/ideology/monarchy2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_monarchy3"
+		texturefile = "gfx/interface/ideas/ideology/monarchy3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nationalism"
+		texturefile = "gfx/interface/ideas/ideology/nationalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_progressivism"
+		texturefile = "gfx/interface/ideas/ideology/progressivism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_reactionary_democracy"
+		texturefile = "gfx/interface/ideas/ideology/reactionary_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_social_democracy"
+		texturefile = "gfx/interface/ideas/ideology/social_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_social_liberalism"
+		texturefile = "gfx/interface/ideas/ideology/social_liberalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_arab_league"
+		texturefile = "gfx/interface/ideas/international_organizations/arab_league.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AU_member"
+		texturefile = "gfx/interface/ideas/international_organizations/AU_member.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EU_member"
+		texturefile = "gfx/interface/ideas/international_organizations/EU_member.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EU_member2"
+		texturefile = "gfx/interface/ideas/international_organizations/EU_member2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EU_member3"
+		texturefile = "gfx/interface/ideas/international_organizations/EU_member3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_the_euro"
+		texturefile = "gfx/interface/ideas/international_organizations/the_euro.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_united_nations_blue"
+		texturefile = "gfx/interface/ideas/international_organizations/united_nations_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_united_nations_gold"
+		texturefile = "gfx/interface/ideas/international_organizations/united_nations_gold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_united_nations_green"
+		texturefile = "gfx/interface/ideas/international_organizations/united_nations_green.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_united_nations_red"
+		texturefile = "gfx/interface/ideas/international_organizations/united_nations_red.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_united_nations_yellow"
+		texturefile = "gfx/interface/ideas/international_organizations/united_nations_yellow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_visegrad"
+		texturefile = "gfx/interface/ideas/international_organizations/visegrad.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_austrian_neutrality"
+		texturefile = "gfx/interface/ideas/AUS/austrian_neutrality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_belgian_political_system"
+		texturefile = "gfx/interface/ideas/BEL/belgian_political_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_king_donatus"
+		texturefile = "gfx/interface/ideas/FIN/king_donatus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_bundesadler"
+		texturefile = "gfx/interface/ideas/GER/bundesadler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_bundeswehr"
+		texturefile = "gfx/interface/ideas/GER/bundeswehr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DDR"
+		texturefile = "gfx/interface/ideas/GER/DDR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_holy_roman_empire"
+		texturefile = "gfx/interface/ideas/GER/holy_roman_empire.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NVA"
+		texturefile = "gfx/interface/ideas/GER/NVA.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_stasi"
+		texturefile = "gfx/interface/ideas/GER/stasi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_emperor_akihito"
+		texturefile = "gfx/interface/ideas/JAP/emperor_akihito.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_japanese_article_9"
+		texturefile = "gfx/interface/ideas/JAP/japanese_article_9.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_mrt_referendum"
+		texturefile = "gfx/interface/ideas/MRT/mauritanian_referendum.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_poland"
+		texturefile = "gfx/interface/ideas/POL/poland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_communist_china"
+		texturefile = "gfx/interface/ideas/PRC/communist_china.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kim_il_sung"
+		texturefile = "gfx/interface/ideas/PRK/kim_il_sung.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_south_asian_tiger"
+		texturefile = "gfx/interface/ideas/RAJ/south_asian_tiger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_catholic_faith"
+		texturefile = "gfx/interface/ideas/religion/catholic_faith.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_islam4"
+		texturefile = "gfx/interface/ideas/religion/islam4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_jewish_faith"
+		texturefile = "gfx/interface/ideas/religion/jewish_faith.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_orthodox_faith"
+		texturefile = "gfx/interface/ideas/religion/orthodox_faith.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_orthodox_faith2"
+		texturefile = "gfx/interface/ideas/religion/orthodox_faith2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_protestant_faith"
+		texturefile = "gfx/interface/ideas/religion/protestant_faith.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shia_faith"
+		texturefile = "gfx/interface/ideas/religion/shia_faith.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_sunni_faith"
+		texturefile = "gfx/interface/ideas/religion/sunni_faith.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shared_research"
+		texturefile = "gfx/interface/ideas/research/shared_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_king_charles_16"
+		texturefile = "gfx/interface/ideas/SWE/king_charles_16.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_swiss_political_system"
+		texturefile = "gfx/interface/ideas/SWI/swiss_political_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_american_militarism"
+		texturefile = "gfx/interface/ideas/USA/american_militarism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_democratic_party"
+		texturefile = "gfx/interface/ideas/USA/democratic_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_political_establishment"
+		texturefile = "gfx/interface/ideas/USA/political_establishment.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_republican_party"
+		texturefile = "gfx/interface/ideas/USA/republican_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yugoslavian_general_staff"
+		texturefile = "gfx/interface/ideas/YUG/yugoslavian_general_staff.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yugoslavian_militias"
+		texturefile = "gfx/interface/ideas/YUG/yugoslavian_militias.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yugoslavian_regiments"
+		texturefile = "gfx/interface/ideas/YUG/yugoslavian_regiments.dds"
+	}
+
+}

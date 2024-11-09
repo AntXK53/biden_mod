@@ -1,0 +1,382 @@
+﻿capital = 16
+
+oob = "FRA_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "FRA_2000_naval_mtg"
+	else = {
+		set_naval_oob = "FRA_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 5
+set_convoys = 1000
+set_stability = 0.5
+
+set_war_support = 0.3
+
+set_country_flag = country_language_french
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	motorized_rocket_unit = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	gen2_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank = 1 
+ 	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+	missile_cruiser1 = 1
+	carrier1 = 1
+	carrier2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	carrier_nuclear_reactor = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	nukes = 1
+}
+
+create_equipment_variant = { name = "Mirage 2000N" type = strat_bomber_equipment_2 upgrades = { plane_engine_upgrade = 5 } }
+
+add_ideas = {
+	population_growth_stagnation
+	free_trade
+	idea_eu_member
+	idea_united_nations_security_council_member
+}
+
+set_politics = {	
+	ruling_party = conservative
+	last_election = "1997.6.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 7
+    conservative = 23
+    market_liberal = 20
+    social_liberal = 3
+    social_democrat = 40
+    progressive = 3
+    communist = 4
+}
+
+add_opinion_modifier = {
+	target = ENG
+	modifier = entente_cordiale
+}
+
+add_opinion_modifier = {
+	target = GER
+	modifier = franco_german_friendship
+}
+
+give_guarantee = DJI
+give_guarantee = IVO
+give_guarantee = MOC
+give_guarantee = AND
+give_guarantee = SEN
+give_guarantee = GAB
+give_military_access = DJI
+give_military_access = IVO
+give_military_access = MOC
+give_military_access = AND
+give_military_access = SEN
+give_military_access = GAB
+
+recruit_character = FRA_lionel_jospin
+recruit_character = FRA_jacques_chirac
+recruit_character = FRA_jean_marie_le_pen
+recruit_character = FRA_alain_soral
+recruit_character = FRA_andre_gandillon
+recruit_character = FRA_jeanluc_melenchon
+recruit_character = FRA_marie_buffet
+recruit_character = FRA_francois_bayrou
+recruit_character = FRA_noel_mamere
+recruit_character = FRA_louis_xx
+recruit_character = FRA_christiane_taubira
+recruit_character = FRA_jeanpierre_bosser
+recruit_character = FRA_pierre_chavancy
+recruit_character = FRA_bertrand_ractmadoux
+recruit_character = FRA_pierre_de_villiers
+recruit_character = FRA_arnaud_sainteclaire_deville
+recruit_character = FRA_françois_labuze
+recruit_character = FRA_franck_boudet
+recruit_character = FRA_christophe_bizien
+recruit_character = FRA_loïc_girard
+recruit_character = FRA_pascal_ianni
+recruit_character = FRA_thomas_mollard
+recruit_character = FRA_etienne_du_peyroux
+recruit_character = FRA_françois_régis_jaminet
+recruit_character = FRA_hervé_bizeul
+recruit_character = FRA_jeanjacques_fatinet
+recruit_character = FRA_guillaume_de_sercey
+recruit_character = FRA_guillaume_venard
+recruit_character = FRA_nicolas_casanova
+recruit_character = FRA_benoit_durieux
+recruit_character = FRA_Éric_bellot_des_minières
+recruit_character = FRA_jeanfrédéric_lenoble
+recruit_character = FRA_eric_maury
+recruit_character = FRA_jeanfrançois_lafont_rapnouil
+recruit_character = FRA_pierre_liot_de_nortbecourt
+recruit_character = FRA_jean_maurin
+recruit_character = FRA_christophe_prazuck
+recruit_character = FRA_marc_de_briancon
+recruit_character = FRA_denis_beraud
+recruit_character = FRA_bruno_thouvenin
+recruit_character = FRA_françois_rebourd
+recruit_character = FRA_louismichel_guillaume
+recruit_character = FRA_charleshenri_du_ché
+recruit_character = FRA_pascal_ausseur
+recruit_character = FRA_emmanuel_de_oliveira
+recruit_character = FRA_jeanbaptiste_dupuis
+recruit_character = FRA_hugo_leroy
+
+2001.1.1 = {
+	complete_national_focus = FRA_the_french_economy
+	complete_national_focus = FRA_civilian_buildup
+	complete_national_focus = FRA_northern_industry
+	complete_national_focus = FRA_our_future
+	complete_national_focus = FRA_liberte
+	complete_national_focus = FRA_the_european_dream
+	complete_national_focus = FRA_term_length_reform
+	complete_national_focus = FRA_judicial_reforms
+	complete_national_focus = FRA_executive_reforms
+	complete_national_focus = FRA_reform_the_officer_school
+	complete_national_focus = FRA_army_training_1
+	complete_national_focus = FRA_renew_the_naval_presence
+	complete_national_focus = FRA_naval_maneuvre_1
+	complete_national_focus = FRA_brest_arsenal
+	complete_national_focus = FRA_strengthen_toulon
+	complete_national_focus = FRA_new_fighter_programs
+	complete_national_focus = FRA_new_bomber_programs
+	complete_national_focus = FRA_air_force_officer_school
+}
+
+2002.1.1 = { add_ideas = the_euro }
+
+2002.6.16 = {
+	set_politics = {
+		ruling_party = conservative
+		last_election = "2002.6.16"
+		election_frequency = 60
+		elections_allowed = yes
+}
+
+    set_popularities = {
+        reactionary = 10
+        conservative = 37
+        market_liberal = 6
+        social_liberal = 3
+        social_democrat = 30
+        progressive = 6
+        democratic_socialist = 3
+        communist = 5
+    }
+}
+
+2003.1.1 = {
+	create_country_leader = {
+		name = "Segolene Royal"
+		picture = "Segolene_Royal.dds"
+		ideology = social_democrat_ideology
+	}
+
+	set_party_name = {
+		ideology = conservative
+		long_name = FRA_conservative_party_UMP_long
+		name = FRA_conservative_party_UMP
+	}
+}
+
+2007.6.16 = {
+	
+	set_politics = {	
+	ruling_party = conservative
+	last_election = "2007.6.16"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 4
+    conservative = 43
+    market_liberal = 8
+    social_liberal = 2
+    social_democrat = 30
+    progressive = 4
+    democratic_socialist = 4
+    communist = 5
+}
+
+	create_country_leader = {
+		name = "Nicolas Sarkozy"
+		picture = "Nicolas_Sarkozy.dds"
+		ideology = gaullist
+	}
+
+}
+
+2008.1.1 = {
+	
+	set_party_name = {
+		ideology = market_liberal
+		long_name = FRA_market_liberal_party_MoDem_long
+		name = FRA_market_liberal_party_MoDem
+	}
+
+}
+
+2010.1.1 = {
+	create_country_leader = {
+		name = "Pierre Laurent"
+		picture = "Pierre_Laurent.dds"
+		ideology = leninist
+	}
+}
+
+2011.1.16 = {
+	create_country_leader = {
+		name = "Francois Hollande"
+		picture = "Francois_Hollande.dds"
+		ideology = social_democrat_ideology
+	}
+	create_country_leader = {
+		name = "Marine Le Pen"
+		picture = "Marine_Le_Pen.dds"
+		ideology = counter_progressive_democrat
+	}
+	create_country_leader = {
+		name = "Eva Joly"
+		picture = "Eva_Joly.dds"
+		ideology = green
+	}
+	create_country_leader = {
+		name = "Jean-Michel Baylet"
+		picture = "Jean_Michel_Baylet.dds"
+		ideology = liberalist
+	}
+}
+
+2012.5.6 = {
+	set_politics = {
+		ruling_party = social_democrat
+		last_election = "2012.5.6"
+		election_frequency = 60
+		elections_allowed = yes
+}
+
+    set_popularities = {
+        reactionary = 14
+        conservative = 32
+        market_liberal = 2
+        social_liberal = 2
+        social_democrat = 34
+        progressive = 5
+        democratic_socialist = 8
+        communist = 3
+    }
+}
+
+2015.1.1 = {
+	set_party_name = {
+		ideology = conservative
+		long_name = FRA_conservative_party_LR_long
+		name = FRA_conservative_party_LR
+	}
+}
+
+2016.1.1 = {
+	oob = "FRA_2016"
+	set_party_name = {
+		ideology = democratic_socialist
+		long_name = FRA_democratic_socialist_party_FI_long
+		name = FRA_democratic_socialist_party_FI
+	}
+	create_country_leader = {
+		name = "Emmanuel Macron"
+		picture = "Emmanuel_Macron.dds"
+		ideology = liberalist
+	}
+	set_party_name = {
+		ideology = social_liberal
+		long_name = FRA_social_liberal_party_En_Marche_long
+		name = FRA_social_liberal_party_En_Marche
+	}
+}

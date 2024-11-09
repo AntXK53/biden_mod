@@ -1,0 +1,219 @@
+characters={
+	CMB_hun_sen={
+		name="Hun Sen"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Hun_Sen.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_norodom_ranariddh={
+		name="Norodom Ranariddh"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Norodom_Ranariddh.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_sam_rainsy={
+		name="Sam Rainsy"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Sam_Rainsy.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_khem_veasna={
+		name="Khem Veasna"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Khem_Veasna.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_lon_rith={
+		name="Lon Rith"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Lon_Rith.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_kem_sokha={
+		name="Kem Sokha"
+		portraits={
+			civilian={
+				large="gfx/leaders/CMB/Kem_Sokha.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CMB_tea_banh={
+		name="Tea Banh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CMB/generals/Tea_Banh.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CMB_ke_kim_yanh={
+		name="Ke Kim Yanh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CMB/generals/Ke_Kim_Yan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CMB_tea_vinh={
+		name="Tea Vinh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CMB/admirals/Tea_Vinh.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CMB_bob_williams={
+		name="Bob Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ famous_businessman }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CMB_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/general1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	CMB_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ enemy_of_france }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	CMB_john_evans={
+		name="John Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	CMB_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_america }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	CMB_alexander_roberts={
+		name="Alexander Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ friend_of_china friend_of_america }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+}

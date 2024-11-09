@@ -1,0 +1,227 @@
+﻿capital = 46
+
+oob = "ROM_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ROM_2000_naval_mtg"
+	else = {
+		set_naval_oob = "ROM_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+set_convoys = 300
+set_stability = 0.3
+
+set_country_flag = country_language_romanian
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+}
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1996.11.3"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 0
+    nationalist = 10
+    reactionary = 0
+    conservative = 20
+    market_liberal = 0
+    social_liberal = 30
+    social_democrat = 35
+    progressive = 0
+    democratic_socialist = 0
+    communist = 5
+}
+
+recruit_character = ROM_tudor_ionescu
+recruit_character = ROM_emil_constantinescu
+recruit_character = ROM_michael_i
+recruit_character = ROM_ion_iliescu
+recruit_character = ROM_petre_roman
+recruit_character = ROM_corneliu_vadim_tudor
+recruit_character = ROM_adrian_paunescu
+recruit_character = ROM_traian_basescu
+recruit_character = ROM_danut_pop
+recruit_character = ROM_dan_diaconescu
+recruit_character = ROM_scarlat_dmitru
+recruit_character = ROM_nicolae_ciuca
+recruit_character = ROM_botea_marian
+recruit_character = ROM_petricalucian_foca
+recruit_character = ROM_eugen_badalan
+recruit_character = ROM_ioan_manci
+recruit_character = ROM_gheorghe_marin
+recruit_character = ROM_alexandru_mirsu
+recruit_character = ROM_nicolae_ionel_ciucă
+recruit_character = ROM_dumitru_scarlat
+recruit_character = ROM_marius_harabagiu
+recruit_character = ROM_marian_botea
+recruit_character = ROM_mirceadan_Şuta
+recruit_character = ROM_florinel_damian
+recruit_character = ROM_tudorică_petrache
+recruit_character = ROM_adrian_soci
+recruit_character = ROM_virgilovidiu_pop
+recruit_character = ROM_nicolae_tonu
+recruit_character = ROM_ovidiu_ufaleanu
+recruit_character = ROM_laurian_anastasof
+recruit_character = ROM_daniel_capatina
+recruit_character = ROM_valentin_iacoblev
+recruit_character = ROM_bogdan_dumitrescu
+recruit_character = ROM_auraşliviu_coman
+recruit_character = ROM_marius_bogdan_mitric
+recruit_character = ROM_vasile_savulescu
+recruit_character = ROM_cornel_rogozan
+recruit_character = ROM_valeriu_simionov
+recruit_character = ROM_aurelian_popoiu
+recruit_character = ROM_iulian_holban
+recruit_character = ROM_valeriu_iancovescu
+
+2007.1.1 = {
+	add_ideas = {
+		idea_eu_member
+	}
+
+	set_party_name = {
+		ideology = conservative
+		long_name = ROM_conservative_party_PDL_long
+		name = ROM_conservative_party_PDL
+	}
+}
+
+2012.12.9 = {
+	oob = "ROM_2016"
+	
+	set_politics = {		
+		ruling_party = market_liberal
+		last_election = "2012.12.9"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        islamist = 0
+        nationalist = 0
+        monarchist = 1
+        reactionary = 3
+        conservative = 2
+        market_liberal = 25
+        social_liberal = 20
+        social_democrat = 35
+        progressive = 1
+        democratic_socialist = 8
+        communist = 0
+    }
+
+	create_country_leader = {
+		name = "Victor Ponta"
+		picture = "Victor_Ponta.dds"
+		ideology = social_democrat_ideology
+	}
+
+	create_country_leader = {
+		name = "Vasile Blaga"
+		picture = "Vasile_Blaga.dds"
+		ideology = fiscal_conservative
+	}
+
+	create_country_leader = {
+		name = "Crin Antonescu"
+		picture = "Crin_Antonescu.dds"
+		ideology = moderate
+	}
+
+	create_country_leader = {
+		name = "Klaus Ioannis"
+		picture = "Klaus_Ioannis.dds"
+		ideology = libertarian
+	}
+}

@@ -1,0 +1,225 @@
+﻿capital = 110
+
+oob = "NOR_2000"
+
+set_research_slots = 4
+set_convoys = 480
+set_stability = 0.7
+
+set_country_flag = country_language_norwegian
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_decline
+	free_trade
+	limited_conscription
+}
+
+set_politics = {	
+	ruling_party = conservative 
+	last_election = "1997.9.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 8
+    conservative = 25
+    market_liberal = 16
+    social_liberal = 10
+    social_democrat = 25
+    progressive = 8
+    democratic_socialist = 8
+}
+
+recruit_character = NOR_kjell_magne_bondevik
+recruit_character = NOR_tore_tvedt
+recruit_character = NOR_max_hermansen
+recruit_character = NOR_harald_v
+recruit_character = NOR_siv_jensen
+recruit_character = NOR_jan_petersen
+recruit_character = NOR_thorbjorn_jagland
+recruit_character = NOR_kristin_halvorsen
+recruit_character = NOR_turid_thomassen
+recruit_character = NOR_haakon_bruunhanssen
+recruit_character = NOR_erik_gustafsson
+recruit_character = NOR_robert_mood
+recruit_character = NOR_harald_sunde
+recruit_character = NOR_anders_jernberg
+recruit_character = NOR_arild_dregelid
+recruit_character = NOR_eldar_berli
+recruit_character = NOR_inge_kampenes
+recruit_character = NOR_ivar_sakserud
+recruit_character = NOR_jan_erik_thoresen
+recruit_character = NOR_jan_frederik_geiner
+recruit_character = NOR_jan_per_ole_janitz
+recruit_character = NOR_jon_ivar_kjellin
+recruit_character = NOR_kjell_grandhagen
+recruit_character = NOR_kurt_pedersen
+recruit_character = NOR_lars_christian_aamodt
+recruit_character = NOR_morten_haga_lunde
+recruit_character = NOR_nils_johan_holte
+recruit_character = NOR_ingvar_seland
+recruit_character = NOR_frode_kristoffersen
+recruit_character = NOR_oddandreas_søbstad
+recruit_character = NOR_odin_johannessen
+recruit_character = NOR_ole_asbjørn_fauske
+recruit_character = NOR_per_egil_rygg
+recruit_character = NOR_petter_jansen
+recruit_character = NOR_rolf_erik_bjerk
+recruit_character = NOR_tor_rune_jakobsen
+recruit_character = NOR_tom_guttormsen
+recruit_character = NOR_tonje_skinnarland
+recruit_character = NOR_tor_rune_raabye
+recruit_character = NOR_yngve_odlo
+recruit_character = NOR_janerik_haug
+recruit_character = NOR_ivar_halset
+recruit_character = NOR_aril_brandvik
+recruit_character = NOR_ingrid_gjerde
+recruit_character = NOR_ole_johan_skogmo
+recruit_character = NOR_roy_helge_olsen
+recruit_character = NOR_svein_harald_halvorsen
+recruit_character = NOR_louise_kathrine_dedichen
+recruit_character = NOR_jan_knudtzon_sommerfeltpetersen
+recruit_character = NOR_ketil_olsen
+recruit_character = NOR_lars_saunes
+recruit_character = NOR_per_rostad
+recruit_character = NOR_nils_andreas_stensønes
+recruit_character = NOR_henning_amundsen
+recruit_character = NOR_håkon_tronstad
+recruit_character = NOR_trond_grytting
+recruit_character = NOR_bernt_grimstvedt
+recruit_character = NOR_sverre_nordahl_engeness
+recruit_character = NOR_haakon_ræder
+recruit_character = NOR_carl_vilberg
+recruit_character = NOR_tryggve_eriksen
+
+2016.1.1 = {
+	oob = "NOR_2016"
+
+	set_politics = {
+		ruling_party = market_liberal 
+		last_election = "2013.9.9"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        reactionary = 8
+        conservative = 16
+        market_liberal = 25
+        social_liberal = 10
+        social_democrat = 25
+        progressive = 8
+        democratic_socialist = 8
+    }
+
+	create_country_leader = {
+		name = "Erna Solberg"
+		picture = "Erna_Solberg.dds"
+		ideology = libertarian
+	}
+	
+	create_country_leader = {
+		name = "Knut Arild Hareide"
+		picture = "Knut_Arild_Hareide.dds"
+		ideology = christian_democrat
+	}
+	
+	create_country_leader = {
+		name = "Jonas Gahr Store"
+		picture = "Jonas_Gahr_Store.dds"
+		ideology = social_democrat_ideology
+	}
+	
+	create_country_leader = {
+		name = "Audun Lysbakken"
+		picture = "Audun_Lysbakken.dds"
+		ideology = democratic_socialist_ideology      
+	}
+	
+	create_country_leader = {
+		name = "Bjornar Moxnes"
+		picture = "Bjornar_Moxnes.dds"
+		ideology = marxist      
+	}
+}

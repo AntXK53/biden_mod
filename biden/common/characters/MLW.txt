@@ -1,0 +1,220 @@
+characters={
+	MLW_bakili_muluzi={
+		name="Bakili Muluzi"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Bakili_Muluzi.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_gwanda_chakuamba={
+		name="Gwanda Chakuamba"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Gwanda_Chakuamba.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_chakufwa_chihana={
+		name="Chakufwa Chihana"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Chakufwa_Chihana.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_peter_mutharika={
+		name="Peter Mutharika"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Peter_Mutharika.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_joyca_banda={
+		name="Joyca Banda"
+		portraits={
+			civilian={
+				large="gfx/leaders/MLW/Joyce_Banda.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MLW_henry_odillo={
+		name="Henry Odillo"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MLW/generals/Henry_Odillo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MLW_ignacio_maulana={
+		name="Ignacio Maulana"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MLW/generals/Ignacio_Maulana.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MLW_marko_chiziko={
+		name="Marko Chiziko"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MLW/generals/Marko_Chiziko.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MLW_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	MLW_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ fortification_engineer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MLW_alexander_roberts={
+		name="Alexander Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ enemy_of_germany enemy_of_china }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	MLW_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ armaments_organizer }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	MLW_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_china }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	MLW_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ war_industrialist friend_of_russia }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	MLW_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

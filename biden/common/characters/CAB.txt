@@ -1,0 +1,166 @@
+characters={
+	CAB_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_germany friend_of_france }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CAB_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_india }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CAB_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAB_johannes_roberts={
+		name="Johannes Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ compassionate_gentleman }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	CAB_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAB_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CAB_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_france friend_of_germany }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CAB_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_britain war_industrialist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAB_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CAB_john_walker={
+		name="John Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ famous_businessman war_industrialist }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	CAB_alex_white={
+		name="Alex White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_japan armaments_organizer }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAB_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ enemy_of_america friend_of_germany }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,166 @@
+characters={
+	NAU_peter_jones={
+		name="Peter Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	NAU_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ enemy_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	NAU_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	NAU_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ fortification_engineer smooth_talking_charmer }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	NAU_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	NAU_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ experienced_attorney enemy_of_france }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	NAU_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ ideological_crusader }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	NAU_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ smooth_talking_charmer agricultural_expert }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	NAU_alexander_smith={
+		name="Alexander Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	NAU_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_germany captain_of_industry }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	NAU_alexander_wilson={
+		name="Alexander Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ experienced_attorney }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	NAU_jim_evans={
+		name="Jim Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ enemy_of_russia war_industrialist }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+}

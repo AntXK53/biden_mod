@@ -1,0 +1,163 @@
+characters={
+	ELS_francisco_flores={
+		name="Francisco Flores"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Francisco_Flores.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_mauricio_funes={
+		name="Mauricio Funes"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Mauricio_Funes.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_rodolfo_parker={
+		name="Rodolfo Parker"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/Rodolfo_Parker.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ELS_felipe_ezeta={
+		name="Felipe Ezeta"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ELS_pedro_zeledón={
+		name="Pedro Zeledón"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	ELS_eduardo_menéndez={
+		name="Eduardo Menéndez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_france }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	ELS_máximo_montes={
+		name="Máximo Montes"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_india }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	ELS_fernando_montes={
+		name="Fernando Montes"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_france }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	ELS_daniel_zelaya={
+		name="Daniel Zelaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	ELS_félix_zelaya={
+		name="Félix Zelaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	ELS_ponciano_zeledón={
+		name="Ponciano Zeledón"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_germany compassionate_gentleman }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ELS_Óscar_corral={
+		name="Óscar Corral"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ enemy_of_america }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

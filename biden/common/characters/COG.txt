@@ -1,0 +1,195 @@
+characters={
+	COG_augustecélestin_gongarad_nkoua={
+		name="Auguste-Célestin Gongarad Nkoua"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Auguste_Nkoua.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_denis_sassounguesso={
+		name="Denis Sassou-Nguesso"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Denis_Nguesso.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_joseph_kignoumbi_kia_mboungou={
+		name="Joseph Kignoumbi Kia Mboungou"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Joseph_Mboungou.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_guy_brice_parfait_kolélas={
+		name="Guy Brice Parfait Kolélas"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Guy_Kolelas.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_andré_milongo={
+		name="André Milongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Andre_Milongo.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_jeanpierre_thystère_tchicaya={
+		name="Jean-Pierre Thystère Tchicaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Jean_Tchicaya.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	COG_guy_blanchard_okoi={
+		name="Guy Blanchard Okoi"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/COG/generals/Guy_Okoi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COG_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	COG_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ friend_of_america }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	COG_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_china friend_of_japan }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	COG_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ experienced_attorney friend_of_china }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	COG_jonas_wilson={
+		name="Jonas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	COG_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_india enemy_of_japan }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	COG_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ ideological_crusader enemy_of_china }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,165 @@
+characters={
+	DOM_leonel_fernández={
+		name="Leonel Fernández"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/Leonel_Fernandez.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DOM_máximo_carmona={
+		name="Máximo Carmona"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ armaments_organizer friend_of_china }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	DOM_raúl_mota={
+		name="Raúl Mota"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			traits={ friend_of_japan }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	DOM_guillermo_pelletier={
+		name="Guillermo Pelletier"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_india }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	DOM_federico_pelletier={
+		name="Federico Pelletier"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	DOM_gregorio_cabral={
+		name="Gregorio Cabral"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_russia friend_of_china }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	DOM_ulises_cabral={
+		name="Ulises Cabral"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ war_industrialist }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	DOM_salvador_machado={
+		name="Salvador Machado"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	DOM_fernando_espaillat={
+		name="Fernando Espaillat"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_britain enemy_of_china }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	DOM_horacio_vásquez={
+		name="Horacio Vásquez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_china enemy_of_france }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	DOM_alejandro_vázquez={
+		name="Alejandro Vázquez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	DOM_wenceslao_luperón={
+		name="Wenceslao Luperón"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+}

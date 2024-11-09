@@ -1,0 +1,333 @@
+﻿capital = 141	
+
+oob = "SWE_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SWE_2000_naval_mtg"
+	else = {
+		set_naval_oob = "SWE_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_convoys = 140
+set_stability = 0.55
+
+set_country_flag = country_language_swedish
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+
+	corvette1 = 1
+	corvette2 = 1
+
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_stagnation
+	idea_eu_member
+	neutrality_idea
+}
+
+#Date is inaccurate, the country flag is the most important part
+1998.1.1 = {
+	set_country_flag = european_union_member_state
+}
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1998.9.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 2
+    conservative = 12
+    market_liberal = 23
+    social_liberal = 9
+    social_democrat = 37
+    progressive = 4
+    democratic_socialist = 12
+    communist = 1
+}
+
+recruit_character = SWE_göran_persson
+recruit_character = SWE_carl_xvi
+recruit_character = SWE_daniel_höglund
+recruit_character = SWE_mikael_jansson
+recruit_character = SWE_anders_steen
+recruit_character = SWE_alf_svensson
+recruit_character = SWE_bo_lundgren
+recruit_character = SWE_lars_leijonborg
+recruit_character = SWE_lotta_hedström
+recruit_character = SWE_gudrun_schyman
+recruit_character = SWE_rolf_hagel
+recruit_character = SWE_abdirizak_waberi
+recruit_character = SWE_karl_engelbrektson
+recruit_character = SWE_micael_bydén
+recruit_character = SWE_anders_brännström
+recruit_character = SWE_berndt_grundevik
+recruit_character = SWE_anders_silwer
+recruit_character = SWE_christer_tistam
+recruit_character = SWE_michael_nilsson
+recruit_character = SWE_mikael_frisell
+recruit_character = SWE_patrik_ahlgren
+recruit_character = SWE_stefan_andersson
+recruit_character = SWE_teddy_larsson
+recruit_character = SWE_roland_ekenberg
+recruit_character = SWE_peder_ohlsson
+recruit_character = SWE_fredrik_stahlberg
+recruit_character = SWE_jan_demarkesse
+recruit_character = SWE_johan_pekkari
+recruit_character = SWE_mats_helgeson
+recruit_character = SWE_anders_svensson
+recruit_character = SWE_bengt_alexandersson
+recruit_character = SWE_carl_magnus_r._svensson
+recruit_character = SWE_dag_lidén
+recruit_character = SWE_dennis_gyllensporre
+recruit_character = SWE_jonas_lotsne
+recruit_character = SWE_lars_karlsson
+recruit_character = SWE_mathias_holmqvist
+recruit_character = SWE_mattias_hanson
+recruit_character = SWE_michael_ginér
+recruit_character = SWE_nils_johansson
+recruit_character = SWE_patrik_hjorth
+recruit_character = SWE_stefan_fredriksson
+recruit_character = SWE_stefan_pettersson
+recruit_character = SWE_stefan_sandborg
+recruit_character = SWE_stefan_smedman
+recruit_character = SWE_bengt_lundgren
+recruit_character = SWE_eva_skoog_haslum
+recruit_character = SWE_jonas_hagren
+recruit_character = SWE_lena_hallin
+recruit_character = SWE_jens_nykvist
+recruit_character = SWE_erik_andersson
+recruit_character = SWE_jan_thörnqvist
+recruit_character = SWE_mats_agnéus
+recruit_character = SWE_anders_olovsson
+
+2002.1.1 = {
+	create_country_leader = {
+		name = "Maria Wetterstrand and Peter Eriksson"
+		picture = "Maria_och_Peter.dds"
+		ideology = green
+	}
+}
+
+
+2003.1.1 = {
+	create_country_leader = {
+		name = "Ulla Hoffmann"
+		picture = "Ulla_Hoffman.dds"
+		ideology = democratic_socialist_ideology
+	}
+	
+	create_country_leader = {
+		name = "Fredrik Reinfeldt"
+		picture = "Fredrik_Reinfeldt.dds"
+		ideology = libertarian
+	}
+}
+
+2004.1.1 = {
+	create_country_leader = {
+		name = "Lars Ohly"
+		picture = "Lars_Ohly.dds"
+		ideology = democratic_socialist_ideology
+	}
+	
+	create_country_leader = {
+		name = "Göran Hägglund"
+		picture = "Goran_Hagglund.dds"
+		ideology = christian_democrat
+	}
+}
+
+2005.1.1 = {
+	create_country_leader = {
+		name = "Jimmie Åkesson"
+		picture = "Jimmie_Akesson.dds"
+		ideology = counter_progressive_democrat
+	}
+}
+
+2005.11.1 = {
+	set_party_name = {
+		ideology = social_liberal
+		long_name = "Liberalerna"
+		name = "L"
+	}
+}
+
+2007.1.11 = {
+	set_party_name = {
+		ideology = fascist
+		long_name = SWE_fascist_party_SvP_long
+		name = SWE_fascist_party_SvP
+	}
+	
+	create_country_leader = {
+		name = "Jan Björklund"
+		picture = "Jan_Bjorklund.dds"
+		ideology = liberalist
+	}	
+	
+	create_country_leader = {
+		name = "Mona Sahlin"
+		picture = "Mona_Sahlin.dds"
+		ideology = social_democrat_ideology
+	}	
+}
+
+2011.1.1 = {
+	create_country_leader = {
+		name = "Annie Lööf"
+		picture = "Annie_Loof.dds"
+		ideology = centrist
+	}
+	
+	create_country_leader = {
+		name = "Åsa Romson and Gustav Fridolin"
+		picture = "Asa_and_Gustav.dds"
+		ideology = green
+	}
+	
+	create_country_leader = {
+		name = "Håkan Juholt"
+		picture = "Hakan_Juholt.dds"
+		ideology = social_democrat_ideology
+	}	
+}
+	
+2012.1.1 = {
+	create_country_leader = {
+		name = "Jonas Sjöstedt"
+		picture = "Jonas_Sjostedt.dds"
+		ideology = democratic_socialist_ideology
+	}
+	
+	create_country_leader = {
+		name = "Stefan Löfven"
+		picture = "Stefan_Lofven.dds"
+		ideology = social_democrat_ideology
+	}
+}
+	
+2015.1.1 = {
+	create_country_leader = {
+		name = "Ebba Busch Thor"
+		picture = "Ebba_Busch_Thor.dds"
+		ideology = christian_democrat
+	}
+	
+	create_country_leader = {
+		name = "Anna Kinberg Batra"
+		picture = "Anna_Kinberg_Batra.dds"
+		ideology = libertarian
+	}
+}
+
+2016.1.1 = {
+	oob = "SWE_2016"
+	create_country_leader = {
+		name = "Lövin and Fridolin"
+		picture = "Isabella_and_Gustav.dds"
+		ideology = green
+	}
+	set_politics = {	
+		ruling_party = social_democrat
+		last_election = "2014.9.14"
+		election_frequency = 48
+		elections_allowed = yes
+}
+
+    set_popularities = {
+        nationalist = 1
+        reactionary = 14
+        conservative = 6
+        market_liberal = 24
+        social_liberal = 6
+        social_democrat = 32
+        progressive = 8
+        democratic_socialist = 7
+        communist = 2
+    }
+}

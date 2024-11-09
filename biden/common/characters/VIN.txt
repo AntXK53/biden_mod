@@ -1,0 +1,260 @@
+characters={
+	VIN_tran_duc_luong={
+		name="Tran Duc Luong"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Tran_Duc_Luong.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_thadeus_nguyen_van_ly={
+		name="Thadeus Nguyen Van Ly"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Nguyen_Thien_Nhan.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_pham_the_duyet={
+		name="Pham The Duyet"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_do_hoang_diem={
+		name="Do Hoang Diem"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_phan_van_giang={
+		name="Phan Van Giang"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Phan_Van_Giang.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_do_ba_ty={
+		name="Do Ba Ty"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Do_Ba_Ty.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_ngo_xuan_lich={
+		name="Ngo Xuan Lich"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Ngo_Xuan_Lich.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_phung_quang_thanh={
+		name="Phung Quang Thanh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Phung_Quang_Thanh.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_pham_hoai_nam={
+		name="Pham Hoai Nam"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/admirals/Pham_Hoai_Nam.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ agricultural_expert }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	VIN_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ smooth_talking_charmer enemy_of_france }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	VIN_lucas_smith={
+		name="Lucas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician_monarchist1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ experienced_attorney enemy_of_china }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	VIN_jonas_jones={
+		name="Jonas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	VIN_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_russia }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	VIN_johannes_taylor={
+		name="Johannes Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_germany }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	VIN_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_france enemy_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	VIN_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_china friend_of_china }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+}

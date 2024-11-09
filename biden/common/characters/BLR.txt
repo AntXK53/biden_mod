@@ -1,0 +1,987 @@
+characters={
+	BLR_alexander_lukashenko={
+		name="Alexander Lukashenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Alexander_Lukashenko.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_sergei_gaidukevich={
+		name="Sergei Gaidukevich"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Sergei_Gaidukevich.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_vincuk_viacorka={
+		name="Vincuk Viacorka"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Vincuk_Viacorka.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_paval_sieviaryniets={
+		name="Paval Sieviaryniets"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Paval_Sieviaryniets.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_vladimir_novosiad={
+		name="Vladimir Novosiad"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Vladimir_Novosiad.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_alyaksandr_kazulin={
+		name="Alyaksandr Kazulin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Alyaksandr_Kazulin.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_aleh_novikau={
+		name="Aleh Novikau"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Aleh_Novikau.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_vladimir_alexandrovich={
+		name="Vladimir Alexandrovich"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Vladimir_Alexandrovich.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_igor_karpenko={
+		name="Igor Karpenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLR/Igor_Karpenko.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BLR_andrei_ravkov={
+		name="Andrei Ravkov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Andrei_Ravkov.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_oleg_belokonev={
+		name="Oleg Belokonev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Oleg_Belokonev.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_sergei_potapenko={
+		name="Sergei Potapenko"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Sergei_Potapenko.dds"
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_igor_lotenkov={
+		name="Igor Lotenkov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Igor_Lotenkov.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_vitaly_kireyev={
+		name="Vitaly Kireyev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Vitaly_Kireyev.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_viktor_hrenin={
+		name="Viktor Hrenin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Viktor_Hrenin.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_ruslan_kosygin={
+		name="Ruslan Kosygin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Ruslan_Kosygin.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_andrei_zhuk={
+		name="Andrei Zhuk"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Andrei_Zhuk.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_anatolyi_bulavko={
+		name="Anatolyi Bulavko"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Anatoliy_Bulavko.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_andrei_fedin={
+		name="Andrei Fedin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Andrei_Fedin.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_oreh_vladimir={
+		name="Oreh Vladimir"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Oreh_Vladimir.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_alexander_volfovich={
+		name="Alexander Volfovich"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Alexander_Volfovich.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_valeriy_gnilozub={
+		name="Valeriy Gnilozub"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Valery_Gnilozub.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_vladimir_kulazhin={
+		name="Vladimir Kulazhin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Vladimir_Khulazin.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_alexander_gurin={
+		name="Alexander Gurin"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Alexander_Gurin.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_igor_kuzmuk={
+		name="Igor Kuzmuk"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Igor_Kuzmuk.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_vitaly_shkadrovich={
+		name="Vitaly Shkadrovich"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Vitaly_Shkadrovich.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_vadim_denisenko={
+		name="Vadim Denisenko"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Vadim_Denisenko.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_igor_danilchik={
+		name="Igor Danilchik"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Igor_Danilchik.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_vyacheslav_starkov={
+		name="Vyacheslav Starkov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Vyacheslav_Starkov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_dmitry_lukyanenko={
+		name="Dmitry Lukyanenko"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Dmitry_Lukyanenko.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_oleg_dvigalev={
+		name="Oleg Dvigalev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Oleg_Dvigalev.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_sergei_trus={
+		name="Sergei Trus"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Sergei_Trus.dds"
+			}
+		}
+		corps_commander={
+			traits={ swamp_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_igor_golub={
+		name="Igor Golub"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Igor_Golub.dds"
+			}
+		}
+		corps_commander={
+			traits={ swamp_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_alexander_karev={
+		name="Alexander Karev"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Alexander_Karev.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_valery_shevchenko={
+		name="Valery Shevchenko"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Valery_Shevchenko.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_alexander_astrauh={
+		name="Alexander Astrauh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Alexander_Astrauh.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_alexander_panfyorov={
+		name="Alexander Panfyorov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/BLR/generals/Alexander_Panfyorov.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BLR_igor_denikin={
+		name="Igor Denikin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_france }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	BLR_viktor_skobelev={
+		name="Viktor Skobelev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=black_supremacist
+			traits={ friend_of_britain }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	BLR_viktor_chibisov={
+		name="Viktor Chibisov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_china enemy_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BLR_boris_berman={
+		advisor={
+			slot = political_advisor
+			idea_token = BLR_boris_berman
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					prince_of_terror 
+				}
+		}
+		name="BLR_boris_berman"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
+	BLR_jozeph_ryzhykov={
+		advisor={
+			slot = political_advisor
+			idea_token = BLR_jozeph_ryzhykov
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+		name="BLR_jozeph_ryzhykov"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	BLR_georgy_holostyakov={
+		advisor={
+			slot = navy_chief
+			idea_token = BLR_georgy_holostyakov
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					navy_chief_maneuver_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_georgy_holostyakov"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	BLR_stepan_krasovsky={
+		advisor={
+			slot = theorist
+			idea_token = BLR_stepan_krasovsky
+			ledger  = air 
+				allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					air_warfare_theorist 
+				}
+		}
+		name="BLR_stepan_krasovsky"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+	}
+	BLR_alexander_akulich={
+		advisor={
+			slot = high_command
+			idea_token = BLR_alexander_akulich
+			ledger  = army 
+				allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					army_infantry_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_alexander_akulich"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	BLR_ivan_yakubovsky={
+		advisor={
+			slot = army_chief
+			idea_token = BLR_ivan_yakubovsky
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					army_chief_defensive_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_ivan_yakubovsky"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_4"
+			}
+		}
+	}
+	BLR_piotr_kozlov={
+		advisor={
+			slot = high_command
+			idea_token = BLR_piotr_kozlov
+			ledger  = army 
+				allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					army_regrouping_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_piotr_kozlov"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+	}
+	BLR_aleksei_antonov={
+		advisor={
+			slot = theorist
+			idea_token = BLR_aleksei_antonov
+			ledger  = army 
+				allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					military_theorist 
+				}
+		}
+		name="BLR_aleksei_antonov"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	BLR_ivan_pstygo={
+		advisor={
+			slot = air_chief
+			idea_token = BLR_ivan_pstygo
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					air_chief_reform_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_ivan_pstygo"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	BLR_valentin_drozd={
+		advisor={
+			slot = navy_chief
+			idea_token = BLR_valentin_drozd
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					navy_chief_commerce_raiding_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_valentin_drozd"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	BLR_vasily_sokolovsky={
+		advisor={
+			slot = army_chief
+			idea_token = BLR_vasily_sokolovsky
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					army_chief_offensive_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_vasily_sokolovsky"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	BLR_maksim_antonyuk={
+		advisor={
+			slot = high_command
+			idea_token = BLR_maksim_antonyuk
+			ledger  = army 
+				allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					army_armored_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_maksim_antonyuk"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_3"
+			}
+		}
+	}
+	BLR_fedor_dobysh={
+		advisor={
+			slot = air_chief
+			idea_token = BLR_fedor_dobysh
+			allowed  = {
+					original_tag  = BLR
+				}
+				traits  = {
+					air_chief_ground_support_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="BLR_fedor_dobysh"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+	}
+}

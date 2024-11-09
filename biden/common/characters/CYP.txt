@@ -1,0 +1,243 @@
+characters={
+	CYP_glafcos_clerides={
+		name="Glafcos Clerides"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYP/Glafcos_Clerides.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYP_geórgios_basiakoúlis={
+		name="Geórgios Basiakoúlis"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CYP/generals/Georgios_Basiakoulis.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard offensive_doctrine fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_andréas_markídis={
+		name="Andréas Markídis"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CYP/generals/Andreas_Markidis.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_ilías_leontáris={
+		name="Ilías Leontáris"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CYP/generals/Ilias_Leontaris.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_dimítrios_agorákis={
+		name="Dimítrios Agorákis"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/CYP/generals/Dimitrios_Agorakis.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CYP_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ friend_of_russia ideological_crusader }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	CYP_marcus_brown={
+		name="Marcus Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ enemy_of_russia }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	CYP_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_britain quartermaster_general }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	CYP_bob_evans={
+		name="Bob Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_britain }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	CYP_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CYP_alexander_jones={
+		name="Alexander Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_britain friend_of_france }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	CYP_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	CYP_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	CYP_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_russia road_builder }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	CYP_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CYP_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,181 @@
+characters={
+	MZB_joaquim_chissano={
+		name="Joaquim Chissano"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Joaquim_Chissano.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_alfonso_dhlakama={
+		name="Alfonso Dhlakama"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Alfonso_Dhlakama.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_raul_domingos={
+		name="Raul Domingos"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Raul_Domingos.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_daviz_simango={
+		name="Daviz Simango"
+		portraits={
+			civilian={
+				large="gfx/leaders/MZB/Daviz_Simango.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_armando_sapembe={
+		name="Armando Sapembe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_casimiro_nhamithambo={
+		name="Casimiro Nhamithambo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MZB_graca_chongo={
+		name="Graca Chongo"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/MZB/generals/Graca_Chongo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MZB_johannes_williams={
+		name="Johannes Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	MZB_jonas_jones={
+		name="Jonas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ war_industrialist }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MZB_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	MZB_jonas_roberts={
+		name="Jonas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ agricultural_expert }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MZB_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_america friend_of_germany }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	MZB_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ friend_of_germany }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+}

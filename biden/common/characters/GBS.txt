@@ -1,0 +1,163 @@
+characters={
+	GBS_kumba_iala={
+		name="Kumba Iala"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBS/Kumba_Iala.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GBS_peter_roberts={
+		name="Peter Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	GBS_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ armaments_organizer enemy_of_russia }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	GBS_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ agricultural_expert }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	GBS_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GBS_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	GBS_bob_williams={
+		name="Bob Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_britain }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	GBS_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	GBS_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ road_builder friend_of_japan }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	GBS_john_roberts={
+		name="John Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ quartermaster_general }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	GBS_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	GBS_john_smith={
+		name="John Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+}

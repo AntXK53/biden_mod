@@ -1,0 +1,212 @@
+characters={
+	ETH_abdifatah_sheikh_abdullahi={
+		name="Abdifatah Sheikh Abdullahi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Abdifatah_Abdullahi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_meles_zenawi={
+		name="Meles Zenawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Meles_Zenawi.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_birtukan_mideksa={
+		name="Birtukan Mideksa"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Birtukan_Mideksa.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_hailu_shawul={
+		name="Hailu Shawul"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Hailu_Shawul.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_dr._chane_kebede={
+		name="Dr. Chane Kebede"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Chane_Kebede.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_zera_yacob_amha_selassie={
+		name="Zera Yacob Amha Selassie"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Zera_Selassie.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_birhanu_julla={
+		name="Birhanu Julla"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ETH/generals/Birhanu_Julla.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ETH_samora_yunis={
+		name="Samora Yunis"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/ETH/generals/Samora_Yunis.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ETH_berihun_selassie={
+		name="Berihun Selassie"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ captain_of_industry agricultural_expert }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	ETH_berihun_melekot={
+		name="Berihun Melekot"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	ETH_berihun_wossen={
+		name="Berihun Wossen"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	ETH_bekele_mikael={
+		name="Bekele Mikael"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	ETH_amare_seged={
+		name="Amare Seged"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ road_builder }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	ETH_haile_selassie={
+		name="Haile Selassie"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_india }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ETH_demissie_melekot={
+		name="Demissie Melekot"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

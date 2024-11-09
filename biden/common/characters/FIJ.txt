@@ -1,0 +1,167 @@
+characters={
+	FIJ_josefa_iloilo={
+		name="Josefa Iloilo"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Josefa_Iloilo.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_jonas_white={
+		name="Jonas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist3.dds"
+			}
+		}
+		country_leader={
+			ideology=falangist
+			traits={ armaments_organizer friend_of_india }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ enemy_of_japan }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ enemy_of_america }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_marcus_roberts={
+		name="Marcus Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_france }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_marcus_smith={
+		name="Marcus Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_britain }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_britain friend_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ road_builder famous_businessman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_alex_williams={
+		name="Alex Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_russia friend_of_russia }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_john_jones={
+		name="John Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ armaments_organizer }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

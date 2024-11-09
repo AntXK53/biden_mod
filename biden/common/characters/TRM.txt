@@ -1,0 +1,168 @@
+characters={
+	TRM_saparmyrat_nyyazow={
+		name="Saparmyrat Nyyazow"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRM/Saparmyrat_Nyyazow.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRM_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ captain_of_industry }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	TRM_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ armaments_organizer friend_of_france }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	TRM_jim_taylor={
+		name="Jim Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ enemy_of_russia }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	TRM_alexander_wilson={
+		name="Alexander Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ ideological_crusader friend_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	TRM_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ friend_of_china }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	TRM_jonas_white={
+		name="Jonas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			traits={ friend_of_america }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	TRM_bob_jones={
+		name="Bob Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_britain friend_of_japan }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	TRM_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_germany friend_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	TRM_johannes_taylor={
+		name="Johannes Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_india smooth_talking_charmer }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	TRM_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ fortification_engineer smooth_talking_charmer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	TRM_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,166 @@
+characters={
+	DMN_pierre_charles={
+		name="Pierre Charles"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Pierre_Charles.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_eugenia_charles={
+		name="Eugenia Charles"
+		portraits={
+			civilian={
+				large="gfx/leaders/DMN/Eugenia_Charles.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_ezekiel_bazil={
+		name="Ezekiel Bazil"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DMN_michael_buckner={
+		name="Michael Buckner"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	DMN_james_kershaw={
+		name="James Kershaw"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ compassionate_gentleman enemy_of_japan }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	DMN_joseph_mcculloch={
+		name="Joseph McCulloch"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_germany }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	DMN_kirby_barkhauer={
+		name="Kirby Barkhauer"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=pope
+			traits={ road_builder }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	DMN_evander_bartlett={
+		name="Evander Bartlett"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_india experienced_attorney }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	DMN_horace_fry={
+		name="Horace Fry"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ enemy_of_russia famous_businessman }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	DMN_mark_schenck={
+		name="Mark Schenck"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_japan ideological_crusader }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	DMN_cyrus_reynolds={
+		name="Cyrus Reynolds"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_china agricultural_expert }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	DMN_patrick_cleburne={
+		name="Patrick Cleburne"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ famous_businessman smooth_talking_charmer }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+}

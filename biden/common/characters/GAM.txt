@@ -1,0 +1,164 @@
+characters={
+	GAM_yahya_jammeh={
+		name="Yahya Jammeh"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Yahya_Jammeh.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_adama_barrow={
+		name="Adama Barrow"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAM/Adama_Barrow.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAM_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	GAM_jonas_brown={
+		name="Jonas Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ fortification_engineer friend_of_china }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	GAM_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_america }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	GAM_jim_wilson={
+		name="Jim Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_france }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	GAM_lucas_jones={
+		name="Lucas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/general2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ enemy_of_india }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	GAM_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ agricultural_expert }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	GAM_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GAM_alex_smith={
+		name="Alex Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	GAM_marcus_taylor={
+		name="Marcus Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ smooth_talking_charmer }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	GAM_alexander_brown={
+		name="Alexander Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

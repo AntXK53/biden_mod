@@ -1,0 +1,241 @@
+﻿capital = 282
+
+oob = "JAP_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "JAP_2000_naval_mtg"
+	else = {
+		set_naval_oob = "JAP_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 5
+set_convoys = 800
+set_stability = 0.8
+
+set_country_flag = country_language_japanese
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+
+
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_decline
+	free_trade
+	idea_JAP_emperor_akihito
+	japanese_article_9
+}
+
+set_politics = {	
+	ruling_party = conservative
+	last_election = "1998.7.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 10
+    conservative = 50
+    market_liberal = 5
+    social_liberal = 20
+    social_democrat = 5
+    communist = 10
+}
+
+recruit_character = JAP_keizo_obuchi
+recruit_character = JAP_naoto_kan
+recruit_character = JAP_ichiro_ozawa
+recruit_character = JAP_takenori_kanzaki
+recruit_character = JAP_tetsuzo_fuwa
+recruit_character = JAP_takako_doi
+recruit_character = JAP_yuko_mori
+recruit_character = JAP_keiko_itokazu
+recruit_character = JAP_noboyuki_suzuki
+recruit_character = JAP_kyoko_nakayama
+recruit_character = JAP_akihito
+recruit_character = JAP_kiyofumi_iwata
+recruit_character = JAP_toshiya_okabe
+recruit_character = JAP_makiya_ota
+recruit_character = JAP_kazuaki_sumida
+recruit_character = JAP_takayuki_onozuka
+recruit_character = JAP_jiro_hiroe
+recruit_character = JAP_ichiro_kawasaki
+recruit_character = JAP_masahiro_nagai
+recruit_character = JAP_shigeru_kobayashi
+recruit_character = JAP_katsutoshi_kawano
+recruit_character = JAP_tomohisa_takei
+recruit_character = JAP_yoshihisa_inui
+recruit_character = JAP_takashi_nishimura
+recruit_character = JAP_keiji_akahoshi
+recruit_character = JAP_gonnohyoe_kawakami
+
+2001.1.1 = {
+	complete_national_focus = JAP_develop_honshu
+	complete_national_focus = JAP_develop_kyushu
+	
+	complete_national_focus = JAP_national_renewal
+	complete_national_focus = JAP_path_of_peace
+	complete_national_focus = JAP_national_industrial_project
+	complete_national_focus = JAP_political_renewal
+	complete_national_focus = JAP_adapt_article_9
+	
+	complete_national_focus = JAP_bushido
+	complete_national_focus = JAP_continental_campaigns
+	complete_national_focus = JAP_ocean_campaigns
+	complete_national_focus = JAP_air_force_focus
+	
+	complete_national_focus = JAP_finish_nishiseto
+	complete_national_focus = JAP_southern_expressways
+	complete_national_focus = JAP_northern_expressways
+	
+	complete_national_focus = JAP_new_trade_policy
+	complete_national_focus = JAP_trade_with_america
+	complete_national_focus = JAP_trade_with_south_korea
+}
+
+2010.1.1 = {
+	set_party_name = {
+		ideology = market_liberal
+		long_name = JAP_market_liberal_party_IfO_long
+		name = JAP_market_liberal_party_IfO
+	}
+}
+
+2013.1.1 = { 
+	set_politics = {		
+		ruling_party = conservative
+		last_election = "2013.7.21"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+    set_popularities = {
+        nationalist = 3
+        reactionary = 8
+        conservative = 47
+        social_democrat = 2
+        social_liberal = 25
+        market_liberal = 7
+        progressive = 2
+        democratic_socialist = 1
+        communist = 5
+    }
+
+	create_country_leader = {
+		name = "Shinzo Abe"
+		ideology = fiscal_conservative
+		picture = "Shinzo_Abe.dds"
+	}
+
+	create_country_leader = {
+		name = "Banri Kaieda"
+		picture = "Banri_Kaieda.dds"
+		ideology = liberalist
+	}
+
+	create_country_leader = {
+		name = "Tadamato Yoshida"
+		picture = "Tadamato_Yoshida.dds"
+		ideology = social_democrat_ideology
+	}
+
+	create_country_leader = {
+		name = "Natsuo Yamaguchi"
+		picture = "Natsuo_Yamaguchi.dds"
+		ideology = counter_progressive_democrat
+	}
+
+	create_country_leader = {
+		name = "Kazuo Shii"
+		picture = "Kazuo_Shii.dds"
+		ideology = marxist
+	}
+
+	create_country_leader = {
+		name = "Toru Hashimoto"
+		picture = "Toru_Hashimoto.dds"
+		ideology = libertarian
+	}
+
+}

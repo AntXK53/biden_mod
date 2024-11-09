@@ -1,0 +1,243 @@
+﻿capital = 847
+
+oob = "ARG_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ARG_2000_naval_mtg"
+	else = {
+		set_naval_oob = "ARG_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_convoys = 260
+set_stability = 0.4
+
+#add_namespace = {
+#	name = "arg_unit_leader"
+#	type = unit_leader
+#}
+
+set_country_flag = country_language_spanish
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank = 1 
+ 	antitank1 = 1
+	interwar_antiair = 1
+	
+	corvette1 = 1
+	corvette2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	destroyer1 = 1
+	destroyer2 = 1
+
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	population_growth_steady
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1999.12.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    islamist = 0.1
+    nationalist = 1
+    reactionary = 2
+    conservative = 30.9
+    market_liberal = 6
+    social_liberal = 25
+    social_democrat = 5
+    progressive = 10
+    democratic_socialist = 16
+    communist = 4
+}
+
+add_opinion_modifier = {
+	target = ENG
+	modifier = falkland_conflict_argentina
+}
+
+recruit_character = ARG_alejandro_biondini
+recruit_character = ARG_mauricio_macri
+recruit_character = ARG_fernando_de_la_rua
+recruit_character = ARG_margarita_stolbizer
+recruit_character = ARG_antonio_bonfatti
+recruit_character = ARG_jorge_altamira
+recruit_character = ARG_diego_luis_suñer
+recruit_character = ARG_bari_del_valle_sosa
+recruit_character = ARG_enrique_victor_amrein
+recruit_character = ARG_santiago_ferreyra
+recruit_character = ARG_joaquín_estrada
+recruit_character = ARG_agustin_cejas
+recruit_character = ARG_alberto_corvalan
+recruit_character = ARG_alberto_sigon
+recruit_character = ARG_aldo_fernandez
+recruit_character = ARG_aldo_sala
+recruit_character = ARG_alejandro_martelletti
+recruit_character = ARG_carlos_alfredo_pérez_aquino
+recruit_character = ARG_carlos_nogueira
+recruit_character = ARG_carlos_podio
+recruit_character = ARG_carlos_sityar
+recruit_character = ARG_claudio_gallardo
+recruit_character = ARG_clemente_magallanes
+recruit_character = ARG_daniel_eduardo_varela
+recruit_character = ARG_claudio_ernesto_pasqualini
+recruit_character = ARG_federico_sidders
+recruit_character = ARG_fernando_mauricio_ros
+recruit_character = ARG_gerardo_ferrara
+recruit_character = ARG_german_monge
+recruit_character = ARG_guillermo_pereda
+recruit_character = ARG_guillermo_Ángel_tabernero
+recruit_character = ARG_gustavo_booth
+recruit_character = ARG_gustavo_luzuriaga
+recruit_character = ARG_gustavo_planes
+recruit_character = ARG_gustavo_vidal
+recruit_character = ARG_héctor_horacio_prechi
+recruit_character = ARG_hugo_gargano
+recruit_character = ARG_hugo_leonard
+recruit_character = ARG_javier_abregu
+recruit_character = ARG_javier_aquino
+recruit_character = ARG_jose_navarro
+recruit_character = ARG_josé_antonio_saumell_robert
+recruit_character = ARG_jose_stanchina
+recruit_character = ARG_josé_luis_yofre
+recruit_character = ARG_juan_antonio_zamora
+recruit_character = ARG_juan_adrián_campitelli
+recruit_character = ARG_juan_gettig
+recruit_character = ARG_juan_paleo
+recruit_character = ARG_juan_pulleiro
+recruit_character = ARG_justo_treviranus
+recruit_character = ARG_luis_ricciardi
+recruit_character = ARG_maria_pansa
+recruit_character = ARG_martin_deimundo
+recruit_character = ARG_miguel_lugand
+recruit_character = ARG_norberto_pastor
+recruit_character = ARG_osvaldo_guardone
+recruit_character = ARG_osvaldo_jose_suárez
+recruit_character = ARG_sergio_santulario
+recruit_character = ARG_tomas_moyano
+recruit_character = ARG_bernardo_noziglia
+recruit_character = ARG_cesar_recalde
+recruit_character = ARG_dardo_difalco
+recruit_character = ARG_david_burden
+recruit_character = ARG_eduardo_bacchi
+recruit_character = ARG_eduardo_malchiodi
+recruit_character = ARG_eduardo_sancet
+recruit_character = ARG_francisco_medrano
+recruit_character = ARG_gabriel_gonzalez
+recruit_character = ARG_german_arbizu
+recruit_character = ARG_guillermo_cormick
+recruit_character = ARG_gustavo_iglesias
+recruit_character = ARG_gustavo_vignale
+recruit_character = ARG_jorge_cisneros
+recruit_character = ARG_jose_villan
+recruit_character = ARG_luis_gottardo
+recruit_character = ARG_luis_mazzeo
+recruit_character = ARG_marcelo_eduardo_hipolito_srur
+recruit_character = ARG_marcos_henson
+recruit_character = ARG_maria_uriarte
+recruit_character = ARG_miguel_Ángel_máscolo
+recruit_character = ARG_oscar_pichel
+recruit_character = ARG_oscar_vivas
+recruit_character = ARG_osvaldo_vernazza
+recruit_character = ARG_pedro_galardi
+recruit_character = ARG_rafael_prieto
+recruit_character = ARG_rodolfo_larrosa
+recruit_character = ARG_zenon_bolino
+recruit_character = ARG_esteban_yrigoyen
+recruit_character = ARG_máximo_pereira
+recruit_character = ARG_domingo_quintana
+recruit_character = ARG_faustino_díaz
+recruit_character = ARG_lorenzo_ellauri
+recruit_character = ARG_nicolás_williman
+
+2016.1.1 = {
+	oob = "ARG_2016"
+	set_politics = {
+		ruling_party = conservative
+		last_election = "2015.12.10"
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Elisa Carrió"
+		picture = "Elisa_Carrio.dds"
+		ideology = liberalist
+	}
+}

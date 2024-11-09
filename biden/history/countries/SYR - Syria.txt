@@ -1,0 +1,188 @@
+﻿capital = 554
+
+
+oob = "SYR_2000"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SYR_2000_naval_mtg"
+	else = {
+		set_naval_oob = "SYR_2000_naval_legacy"
+	}
+}
+
+set_research_slots = 2
+set_convoys = 150
+set_stability = 0.3
+
+set_country_flag = country_language_arabic
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+
+	frigate1 = 1
+	submarine1 = 1
+	submarine2 = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	cold_war_engineering = 1
+	radio = 1 
+	radio_detection = 1
+	modern_university_systems = 1
+	internet = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_opinion_modifier = {
+	target = ISR
+	modifier = death_to_israel
+}
+
+set_country_flag = dominant_religion_islam
+set_country_flag = shia_islam
+
+add_ideas = {
+	population_growth_rapid
+	arab_league_member
+	extensive_conscription
+}
+
+set_politics = {	
+	ruling_party = nationalist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    islamist = 15
+    nationalist = 40
+    reactionary = 10
+    conservative = 15
+    market_liberal = 0
+    social_liberal = 15
+    social_democrat = 0
+    progressive = 0
+    democratic_socialist = 0
+    communist = 5
+    monarchist = 0
+    fascist = 0
+}
+
+recruit_character = SYR_hafez_alassad
+recruit_character = SYR_mired_i
+recruit_character = SYR_ali_haidar
+recruit_character = SYR_anas_alabdah
+recruit_character = SYR_hassan_abdul_azim
+recruit_character = SYR_riad_alturk
+recruit_character = SYR_farid_ghadry
+recruit_character = SYR_ibrahim_makhous
+recruit_character = SYR_hanin_nimir
+recruit_character = SYR_ali_sadreddine_albayanouni
+recruit_character = SYR_khaled_khoja
+recruit_character = SYR_bashar_al_assad
+recruit_character = SYR_fahd_jassem_al_frej
+recruit_character = SYR_dawoud_rajha
+recruit_character = SYR_ali_abdullah_ayyoub
+recruit_character = SYR_hawash_mohammed
+recruit_character = SYR_maher_al_assad
+recruit_character = SYR_issam_zahreddine
+recruit_character = SYR_suheil_salman_al_hassan
+recruit_character = SYR_abdel_fatah_qudsiyeh
+recruit_character = SYR_hassan_daaboul
+recruit_character = SYR_hussein_isaac
+recruit_character = SYR_jameh_jameh
+recruit_character = SYR_rustum_ghazaleh
+recruit_character = SYR_hassan_turkmani
+
+2000.7.17 = {
+    create_country_leader = {
+	    name = "Bashar al-Assad"
+	    ideology = autocrat
+	    picture = "Bashar_Al_Assad.dds"
+    }
+}
+	
+2011.3.15 = {    #The Syrian Civil War Has Began
+	add_ideas = {
+		islamic_sectarian_conflicts
+	}
+}
+
+2015.5.1 = {
+	oob = "SYR_2016"
+	add_ideas = {
+		service_by_requirement
+	}
+	set_stability = 0.05
+}
+
+2017.3.6 = {
+    create_country_leader = { #Riad Seif elected to leasd the Syrian National Coalition
+	    name = "Riad Seif"
+	    picture = "Riad_Seif.dds"
+	    ideology = right_wing_conservative
+    }
+}
