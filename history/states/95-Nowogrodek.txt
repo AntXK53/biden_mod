@@ -4,7 +4,7 @@ state={
 	name="STATE_95" #Maladzyechna
 
 	history={
-		owner = BLR
+		owner = SOV
 		add_core_of = BLR
 		buildings = {
 			infrastructure = 3

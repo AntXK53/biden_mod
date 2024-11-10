@@ -7,7 +7,7 @@ state={
 	state_category = state_level_5
 
 	history={
-		owner = BLR
+		owner = SOV
 		add_core_of = BLR
 		buildings = {
 			infrastructure = 3

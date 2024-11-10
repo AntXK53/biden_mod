@@ -153,6 +153,11 @@ recruit_character = CRO_petar_alapic
 recruit_character = CRO_toma_eltz
 recruit_character = CRO_svetoslav_kabuzic
 
+create_faction = Balkan Liberation Front
+
+add_to_faction = SLV
+add_to_faction = BOS
+
 2007.1.1 = { add_ideas = { idea_eu_member } }
 
 2015.1.1 = {
