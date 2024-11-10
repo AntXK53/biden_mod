@@ -1,6 +1,7 @@
 SOV = "countries/Soviet Union.txt"
 ABK = "countries/Abkhazia.txt"
 AFG = "countries/Afghanistan.txt"
+AFM = "countries/AfghanistanM.txt"
 ALB = "countries/Albania.txt"
 ALG = "countries/Algeria.txt"
 AND = "countries/Andorra.txt"

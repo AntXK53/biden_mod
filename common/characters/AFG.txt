@@ -1,4 +1,18 @@
 characters={
+	
+	AFG_mujahadeen={
+		name="Mujahadeen Groups"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Mujahadeen_Groups.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
 	AFG_mohammed_omar={
 		name="Mohammed Omar"
 		portraits={
@@ -105,6 +119,20 @@ characters={
 		country_leader={
 			ideology=liberalist
 			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	AFG_Mohammad_Najibullah={
+		name="Mohammad Najibullah"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Mohammad_Najibullah.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ compassionate_gentleman enemy_of_america }
+			expire="2014.1.1.12"
 			id=-1
 		}
 	}
