@@ -2,12 +2,10 @@ autonomy_state = {
 	id = autonomy_satellite
 	
 	min_freedom_level = 0.80
-	
+	use_overlord_color = yes
 	manpower_influence = 0.5
 	
 	rule = {
-		desc = "RULE_DESC_IS_A_SUBJECT"
-		
 		can_not_declare_war = yes
 		can_decline_call_to_war = no
 		can_be_spymaster = no
@@ -20,7 +18,6 @@ autonomy_state = {
 		overlord_trade_cost_factor = -0.4
 		license_subject_master_purchase_cost = -1
 		autonomy_gain_global_factor = -0.3
-		peace_score_ratio_transferred_to_overlord = 0.1
 	}
 	
 	ai_subject_wants_higher = {
@@ -36,23 +33,23 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			has_dlc = "Death or Dishonor"
-			AND = {
-				OR = {
-					original_tag = POL
-					original_tag = LIT
-					original_tag = LAT
-					original_tag = EST
-				}
-				has_dlc = "No Step Back"
-			}
-		}
-		has_government = fascist
+		has_dlc = "Death or Dishonor"
+		has_government = fascism
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JAP } }
 			NOT = { OVERLORD = { original_tag = MAN } }
+		}
+		NOT = {
+			original_tag = DNZ
+		}
+		NOT = {
+			AND = {
+				country_exists = MAF
+				country_exists = CAF
+				country_exists = FNG
+				country_exists = GEA 
+			}
 		}
 	}
 	

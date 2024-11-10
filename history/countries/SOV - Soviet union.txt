@@ -16,6 +16,7 @@ set_stability = 0.3
 set_war_support = 0.8
 
 set_country_flag = country_language_russian
+set_cosmetic_tag = SOV_SovietUnion
 
 set_technology = {
 	infantry_weapons = 1
@@ -131,46 +132,82 @@ create_equipment_variant = { name = "Tu-22M3" type = strat_bomber_equipment_1 up
 
 add_ideas = {
 	population_growth_decline
-	idea_united_nations_security_council_member
-	SOV_corrupt_oligarchy
+}
+
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
+	set_autonomy = {
+		target = GEO
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
+	set_autonomy = {
+		target = AZR
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
+	set_autonomy = {
+		target = ARM
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
+	set_autonomy = {
+		target = KAZ
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
+	set_autonomy = {
+		target = TJI
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
+	set_autonomy = {
+		target = UZB
+		autonomous_state = autonomy_puppet
+		freedom_level = 0  
+	}                      
+	set_autonomy = {       
+		target = TRM       
+		autonomous_state = autonomy_puppet
+		freedom_level = 0  
+	}                      
+	set_autonomy = {       
+		target = KYR       
+		autonomous_state = autonomy_puppet
+		freedom_level = 0
+	}
 }
 
 set_politics = {	
-	ruling_party = reactionary
-	last_election = "1996.3.20"
+	ruling_party = democratic_socialist
+	last_election = "1985.3.20"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-    nationalist = 7
-    reactionary = 46
+    nationalist = 10
+    reactionary = 10
     conservative = 9
     social_liberal = 6
-    social_democrat = 1
-    progressive = 0
-    democratic_socialist = 1
-    communist = 30
+    social_democrat = 4
+    progressive = 6
+    democratic_socialist = 27
+    communist = 28
 }
 
-create_faction = CSTO
-add_to_faction = SOV
-add_to_faction = BLR
-add_to_faction = ARM
-add_to_faction = TJI
-add_to_faction = KAZ
-add_to_faction = KYR
-
-give_guarantee = ABK
-give_guarantee = SOS
-give_guarantee = TRA
-
-give_military_access = SOS
-give_military_access = ABK
-give_military_access = TRA
-give_military_access = GEO
-give_military_access = UKR
-
+recruit_character = SOV_mikhail_gorbachev
 recruit_character = SOV_vladimir_putin
 recruit_character = SOV_gennady_zyuganov
 recruit_character = SOV_nicholas_romanov
@@ -215,97 +252,3 @@ recruit_character = SOV_sergey_pinchuk
 recruit_character = SOV_viktor_chirkov
 recruit_character = SOV_vladimir_vysotskiy
 recruit_character = SOV_giorgi_kolchak
-
-
-2000.8.12 = { set_country_flag = sov_kursk_sinking }
-
-2001.1.1 = {
-	complete_national_focus = SOV_economic_focus
-	complete_national_focus = SOV_industrial_project
-	complete_national_focus = SOV_focus_on_the_oligarchy
-	complete_national_focus = SOV_nationalistic_sentiment
-	complete_national_focus = SOV_diplomacy_focus
-	complete_national_focus = SOV_modernize_the_military
-	complete_national_focus = SOV_support_gazprom
-	complete_national_focus = SOV_fight_the_oligarchs
-	complete_national_focus = SOV_russia_first
-	complete_national_focus = SOV_path_of_the_bear
-	complete_national_focus = SOV_path_of_the_dragon
-	complete_national_focus = SOV_stand_with_china
-	complete_national_focus = SOV_stand_with_autocracy
-	complete_national_focus = SOV_support_assad
-	complete_national_focus = SOV_economic_intervention
-	complete_national_focus = SOV_southern_strategy
-	complete_national_focus = SOV_political_control
-	complete_national_focus = SOV_secure_the_georgian_republics
-	complete_national_focus = SOV_reassure_armenia
-	complete_national_focus = SOV_greater_russia
-	complete_national_focus = SOV_putinism
-	complete_national_focus = SOV_strengthen_CSTO
-	complete_national_focus = SOV_focus_on_ukraine
-}
-
-2008.1.1 = {
-	
-	set_party_name = {
-		ideology = conservative
-		long_name = SOV_conservative_party_PD_long
-		name = SOV_conservative_party_PD
-	}
-
-}
-
-2010.1.1 = {
-	remove_ideas = population_growth_decline
-	add_ideas = population_growth_stagnation
-}
-
-2012.1.1 = {
-	set_politics = {	
-		ruling_party = reactionary
-		last_election = "2011.12.4"
-		election_frequency = 48
-		elections_allowed = yes
-}
-
-    set_popularities = {
-        nationalist = 11
-        reactionary = 49
-        conservative = 1
-        social_liberal = 3
-        social_democrat = 13
-        progressive = 3
-        democratic_socialist = 1
-        communist = 19
-    }
-
-	create_country_leader = {
-		name = "Emilia Slabunova"
-		picture = "Emilia_Slabunova.dds"
-		ideology = liberalist
-	}
-
-	create_country_leader = {
-		name = "Boris Titov"
-		picture = "Boris_Titov.dds"
-		ideology = fiscal_conservative
-	}
-}
-
-2014.3.1 = {
-	add_opinion_modifier = {
-		target = UKR
-		modifier = annexed_ukraine_trade
-	}
-	add_ideas = {
-		idea_eu_sanctions
-	}
-}
-
-2014.3.18 = {
-	oob = "SOV_2016"
-	add_named_threat = {
-		threat = 6
-		name = threat_SOV_annexiation_of_crimea
-	}
-}

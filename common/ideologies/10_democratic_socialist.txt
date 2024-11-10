@@ -7,6 +7,9 @@ ideologies = {
 			democratic_socialist_ideology = {
 			}
 			
+			perestroika = {
+			color = { 214 159 197 }
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -1,4 +1,18 @@
 characters={
+	SOV_mikhail_gorbachev={
+		name="Mikhail Gorbachev"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/gorby.dds"
+			}
+		}
+		country_leader={
+			ideology=perestroika
+			traits={ popular_figurehead }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
 	SOV_vladimir_putin={
 		name="Vladimir Putin"
 		portraits={
