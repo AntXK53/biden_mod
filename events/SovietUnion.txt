@@ -1,1 +1,73 @@
-﻿
+﻿add_namespace = soviet
+country_event = {
+	id = soviet.1
+	title = soviet.1.t
+	desc = soviet.1.d
+	picture = GFX_report_event_russian_flag
+	
+    trigger = {
+		tag = SOV
+		date > 1991.8.1
+		date < 1991.9.1
+		not = { has_country_flag = sov_august_coup }
+	}
+	
+	immediate = {
+		set_country_flag = sov_august_coup
+	}
+
+	option = {
+		name = soviet.1.o1
+		set_capital = { state = 195 }
+		hidden_effect = {
+			end_puppet = UKR
+			end_puppet = MDV
+			end_puppet = GEO
+			end_puppet = AZR
+			end_puppet = ARM
+			end_puppet = NGK
+			end_puppet = KAZ
+			end_puppet = UZB
+			end_puppet = TRM
+			end_puppet = TJI
+			end_puppet = KYR
+			POL = { country_event = { id = soviet.2 days = 30 } }
+			SOV = { country_event = { id = soviet.3 days = 1 } }
+		}
+	}
+}
+country_event = {
+	id = soviet.2
+	title = soviet.2.t
+	desc = soviet.2.d
+	picture = GFX_report_event_russian_flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = soviet.2.o1
+		POL = { transfer_state = 741 }
+	}
+}
+country_event = {
+	id = soviet.3
+	title = soviet.3.t
+	desc = soviet.3.d
+	picture = GFX_report_event_russian_flag
+
+	is_triggered_only = yes
+
+	option = {
+		start_civil_war = {
+		    ruling_party = communism
+	    	ideology = stalinist
+	  		size = 0.4
+    		capital = 205
+	    	states = { 
+				205 242 243 224 241 204 194 207 210 246 209 263 222 220 240
+    		}
+			keep_unit_leaders = {
+    		}
+		}
+	}
+}

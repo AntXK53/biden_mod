@@ -181,7 +181,17 @@ if = {
 		target = TRM       
 		autonomous_state = autonomy_puppet
 		freedom_level = 0  
-	}                      
+	}             
+	set_autonomy = {       
+		target = MDV       
+		autonomous_state = autonomy_puppet
+		freedom_level = 0  
+	}        
+	set_autonomy = {       
+		target = NGK       
+		autonomous_state = autonomy_puppet
+		freedom_level = 0  
+	}     
 	set_autonomy = {       
 		target = KYR       
 		autonomous_state = autonomy_puppet
