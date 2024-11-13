@@ -107,7 +107,6 @@ set_technology = {
 add_ideas = {
 	population_growth_stagnation
 	free_trade
-	idea_eu_member
 	limited_conscription
 	finnish_neutrality
 }

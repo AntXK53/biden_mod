@@ -28,7 +28,7 @@ units = {
 	division = {
 		name = "4th Infantry Regiment"
 		division_template = "Infantry Brigade"
-		location = 9894
+		location = 9922
 		start_experience_factor = 0.3
 	}
 	
@@ -42,10 +42,24 @@ units = {
 	division = {
 		name = "6th Infantry Regiment"
 		division_template = "Infantry Brigade"
-		location = 6983
+		location = 11872
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "7th Infantry Regiment"
+		division_template = "Infantry Brigade"
+		location = 6957
 		start_experience_factor = 0.3
 	}
 	
+	division = {
+		name = "8th Infantry Regiment"
+		division_template = "Infantry Brigade"
+		location = 9586
+		start_experience_factor = 0.3
+	}
+
 	division = {
 		name = "Tactical Support Brigade"
 		division_template = "Tactical Support Brigade"

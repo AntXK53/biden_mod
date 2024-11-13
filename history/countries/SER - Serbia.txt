@@ -138,14 +138,26 @@ recruit_character = SER_dragisa_sokolovic
 recruit_character = SER_goran_miloradovic
 recruit_character = SER_dusan_misic
 
-1999.1.1 = {
-	set_cosmetic_tag = YUG
+declare_war_on = {
+	target = SLV
+	type = annex_everything
 }
+declare_war_on = {
+	target = BOS
+	type = annex_everything
+}
+declare_war_on = {
+	target = CRO
+	type = annex_everything
+}
+
+set_cosmetic_tag = YUG
 
 2006.6.1 = {
 	drop_cosmetic_tag = yes
 	set_country_flag = SER_montenegro_referendum
 }
+
 
 2008.3.1 = {
 	set_country_flag = SER_kosovo_independence

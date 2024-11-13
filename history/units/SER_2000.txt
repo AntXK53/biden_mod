@@ -63,7 +63,41 @@ units = {
 		division_template = "Mechanized Brigade"
 		start_experience_factor = 0.3
 	}
-	
+
+	division = {
+		name = "5th Brigade"
+		location = 6983
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "6th Brigade"
+		location = 11574
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "7th Brigade"
+		location = 9588
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Second Serbian Special Forces Brigade"
+		location = 6647
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Third Serbian Special Forces Brigade"
+		location = 11572
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.3
+	}	
 }
 
 instant_effect = {

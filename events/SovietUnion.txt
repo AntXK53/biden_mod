@@ -1,4 +1,4 @@
-﻿add_namespace = soviet
+add_namespace = soviet
 country_event = {
 	id = soviet.1
 	title = soviet.1.t
@@ -31,7 +31,7 @@ country_event = {
 			end_puppet = TRM
 			end_puppet = TJI
 			end_puppet = KYR
-			POL = { country_event = { id = soviet.2 days = 30 } }
+			POL = { country_event = { id = soviet.2 days = 1 } }
 			SOV = { country_event = { id = soviet.3 days = 1 } }
 		}
 	}
@@ -58,16 +58,86 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		name = soviet.3.o1
 		start_civil_war = {
-		    ruling_party = communism
-	    	ideology = stalinist
-	  		size = 0.4
+		    ruling_party = democratic_socialist
+	    	ideology = communist
+	  		size = 0.3
     		capital = 205
 	    	states = { 
 				205 242 243 224 241 204 194 207 210 246 209 263 222 220 240
     		}
 			keep_unit_leaders = {
     		}
+		}
+		BLR = { transfer_state = 808 }
+		BLR = { transfer_state = 94 }
+		BLR = { transfer_state = 206 }
+		BLR = { transfer_state = 95 }
+		TRA = { transfer_state = 857 }
+		TRA = { country_event = { id = soviet.4 days = 1 } }
+		SOV = { country_event = { id = soviet.5 days = 1 } }
+	}
+}
+country_event = {
+	id = soviet.4
+	title = soviet.4.t
+	desc = soviet.4.d
+	picture = GFX_report_event_russian_flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = soviet.4.o1
+		declare_war_on = { 
+			target = MDV
+			type = annex_everything
+		}
+	}
+}
+country_event = {
+	id = soviet.5
+	title = soviet.5.t
+	desc = soviet.5.d
+	picture = GFX_report_event_russian_flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = soviet.5.o1
+		RUS = { transfer_state = 408 }
+		RUS = { transfer_state = 409 }
+		RUS = { transfer_state = 655 }
+		RUS = { transfer_state = 537 }
+		RUS = { transfer_state = 560 }
+		RUS = { transfer_state = 657 }
+		RUS = { transfer_state = 561 }
+		RUS = { transfer_state = 562 }
+		RUS = { transfer_state = 637 }
+		RUS = { transfer_state = 644 }
+		RUS = { transfer_state = 563 }
+		RUS = { transfer_state = 564 }
+		RUS = { transfer_state = 565 }
+		RUS = { transfer_state = 574 }
+		RUS = { transfer_state = 566 }
+		RUS = { transfer_state = 575 }
+		declare_war_on = { 
+			target = RUS
+			type = annex_everything
+		}
+		declare_war_on = { 
+			target = BLR
+			type = annex_everything
+		}
+		BLR = {
+			declare_war_on = { 
+				target = RUS
+				type = annex_everything
+			}
+			declare_war_on = { 
+				target = D01
+				type = annex_everything
+			}
 		}
 	}
 }

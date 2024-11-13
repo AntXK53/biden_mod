@@ -69,7 +69,7 @@ units = {
 	}
 	division = {
 		name = "4. Gardijska Brigada"
-		location = 11577
+		location = 3627
 		division_template = "Gardijska Brigada"
 		start_experience_factor = 0.3
 	}
@@ -82,6 +82,24 @@ units = {
 	division = {
 		name = "104. Brigada"
 		location = 3924
+		division_template = "Pješaštvo Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "104. Brigada"
+		location = 6889
+		division_template = "Pješaštvo Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "104. Brigada"
+		location = 9894
+		division_template = "Pješaštvo Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "104. Brigada"
+		location = 9595
 		division_template = "Pješaštvo Brigada"
 		start_experience_factor = 0.3
 	}

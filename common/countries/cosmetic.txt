@@ -15,7 +15,7 @@ Norway_Sweden = {
     color_ui = rgb { 240 210 20 }
 }
 YUG = {
-	color = rgb { 72 73 126 }
+	color = rgb { 120 70 120 }
 	color_ui = rgb { 94 95 164 }
 }
 SIT = {

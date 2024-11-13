@@ -96,22 +96,22 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = conservative
+	ruling_party = social_liberal
 	last_election = "1998.12.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    islamist = 1
+    islamist = 7
     nationalist = 1
     reactionary = 2
-    conservative = 30
-    market_liberal = 6
-    social_liberal = 25
+    conservative = 20
+    market_liberal = 0
+    social_liberal = 30
     social_democrat = 5
-    progressive = 10
-    democratic_socialist = 10
+    progressive = 5
+    democratic_socialist = 20
     communist = 10
 }
 
